@@ -6,6 +6,23 @@ distance against safety with a "Fastest ↔ Safest" slider.
 
 Full project context: `SAFEYATRA_FULL_CONTEXT.md` · Your to-do list: `YOUR_NEXT_STEPS.md`
 
+## Screenshots
+
+**Risk map of Chamoli.** Every road is coloured by landslide and terrain risk, alongside past
+landslides, rivers, district risk totals and live weather.
+
+![Home: district risk map](screenshots/image0.png)
+
+**Route planning.** Karnaprayag to Gopeshwar, with distance, travel time, average risk and
+high-risk road length. Dangerous stretches are marked along the route.
+
+![Route planning with risk comparison](screenshots/image1.png)
+
+**Reporting a blockage.** Signed-in users mark a landslide or blocked road on the map, with an
+optional photo. Admins verify reports, and verified reports close the road for routing.
+
+![Report a blockage form](screenshots/image2.png)
+
 ## Run it (Windows)
 
 You need two terminals: one for the backend and one for the frontend.
