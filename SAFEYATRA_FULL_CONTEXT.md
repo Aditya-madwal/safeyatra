@@ -2,8 +2,9 @@
 
 > **One file with everything about this project:** what it is, why it exists, the tech stack, data sources and APIs, every decision made so far, progress, what each file and folder does, and the plan ahead.
 >
-> **Last updated:** 24 Nov 2026
-> **Project folder:** `/home/aditya/gisproject`
+> **Last updated:** 24 Nov 2026 (night)
+> **Project folder:** `C:\Users\Aditya\Desktop\gisproject` (Windows 11; the project started on Ubuntu at `/home/aditya/gisproject`)
+> **Git repository:** https://github.com/Aditya-madwal/safeyatra (branch `main`)
 > **Study area:** Chamoli district, Uttarakhand, India
 > **Type:** Final-year college project (GIS + web app)
 >
@@ -13,7 +14,7 @@
 
 ## 0. Start here (for a new agent picking up this project)
 
-**Read in this order:** §0 (this) → §4 (decisions; must follow) → §10 (files) → §18 (data have/lack) → **§32 (next steps; your work queue)** → §33 (gotchas). Everything else is reference.
+**Read in this order:** §0 (this) → §4 (decisions; must follow) → §10 (files) → §18 (data have/lack) → **§34 (QGIS and the NASA → GSI plan)** → **§32 (next steps; your work queue)** → §33 (gotchas). `README.md` has the run commands. Everything else is reference.
 
 ### Who the user is and how to work with them
 - A **final-year college student** (GIS Developer role on a team project). Comfortable running commands when given them, but **not deeply technical**. They asked for explanations "in simple terms" and "start to end, clear to understand".
@@ -22,19 +23,20 @@
 - The user likes being told **what's done, what's left, and what they need to do**, as short lists.
 - They are happy for the agent to **do things itself** (e.g., they asked the agent to install QGIS and to research landslides on the web) rather than hand them back.
 - **Do not** put the user's email or name into any external request (User-Agent etc.); use `CONTACT_EMAIL` from `.env` only if the user sets it (D5).
-- **Do not** `git init` / commit / push unless the user asks. The folder is not a git repo yet.
+- The project is a **git repo** (remote above). Commit and push **only when the user asks**. Never commit `.env`; `.env.example` is the shared template.
 - Recorded decisions (§4) are final. Don't reopen them (e.g., don't bring back the accident feature, D4).
+- The user prefers leniency over perfection ("college project, no need to make it extremely accurate").
 
-### Update 24 Nov 2026 (evening): app built, project moved to Windows
-- **Machine is now Windows 11**, project at `C:\Users\Aditya\Desktop\gisproject`, Python **3.12.3** venv in `.venv` (`.venv\Scripts\python.exe`), Node 22, QGIS **3.44.15 LTR** (installed via winget). Linux paths/commands below are historical.
-- **NASA global landslide susceptibility map** (`data/raw/nasa_susceptibility/`, ~1 km, 5 classes → 1–4) replaces the missing GSI data, with a **lower weight (0.10 instead of 0.30)** because it rates almost all of Chamoli "very high". GSI files in `data/manual/` override it automatically. New segment field `susc_source`.
-- New pipeline step `places` → `output/places.json` (1,068 towns/villages for search).
-- Risk now: low 56 km · medium 1,891 · high 384 · very high 1.
-- **Backend** (`backend/`, FastAPI + NetworkX A\* + SQLite) and **frontend** (`frontend/`, React + Vite + **DaisyUI 5** + Leaflet + **Clerk** `@clerk/react` v6) are built and working. 16 pytest tests pass. Run instructions: `README.md`.
-- User decisions: **auth = Clerk**, **UI = DaisyUI**, **frontend = React (JS)**. API keys go in the single root `.env` (user fills them).
+### Current state in one paragraph
+**The app works end to end.** The data pipeline (`scripts/fetch_chamoli_data.py`) builds 5,820 risk-scored road segments for Chamoli. The **FastAPI backend** (`backend/`) loads them into a NetworkX graph and runs **risk-weighted A\*** routing. Risk updates live from hourly Open-Meteo rain, an admin-set GSI alert level, road closures, and user blockage reports. The **React frontend** (`frontend/`) uses **DaisyUI**, **Leaflet** and **Clerk** sign-in. It has three pages (Plan route, Report, Admin), light and dark themes, and a professional redesign. Clerk keys and the admin user id are set in `.env`. 16 backend tests pass. Code, data outputs and screenshots are pushed to GitHub. **The main open item is GSI Bhukosh data.** Landslide susceptibility currently comes from the **NASA global map** (coarser, lower weight); see §34. **QGIS is installed but not yet used** for processing.
 
-### Current state in one paragraph (before the app was built)
-Phase 0 (setup) and phase 1 (data collection) are **done**. `scripts/fetch_chamoli_data.py` builds a 5,820-segment road network for Chamoli with elevation, slope proxy, bends, landslide exposure (NASA + 40 news events), river distance, stream crossings, nearest hospital, weather, and a preview risk score. Everything is in `output/`. QGIS is installed and the user has saved a project. Eleven app mockups exist in `app images for future reference/`. **Blocked:** GSI Bhukosh (susceptibility + inventory) is offline, and only the user can request it. **Next for the agent:** proper slope raster → GeoPandas pipeline / GeoPackage → A\* routing module → FastAPI backend → React frontend (§32).
+### What changed on 24 Nov 2026 (evening and night)
+- **Moved to Windows 11.** Python **3.12.3** venv in `.venv` (`.venv\Scripts\python.exe`), Node 22, QGIS **3.44.15 LTR** (installed with winget). The old Linux venv was deleted. Linux paths and commands further down are historical.
+- **NASA global landslide susceptibility map** (`data/raw/nasa_susceptibility/`, ~1 km, 5 classes mapped to 1–4) stands in for the missing GSI data, at a **lower weight (0.10 instead of 0.30)**, because it rates almost all of Chamoli "very high". GSI files in `data/manual/` override it automatically. New segment field `susc_source` (`NASA` / `GSI`).
+- New pipeline step `places` → `output/places.json` (1,068 towns and villages for search).
+- **Backend and frontend built** (§7, §10, §21, §22). User-chosen stack: **auth = Clerk**, **UI = DaisyUI**, **frontend = React (JavaScript)**, backend = FastAPI. All keys live in the single root `.env`.
+- **UI redesign:** neutral, professional look (Inter font, Lucide icons, muted slate-blue brand colour, light and dark themes, Esri gray base map), following the user's UI guidelines.
+- **Git repo** created and pushed to GitHub, with app screenshots in `screenshots/` and the README.
 
 ---
 
@@ -75,6 +77,8 @@ Phase 0 (setup) and phase 1 (data collection) are **done**. `scripts/fetch_chamo
 31. [Glossary](#31-glossary)
 32. [NEXT STEPS: detailed hand-off plan](#32-next-steps-detailed-hand-off-plan)
 33. [Gotchas and lessons learned](#33-gotchas-and-lessons-learned)
+34. [QGIS status, and why NASA data is used for now](#34-qgis-status-and-why-nasa-data-is-used-for-now)
+35. [How to request GSI Bhukosh data (step by step)](#35-how-to-request-gsi-bhukosh-data-step-by-step)
 
 ---
 
@@ -161,7 +165,7 @@ These were decided during development and must be respected going forward.
 | # | Decision | Reason |
 |---|---|---|
 | D1 | **Keep everything at final-year college level.** Simple, readable Python; no production-grade over-engineering (no Celery, Kubernetes, vector tiles or pgRouting unless asked). | User instruction: "this is a college project, we don't have to take things beyond college level" |
-| D2 | **Python 3** in a project venv (`.venv`, Python **3.10.12**). | 3.10 is the newest Python on the machine; the spec allows 3.10+ |
+| D2 | **Python 3** in a project venv (`.venv`). Now **Python 3.12.3 on Windows**; it was 3.10.12 on the old Ubuntu machine. | Matches the machine's default Python; the spec allows 3.10+ |
 | D3 | **Phase 1 script uses only `requests` + the standard library** (+ **Pillow** to read elevation tiles). GeoPandas etc. come in phase 2. | Easy to run anywhere; matches the spec |
 | D4 | **Accident feature DROPPED.** No `accidents.csv` data collection. The accident weight (0.15) is shared out among the other factors automatically; road bends and sharp turns act as the road-danger stand-in. The loader code stays, and `data/manual/accidents.csv` exists with headers only. | User decision: "let's not do this accident feature" |
 | D5 | **The user's email is NOT put in the HTTP User-Agent.** The script reads an optional `CONTACT_EMAIL` from `.env`; the default User-Agent is `SafeYatra/0.1 (student project)`. | Privacy; the user never approved sharing it |
@@ -170,8 +174,15 @@ These were decided during development and must be respected going forward.
 | D8 | **Landslide records with poor location accuracy (25 km, 50 km, unknown) are kept in the GeoJSON but NOT used for risk.** Only accuracy ≤ 10 km (exact, 1km, 5km, 10km, gsi_inventory, stream-crossing, village-level, approximate) counts. | They were pinned to town or district centres and created a false hotspot at Chamoli town |
 | D9 | **Rivers are attributes only for now** (`dist_to_river_m`, `stream_crossings`), not in the risk formula. | The spec's formula doesn't include them; adding them later is a one-line change |
 | D10 | **The backend loads data files into memory** (GeoJSON/GeoPackage → NetworkX graph); PostGIS is optional, added only if the guide wants a database. | College-level simplicity (D1) |
-| D11 | **QGIS installed as the Flatpak "LTS" branch (3.28.9)**, user-level install. | No sudo needed. Note: the Flathub LTS branch is old (2023) and no longer updated; the "stable" branch is available if a newer version is wanted |
+| D11 | **QGIS 3.44.15 LTR on Windows** (installed with `winget install OSGeo.QGIS_LTR`). It was a Flatpak 3.28.9 LTS on Ubuntu. **Not used for processing yet** (§34). | Long-term-support version is the safe choice for a college project |
 | D12 | **Google Maps is not a data source.** | Its APIs don't expose incidents; the terms forbid caching it or mixing it with our own routing; scraping breaks the terms |
+| D13 | **NASA global susceptibility map replaces GSI until GSI data arrives**, at weight **0.10** (GSI keeps 0.30). GSI files in `data/manual/` take over automatically. | Bhukosh was unreachable and the user had no time to wait. NASA rates ~87% of roads "very high", so 0.30 turned most roads "high" (§34) |
+| D14 | **Stack chosen by the user:** auth = **Clerk** (`@clerk/react` v6), UI = **DaisyUI 5** + Tailwind 4, frontend = **React (JavaScript, not TypeScript)**; backend left to the agent (**FastAPI**). | User instruction |
+| D15 | **All keys and tokens go in the single root `.env`** (read by the backend, the frontend via Vite `envDir: '..'`, and the data scripts). `.env.example` is the committed template. | User instruction: "add it to .env, I will fill it later" |
+| D16 | **Backend checks Clerk tokens with Clerk's public keys (JWKS)**, worked out from the publishable key, so the Clerk secret key is not needed. Admins = Clerk user ids in `ADMIN_USER_IDS`. | Simple and secure; no secret on the server |
+| D17 | **UI follows the user's design guidelines**: neutral surfaces, no harsh colours outside the map, Inter font, Lucide icons (no emojis), light and dark themes, accessible components. | User instruction ("highly professional and classy") |
+| D18 | **Demo rain scenarios** (Moderate / Heavy) can be switched on by an admin, because the weather is dry in November. Simulated values are always labelled "demo". | Lets the rain feature be shown in the viva |
+| D19 | **`output/` is committed to Git** (so a fresh clone can run the app); `cache/`, `data/raw/`, `backend/storage/`, `.venv/`, `node_modules/` and `.env` are not. | The backend needs `output/`; everything ignored is regenerable or private |
 
 ---
 
@@ -226,56 +237,63 @@ These were decided during development and must be respected going forward.
 
 ## 7. Tech stack
 
-### Used so far
+### In use (24 Nov 2026)
 
 | Layer | Tool | Notes |
 |---|---|---|
-| Language | **Python 3.10.12** | venv at `.venv` |
-| HTTP | **requests** 2.34 | All API calls, with caching and retries |
-| Images | **Pillow** 12.3 | Reads the Terrarium PNG elevation tiles; crops the mockup screenshots |
-| Desktop GIS | **QGIS 3.28.9 LTS** (Flatpak) | Viewing and checking data, making maps; project saved at `qgis/safeyatra.qgz` |
-| Mockup rendering | **Google Chrome (headless)** + HTML/SVG | Used by `scripts/make_mockups.py` |
-| Formats | GeoJSON, CSV, JSON | GeoPackage/GeoTIFF planned for phase 2 exports |
+| Language (data + backend) | **Python 3.12.3** | venv at `.venv` |
+| Data pipeline | **requests**, **Pillow**, **rasterio**, **numpy** | API calls with caching; elevation tiles; NASA susceptibility GeoTIFF |
+| Backend | **FastAPI** + **Uvicorn**, **python-multipart** | REST API, auto docs at `/docs`, photo uploads |
+| Routing | **NetworkX** `astar_path` with a custom weight | Risk-weighted A\* (`backend/app/routing.py`) |
+| Live weather | **httpx** + an asyncio background loop | Open-Meteo refreshed every 60 min |
+| Auth (server) | **PyJWT** + **cryptography** | Verifies Clerk session tokens via JWKS |
+| Storage | **SQLite** (Python built-in) | Reports, closures, admin settings (`backend/storage/safeyatra.db`) |
+| Tests | **pytest** | 16 tests: routing rules + API |
+| Frontend | **React 19** + **Vite 8** (JavaScript) | `frontend/` |
+| UI | **DaisyUI 5** + **Tailwind CSS 4**, **lucide-react** icons, **Inter** font (@fontsource) | Custom light and dark themes in `frontend/src/index.css` |
+| Map | **Leaflet** + **react-leaflet** | Canvas rendering for ~6,000 road pieces |
+| Auth (client) | **Clerk** (`@clerk/react` v6) | Sign-in modal, user menu |
+| Routing (pages) | **react-router-dom** | `/`, `/report`, `/admin` |
+| Base maps | **Esri** light and dark gray canvas (default), OSM, OpenTopoMap | CARTO now needs a key, so Esri is used |
+| Desktop GIS | **QGIS 3.44.15 LTR** | Installed; not used for processing yet (§34) |
+| Mockup rendering | **Google Chrome (headless)** + HTML/SVG | `scripts/make_mockups.py` |
+| Version control | **Git + GitHub** | https://github.com/Aditya-madwal/safeyatra |
 
-### Planned (phases 2–7), kept at college level
+### Planned but not used (by choice)
 
-| Layer | Choice | Why |
-|---|---|---|
-| GIS processing (phase 2) | `geopandas`, `shapely` 2.x, `pyproj`, `rasterio`, `rasterstats`, `numpy`, `pandas` | Standard open-source geospatial stack (already listed, commented out, in `requirements.txt`) |
-| Routing | **NetworkX** `astar_path` with a custom weight | Simple, in-memory, standard A\* |
-| Backend | **FastAPI** + Uvicorn + Pydantic | Same language as the pipeline; auto docs at `/docs` |
-| Scheduler | APScheduler (or a simple loop / cron) | Hourly weather refresh |
-| Database | **None for MVP** (files loaded into memory). Optional: PostgreSQL + PostGIS | D10 |
-| Frontend | **React + Vite**, **Leaflet** (react-leaflet), Tailwind CSS (optional) | Simple, free, OSM tiles |
-| Base map tiles | OSM tiles (respect usage policy) or OpenTopoMap | Free |
-| Place search | Local list of Chamoli places (+ Nominatim fallback) | Free, low volume |
-| Mobile (later) | Responsive web, or React Native / Flutter | |
-| Version control | Git + GitHub (repo not yet initialised) | |
+| Tool | Why not |
+|---|---|
+| GeoPandas, Shapely, PyProj, rasterstats | The pure-Python pipeline plus rasterio was enough; may still be used for the slope raster / GeoPackage (§32) |
+| PostgreSQL + PostGIS | Files in memory + SQLite are enough (D10) |
+| APScheduler | A simple asyncio loop does the hourly refresh |
+| React Native / Flutter | The web app is responsive (bottom sheet on phones) |
 
 ---
 
 ## 8. Development environment setup
 
+**Current machine (Windows 11):**
+
 | Item | Detail |
 |---|---|
-| OS | Ubuntu 22.04.5 LTS (Linux 6.8) |
-| System Python | 3.10.12 (`/usr/bin/python3`). Python 3.7 also exists but is not used |
-| Why `virtualenv` | `python3 -m venv` fails because `python3.10-venv`/`ensurepip` is not installed (needs sudo). The already-installed `virtualenv` was used instead |
-| venv | `/home/aditya/gisproject/.venv` (pip 26.3) |
-| Installed packages | `requests`, `pillow` (+ dependencies) |
-| QGIS | Flatpak `org.qgis.qgis//lts` v3.28.9, user install (Flathub remote added with `--user`). Has full filesystem access |
-| Launch QGIS | Super key → "QGIS", or `flatpak run org.qgis.qgis//lts` |
-| Chrome | `/usr/bin/google-chrome` (for mockups). Firefox and Zen browser also installed |
-| Node.js / npm | **v20.20.2 / 10.8.2** installed (enough for React + Vite) |
-| Git | v2.34.1 installed; the folder is **not** a git repo yet (don't init unless asked) |
-| sudo | Assume **no sudo** for the agent; prefer user-level installs (pip in the venv, `flatpak --user`, npm locally) |
+| OS | Windows 11 Home |
+| Python | **3.12.3** (default; `py -0` also lists 3.11 and 3.10). venv: `.venv` → `.venv\Scripts\python.exe` |
+| Node.js / npm | **v22.19.0 / 11.2.0** |
+| Git | 2.38.1 (identity `aditya-madwal`); repo pushed to GitHub |
+| QGIS | **3.44.15 LTR** at `C:\Program Files\QGIS 3.44.15` (Start menu → "QGIS Desktop 3.44.15") |
+| Chrome / Edge | Installed (headless Chrome used for mockups and screenshot checks) |
+| Shells | PowerShell (main) and Git Bash |
 
-Recreate the venv from scratch:
-```bash
-cd /home/aditya/gisproject
-python3 -m virtualenv -p python3.10 .venv
-.venv/bin/pip install -r requirements.txt
+Recreate the environments from scratch:
+```powershell
+cd C:\Users\Aditya\Desktop\gisproject
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+cd frontend
+npm install
 ```
+
+*History: the project started on Ubuntu 22.04 (Python 3.10.12 via `virtualenv`, QGIS Flatpak 3.28.9). That venv was Linux-only and was deleted when the project moved to Windows.*
 
 ---
 
@@ -293,7 +311,8 @@ Status as checked on **24 Nov 2026** from this machine.
 | 5 | Landslides: NASA COOLR (live) | ArcGIS REST `gis.earthdata.nasa.gov/gis05/.../COOLR_Reports_Points/{MapServer,FeatureServer}`, `maps.nccs.nasa.gov/...` | Free | ❌ **Dead** (404 / DNS failure) | Tried first, then the fallback |
 | 5b | Landslides: NASA Global Landslide Catalog | CSV `https://data.nasa.gov/docs/legacy/Global_Landslide_Catalog_Export/Global_Landslide_Catalog_Export_rows.csv` (8.5 MB) | Free | ✅ (events **2007–2017** only) | 41 points in Chamoli (23 accurate enough to use) |
 | 6 | Landslides: news (web research) | Hand-built `data/manual/web_landslides.csv` (see §16) | — | ✅ 40 events (37 located) | 2021–2025 events |
-| 7 | Landslides: GSI inventory + susceptibility (NLSM) | **GSI Bhukosh** `https://bhukosh.gsi.gov.in` (register → cart → emailed shapefiles) | Free, manual | ❌ **Website timing out** (24 Nov 2026). The main GSI site `gsi.gov.in` works | Planned: `data/manual/gsi_landslides.geojson`, `gsi_susceptibility.geojson` |
+| 7 | Landslides: GSI inventory + susceptibility (NLSM) | **GSI Bhukosh** `https://bhukosh.gsi.gov.in` (register → cart → emailed shapefiles) | Free, manual | ⏳ **Pending.** Access and files expected within days; steps in §35 | Will replace NASA: `data/manual/gsi_landslides.geojson`, `gsi_susceptibility.geojson` |
+| 7b | Landslide susceptibility (stand-in) | **NASA Global Landslide Susceptibility Map** (Stanley & Kirschbaum 2017) `https://gpm.nasa.gov/sites/default/files/downloads/global-landslide-susceptibility-map-2-27-23.tif` (33 MB GeoTIFF, ~1 km, classes 1–5) | Free, no key | ✅ **In use** (weight 0.10) | `landslide_susc_class` for every segment until GSI arrives (§34) |
 | 8 | GSI landslide forecast bulletins | `http://www.bhusanket.gsi.gov.in/` | Free, PDF/web, no API | ✅ Reachable (slow) | Phase 2, entered by hand |
 | 9 | Weather | **Open-Meteo Forecast** `https://api.open-meteo.com/v1/forecast` (hourly precipitation, rain, snowfall, visibility, weather_code; `past_days=3`, `forecast_days=3`, `timezone=Asia/Kolkata`); all 10 towns in **one call** | Free, no key, non-commercial | ✅ | Rain past 72 h / next 24 h → rain factor |
 | 10 | Elevation (default) | **AWS Terrain Tiles** (Terrarium PNG) `https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png`, zoom 12 (~33 m/pixel in Chamoli). Decoding: `elev = R*256 + G + B/256 − 32768` | Free, no key, no rate limit | ✅ (80 tiles cover all roads) | 23,075 elevation points |
@@ -303,6 +322,11 @@ Status as checked on **24 Nov 2026** from this machine.
 | 13 | Thematic layers | ISRO Bhuvan WMS `https://bhuvan-vec2.nrsc.gov.in/bhuvan/wms` | Free | Not used yet | Display only |
 | 14 | Google Maps | — | — | ❌ Not used (D12) | — |
 | 15 | IMD API | `https://api.imd.gov.in` | Needs IP whitelisting | Not used (Open-Meteo first) | Possible upgrade later |
+| 16 | Place names | Overpass (`place=town|village|hamlet|locality`) | Free | ✅ | 1,068 places → `output/places.json` (search box) |
+| 17 | Base maps (app) | **Esri** World Light/Dark Gray Canvas `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/...` · OSM tiles · OpenTopoMap | Free, attribution | ✅ | Map background. ❌ CARTO basemaps now need an API key |
+| 18 | Sign-in | **Clerk** (instance `sharp-shrew-8589.clerk.accounts.dev`; JWKS at `/.well-known/jwks.json`) | Free dev tier; publishable key in `.env` | ✅ Configured | Sign-in, Report and Admin pages |
+
+**Used live by the running app:** Open-Meteo (hourly), Clerk, and the map tile servers. Everything else is read from `output/`.
 
 **Rate-limit etiquette built into the script:** response caching, retries with backoff, Overpass mirror fallback, ≥ 1.1 s between Nominatim calls, a polite User-Agent, and Open-Meteo pacing.
 
@@ -313,46 +337,62 @@ Status as checked on **24 Nov 2026** from this machine.
 ```
 gisproject/
 ├── SAFEYATRA_FULL_CONTEXT.md        ← THIS FILE: complete context and status
-├── project_context.md               ← Original hand-off spec (A–Z design doc, written before work began)
-├── requirements.txt                 ← Python packages (requests, Pillow; phase-2 packages commented out)
-├── .env.example                     ← Template for optional keys: CONTACT_EMAIL, OPENTOPO_API_KEY, TOMTOM_API_KEY
-├── .gitignore                       ← Ignores .venv/, __pycache__/, .env, cache/, output/, data/raw/
-├── .venv/                           ← Python 3.10 virtual environment (~40 MB). Do not edit by hand
+├── README.md                        ← How to install and run, Clerk setup, screenshots (shown on GitHub)
+├── YOUR_NEXT_STEPS.md               ← The user's own to-do list (website tasks, keys, QGIS maps)
+├── project_context.md               ← Original hand-off spec (written before work began)
+├── requirements.txt                 ← Python packages (pipeline + backend + tests)
+├── .env                             ← Real keys (Clerk, admin ids...). NEVER committed
+├── .env.example                     ← Committed template with blank values
+├── .gitignore                       ← Ignores .env, .venv/, cache/, data/raw/, node_modules/, frontend/dist/, backend/storage/
+├── .venv/                           ← Python 3.12 virtual environment (Windows). Not committed
 │
 ├── scripts/
-│   ├── fetch_chamoli_data.py        ← STEP 1 data pipeline (~1,580 lines). Fetches everything, computes
-│   │                                   segment attributes and the preview risk, writes output/. See §11
-│   ├── make_mockups.py              ← Renders the 11 app mockup PNGs from real data, with real A* routes. See §17
-│   └── __pycache__/                 ← Python bytecode cache (auto-generated, ignore)
+│   ├── fetch_chamoli_data.py        ← Data pipeline. Fetches everything, adds NASA/GSI susceptibility,
+│   │                                   computes segment attributes and risk, writes output/. See §11
+│   └── make_mockups.py              ← Renders the 11 mockup PNGs (uses google-chrome; written on Linux)
+│
+├── backend/                         ← FastAPI app (run from this folder)
+│   ├── app/
+│   │   ├── main.py                  ← API endpoints, app state, hourly weather loop, seeded sample closure
+│   │   ├── routing.py               ← RoadGraph (NetworkX), A* with cost = length·(1 + λ·risk), hazard stretches, nearest help
+│   │   ├── risk.py                  ← Live risk: rain, GSI alert, fog, report penalties, closures
+│   │   ├── weather.py               ← Open-Meteo fetch, demo rain scenarios, alert messages
+│   │   ├── store.py                 ← SQLite: reports, closures, settings
+│   │   ├── auth.py                  ← Clerk JWT check (JWKS), admin check
+│   │   ├── data.py                  ← Loads output/ into memory
+│   │   └── config.py                ← Reads the root .env, paths, settings
+│   ├── tests/                       ← pytest: test_routing.py, test_api.py (16 tests)
+│   └── storage/                     ← Created at runtime: safeyatra.db + uploads/ (photos). Not committed
+│
+├── frontend/                        ← React + Vite + DaisyUI + Leaflet + Clerk (run `npm run dev` here)
+│   ├── src/pages/                   ← MapPage (plan route), ReportPage, AdminPage
+│   ├── src/components/              ← RiskMap, RouteResults, SegmentDetails, PlaceSearch, Legend,
+│   │                                   Header, PageLayout, ui.jsx (design-system pieces: toasts, dialogs, tabs...)
+│   ├── src/index.css                ← Design tokens: light/dark daisyUI themes, Leaflet restyling
+│   ├── src/auth.jsx, api.js, useMapLayers.js, constants.js
+│   └── vite.config.js               ← Proxies /api → 127.0.0.1:8000; reads .env from the project root
 │
 ├── data/
-│   ├── manual/                      ← Hand-made or downloaded input datasets the script reads
-│   │   ├── web_landslides.csv       ← 40 landslide events (2021–25) from web research, located on the map (§16)
-│   │   ├── accidents.csv            ← Headers only (accident feature dropped, D4). Keeps the loader quiet
-│   │   ├── accidents.example.csv    ← Template showing the accident CSV format (2 fake example rows)
-│   │   ├── (gsi_landslides.geojson)     ← TO ADD when GSI Bhukosh data arrives (EPSG:4326)
-│   │   └── (gsi_susceptibility.geojson) ← TO ADD when GSI Bhukosh data arrives (EPSG:4326)
-│   └── raw/                         ← Empty; for big raw files (DEM tiles, .pbf). Git-ignored
+│   ├── manual/                      ← Hand-made datasets the pipeline reads
+│   │   ├── web_landslides.csv       ← 40 landslide events (2021–25) from web research (§16)
+│   │   ├── accidents.csv            ← Headers only (D4)
+│   │   ├── accidents.example.csv    ← Template (2 fake rows)
+│   │   ├── (gsi_landslides.geojson)     ← TO ADD when GSI Bhukosh data arrives (EPSG:4326), see §35
+│   │   └── (gsi_susceptibility.geojson) ← TO ADD when GSI Bhukosh data arrives (EPSG:4326), see §35
+│   └── raw/                         ← Big downloads. Not committed
+│       └── nasa_susceptibility/global_landslide_susceptibility_2017.tif ← NASA map (auto-downloaded if missing)
 │
-├── cache/                           ← ~26 MB, ~112 files. Cached API responses (SHA-1 of URL+params),
-│                                       including 80 elevation tiles. Delete or use --refresh to re-download
+├── cache/                           ← ~26 MB of cached API responses. Not committed; use --refresh to re-download
 │
-├── output/                          ← ~16 MB. Generated by fetch_chamoli_data.py (git-ignored). See §12
-│   ├── boundary.geojson             ← District polygon + metadata
-│   ├── roads_segments.geojson       ← 5,820 road segments with ALL attributes + risk (main deliverable)
-│   ├── segments.csv                 ← Same attributes as a table, geometry as WKT (opens in Excel/QGIS)
-│   ├── landslides.geojson           ← 78 landslide points (41 NASA + 37 news)
-│   ├── rivers.geojson               ← 61 rivers + 807 streams
-│   ├── pois.geojson                 ← 122 hospitals/clinics/police/fuel/ambulance points
-│   ├── accidents.geojson            ← Empty FeatureCollection (feature dropped)
-│   ├── weather.json                 ← Per-town rain/snow/visibility + rain factor
-│   └── summary.json                 ← Run summary: counts, risk preview, sanity checks, warnings
-│   (dem_cop30.tif, incidents.json   ← only appear if the OpenTopography / TomTom keys are set)
+├── output/                          ← ~18 MB, generated by the pipeline, COMMITTED (the backend needs it). See §12
+│   ├── roads_segments.geojson       ← 5,820 segments with all attributes + risk (main deliverable)
+│   ├── segments.csv, boundary.geojson, landslides.geojson, rivers.geojson, pois.geojson
+│   ├── places.json                  ← 1,068 towns/villages for search
+│   ├── weather.json, summary.json, accidents.geojson (empty)
 │
-├── qgis/
-│   └── safeyatra.qgz                ← QGIS project saved by the user (layers styled, basemap)
-│
-└── app images for future reference/ ← 11 mockup PNGs of the planned app + README.md index (§17)
+├── qgis/safeyatra.qgz               ← QGIS project saved on the old Linux machine (layer paths may need relinking)
+├── screenshots/                     ← App screenshots used in README.md
+└── app images for future reference/ ← 11 early mockup PNGs + README.md (§17)
 ```
 
 ---
@@ -444,7 +484,7 @@ The boundary step always runs, because every other step needs it.
 
 | Factor | Formula (v1) | Source field |
 |---|---|---|
-| Susceptibility | class 1→0.1, 2→0.4, 3→0.7, 4→1.0 | landslide_susc_class (GSI, **missing**) |
+| Susceptibility | class 1→0.1, 2→0.4, 3→0.7, 4→1.0 | landslide_susc_class (**NASA now**, GSI later; source in `susc_source`) |
 | Landslide density | min(landslides_within_500m / 5, 1) | landslides |
 | Terrain slope | min(cross_slope_deg / 45, 1); fallback min(gradient_avg_pct / 12, 1) | elevation |
 | Curvature | min(curvature_deg_per_km / 1500, 1) | road geometry |
@@ -458,7 +498,11 @@ static_risk = 0.30·susceptibility + 0.20·landslide_density + 0.20·terrain_slo
             + 0.15·curvature + 0.15·accident_density
 ```
 Factors without data are **left out and the weights re-normalised**: `risk = Σ(w·f) / Σ(w of available factors)`.
-**Currently active:** landslide_density (0.20), terrain_slope (0.20), curvature (0.15), so the effective weights are 0.364 / 0.364 / 0.273.
+**Currently active:** susceptibility from **NASA at 0.10** (`NASA_SUSC_WEIGHT`; GSI would use 0.30), landslide_density 0.20, terrain_slope 0.20, curvature 0.15. The effective weights are 0.154 / 0.308 / 0.308 / 0.231.
+
+NASA class mapping: NASA 1–2 (very low / low) → 1, 3 (moderate) → 2, 4 (high) → 3, 5 (very high) → 4. Each segment takes the highest class at its start, middle and end. In Chamoli: 5,038 segments are class 4, 748 class 3 and 34 class 2.
+
+The same weights are repeated in `backend/app/risk.py` (keep them in sync).
 
 **Risk classes:** low < 0.25 ≤ medium < 0.5 ≤ high < 0.75 ≤ very_high.
 
@@ -477,12 +521,15 @@ risk_now = landslide_part · (1 + rain_factor + gsi_alert_factor)
 | next-24 h 35–65 mm or past-72 h 75–150 mm | 0.6 |
 | next-24 h > 65 mm or past-72 h > 150 mm | 1.0 |
 
-gsi_alert_factor: none 0 / low 0.3 / moderate 0.6 / high 1.0. (Already implemented: the `rain_factor()` function, and the per-town values in weather.json.)
+gsi_alert_factor: none 0 / low 0.3 / moderate 0.6 / high 1.0.
 
-### Hard rules (phase 2)
-- Verified blockage or closure → the road is removed from the graph (cost = ∞).
-- Seasonal closure (date-based) → removed in that date range.
-- Unverified user report → temporary penalty (risk += 0.3, expires after 6 h unless confirmed).
+**Implemented** in `backend/app/risk.py` → `update_live_risk()`, run at startup, after each hourly weather refresh and after every admin or report change:
+`risk_now = min(landslide_part·(1 + rain + gsi) + other_part·(1 + fog) + report_penalty, 1)`. Here landslide_part is the share from susceptibility, past landslides and slope; other_part is bends. Fog = +0.2 when visibility < 200 m. Night factor is not implemented.
+
+### Hard rules (implemented)
+- Verified blockage → a closure is created for that segment → the router skips it.
+- Admin closure between two points, with optional start/end dates → active only within the dates. A sample closure, Badrinath–Mana winter snow (15 Nov – 30 Apr), is seeded on first run.
+- Unverified (pending) user report → risk += 0.3 on its segment for 6 h.
 
 ### Candidate additions
 - River factor (e.g., `dist_to_river_m < 100` → +), stream crossings, GSI forecast. Each is a small change in `add_static_risk()`.
@@ -491,7 +538,7 @@ gsi_alert_factor: none 0 / low 0.3 / moderate 0.6 / high 1.0. (Already implement
 
 ## 14. Current results (latest run)
 
-Generated 24 Nov 2026, 18:08 IST.
+Generated 24 Nov 2026 (re-run on Windows, ~20:33 IST, with NASA susceptibility and places).
 
 | Metric | Value |
 |---|---|
@@ -505,10 +552,12 @@ Generated 24 Nov 2026, 18:08 IST.
 | POIs | clinic 92, hospital 13, fuel 12, police 4, healthcare_other 1 (122 total) |
 | Rivers | 61 rivers (740 km), 807 streams (2,387 km) |
 | Weather | 0 mm everywhere (late November, dry season) ✅ |
-| Risk preview | **low 511.8 km · medium 1,746.9 km · high 71.9 km · very high 0.9 km** |
-| Riskiest NH-7 stretch | **Nandprayag** (risk 0.76, very high: 6 landslides within 500 m, slope 40°, river 96 m away); matches news reports of repeated blockages |
+| Risk (with NASA susceptibility at 0.10) | **low 55.6 km · medium 1,891.3 km · high 383.7 km · very high 0.9 km** (before NASA: low 511.8 · medium 1,746.9 · high 71.9 · very high 0.9) |
+| Places | 1,068 (15 towns, 196 villages, 829 hamlets, 28 localities) |
+| Riskiest NH-7 stretch | **Nandprayag** (risk 0.795 now; 0.76 before NASA). Matches news reports of repeated blockages |
+| Demo routes (backend) | Karnaprayag → Gopeshwar: λ 0 = 39.8 km, λ 10 = 41.5 km with **27% less high-risk road**. Gopeshwar → Joshimath: one road, 59.2 km. Karnaprayag → Badrinath: 124.3 km. All routes return in < 0.5 s |
 | Attribute distributions | cross_slope median 22° (95th pct 39°); curvature median 636°/km (95th 1,374); gradient median 5.3% (outliers up to 239% on very short segments); nearest hospital median 1.95 km |
-| Remaining warnings | NASA COOLR offline (fallback used); GSI inventory and susceptibility files not found; OPENTOPO_API_KEY not set |
+| Remaining warnings | NASA COOLR offline (fallback used); GSI inventory and susceptibility files not found (NASA map used instead); OPENTOPO_API_KEY not set |
 
 ---
 
@@ -578,32 +627,33 @@ Estimated travel speeds used: trunk 35 km/h, primary 30, secondary 25, tertiary 
 
 ## 18. Data inventory: what we have and what we lack
 
-### ✅ Have (12)
+### ✅ Have (14)
 1. District boundary
 2. Road network (2,332 km, 5,820 segments)
 3. Elevation for every segment (~30 m tiles)
 4. Road gradient
 5. Road bends + sharp turns
 6. Hospitals / clinics / police / fuel (122) + distance to nearest hospital
-7. Weather, live (10 towns)
+7. Weather, live (10 towns, hourly in the app)
 8. Rivers (61) + distance to river
 9. Streams (807) + stream crossings
 10. Past landslides: NASA (41, 2007–2017)
 11. Past landslides: news (40 events, 2021–2025)
-12. Preview risk score for every segment
+12. Risk score for every segment (static + live)
+13. Place names for search (1,068)
+14. Seasonal closures and GSI alert levels: entered by the admin in the app
 
-### ⚠️ Have, but could be better (2)
-13. **Terrain slope**: currently estimated from two points beside each segment. Fix: a proper slope raster (from the terrain tiles or the OpenTopography DEM), then zonal statistics in a 50 m buffer. **Claude can do this without any key.**
-14. **Landslide locations**: 15 news events are approximate; news has reporting bias. Fix: the GSI inventory.
+### ⚠️ Have, but could be better (3)
+15. **Landslide susceptibility**: from the **NASA global map** (~1 km, low weight). Fix: the GSI NLSM data (§34, §35).
+16. **Terrain slope**: estimated from two points beside each segment. Fix: a proper slope raster + zonal statistics in a 50 m buffer (no key needed; could be done in QGIS).
+17. **Landslide locations**: 15 news events are approximate, and news has reporting bias. Fix: the GSI inventory.
 
-### ❌ Missing for the main version (2)
-15. **GSI landslide susceptibility zones (NLSM)**: 30% weight, **the biggest gap**. Bhukosh website down; retry.
-16. **GSI landslide inventory**: same request.
+### ⏳ Waiting for GSI Bhukosh (2)
+18. **GSI landslide susceptibility zones (NLSM)**: will replace NASA at the full 0.30 weight.
+19. **GSI landslide inventory**: official landslide points.
 
-### ❌ For later (3)
-17. GSI daily landslide forecast (monsoon; entered by hand)
-18. Seasonal road closures (entered by hand)
-19. Live incidents (TomTom, optional, needs a key)
+### ❌ Optional (1)
+20. Live incidents (TomTom, needs a key; coverage likely poor)
 
 ### 🚫 Dropped (1)
 - Accidents (D4)
@@ -648,40 +698,63 @@ Estimated travel speeds used: trunk 35 km/h, primary 30, secondary 25, tertiary 
 - **Heuristic:** `h(n) = haversine(n, goal)`. Because cost ≥ length ≥ straight-line distance, **the heuristic is admissible**, so A\* returns the optimal path for the given λ (a good viva point).
 - **Snapping:** the start and end points snap to the nearest node on a main road (trunk–tertiary), to avoid tiny disconnected bits of road.
 - **Output per route:** GeoJSON LineString, distance_km, est_time_min, route_risk_avg (length-weighted), route_risk_max, hazard_stretches[] (consecutive high/very-high segments with start/end km and reasons), comparison with λ = 0 (extra_km, risk_reduction_pct).
-- **Prototype already exists** inside `scripts/make_mockups.py` (`astar()` with heapq): it produced the Karnaprayag→Gopeshwar and Gopeshwar→Joshimath routes.
+- **Implemented** in `backend/app/routing.py`: `RoadGraph` (NetworkX `MultiDiGraph`) + `nx.astar_path` with the weight function above and a haversine heuristic. Closed edges return `None` from the weight function, which hides them. Snapping uses the biggest connected network: main roads for route search, any road for admin closures and reports. Tests in `backend/tests/test_routing.py`.
+- The earlier pure-Python prototype is still inside `scripts/make_mockups.py` (`astar()` with heapq).
 
 ---
 
 ## 21. Backend API design
 
-| Method and path | Purpose | Params → response |
+**Implemented** in `backend/app/main.py`. All paths start with `/api`. Swagger docs: http://127.0.0.1:8000/docs.
+
+| Method and path | Access | Purpose |
 |---|---|---|
-| GET /health | Health check | |
-| GET /places?q= | Search Chamoli places (local list + Nominatim fallback) | `[{name, lat, lon}]` |
-| GET /route | Safe route | `from=lat,lon&to=lat,lon&safety=0..10&avoid_night=bool` → `{safe_route, shortest_route, comparison, hazard_stretches, weather_alerts, nearest_help}` |
-| GET /segments | Risk-coloured road layer | `bbox=&min_risk=` → GeoJSON FeatureCollection |
-| GET /hazards | Landslides (+ rivers) | `type=landslide&bbox=` |
-| GET /weather | Current rain risk per town | |
-| GET /pois | Hospitals/police/fuel | `bbox=&category=` |
-| POST /reports | User report | `{type, lat, lon, description, photo}` |
-| GET /admin/reports, PATCH /admin/reports/{id} | Verify/reject (auth) | |
-| POST /admin/closures | Add a closure (auth) | |
+| GET /api/health | public | Status, segment count, whether sign-in is configured |
+| GET /api/places?q=&limit= | public | Search the 1,068 local places (towns first) |
+| GET /api/places/nearest?lat=&lon= | public | Name of the nearest place (labels map clicks) |
+| GET /api/route?from=lat,lon&to=lat,lon&safety=λ | public | `{safe_route, shortest_route, comparison, weather_alerts, gsi_alert, simulated_weather, nearest_help}`. Each route has geometry, km, minutes, risk avg/max/class, high-risk km, km by class, hazard stretches, segment ids and an elevation/risk profile |
+| GET /api/segments | public | Compact GeoJSON of all roads with current risk (cached, pre-gzipped) |
+| GET /api/segments/{id} | public | Full attributes, factor breakdown with weights, reasons |
+| GET /api/landslides, /api/rivers?kind=, /api/pois?category=, /api/boundary | public | Map layers |
+| GET /api/weather | public | Per-town rain, alerts, scenario, GSI alert |
+| GET /api/stats | public | Km by current risk class, closed km |
+| GET /api/closures | public | Active closures |
+| GET /api/reports/recent | public | Pending + verified reports for the map (no user ids) |
+| GET /api/me | signed in | `{user_id, is_admin}` |
+| POST /api/reports | signed in | Multipart form: type, lat, lon, description, optional photo (≤ 5 MB) |
+| GET /api/reports/mine | signed in | The user's own reports |
+| GET /api/admin/reports?status=, PATCH /api/admin/reports/{id} | admin | Review; verify → closure, reject → reopen |
+| GET/POST /api/admin/closures, DELETE /api/admin/closures/{id} | admin | Closures between two points, with optional dates |
+| GET/PUT /api/admin/settings | admin | `gsi_alert` (none/low/moderate/high), `rain_scenario` (live/moderate/heavy) |
+| GET /api/uploads/{file} | public | Report photos |
 
-On startup: load roads_segments into a NetworkX graph. The hourly job updates dynamic / risk_now / closed in memory.
-
-Data for phase 2 (reports, closures): simple JSON/SQLite storage is fine at college level.
+Startup: load `output/` → refresh live risk → build the graph → seed the sample closure. A background loop fetches Open-Meteo every `WEATHER_REFRESH_MIN` minutes (default 60). Reports, closures and settings are stored in SQLite (`backend/storage/safeyatra.db`).
 
 ---
 
 ## 22. Frontend design
 
-- **Layout:** full-screen map + left panel (desktop) / bottom sheet (mobile).
-- **Panel:** From / To search → safety slider → **Find route** → result cards (Safe vs Shortest: km, time, risk badge) → dangerous stretches list (click to zoom) → weather alert banner → nearest hospitals.
-- **Map layers:** risk-coloured roads (green / yellow / orange / red), landslide points, rivers, district boundary, optional slope. Legend + layer switches.
-- **Report button:** floating "⚠ Report blockage" → pick a location → type → optional photo.
-- **Accessibility:** colour-blind-friendly palette with text labels, large tap targets, Hindi/English toggle.
-- **Performance:** simplify geometries for the web if the layers get large.
-- **Reference visuals:** see `app images for future reference/`.
+**Implemented** in `frontend/` (React + DaisyUI + Leaflet + Clerk). Screenshots are in `screenshots/` and the README.
+
+- **Pages:**
+  - **Plan route** (`/`). Supports shareable links like `/?from=Karnaprayag&to=Gopeshwar&safety=10`.
+  - **Report** (`/report`, needs sign-in).
+  - **Admin** (`/admin`, shown to signed-in users; the page checks admin rights and shows the user id to add to `ADMIN_USER_IDS`).
+- **Layout:** white header (logo, nav, rain status, theme toggle, Clerk user menu). Side panel + map on desktop; on phones, a bottom sheet over a full-screen map.
+- **Plan route panel:**
+  - Linked A/B place inputs with keyboard suggestions, a pick-on-map button (Esc cancels) and a swap button.
+  - **Segmented control** for the preference (Fastest/Balanced/Safe/Safest = λ 0/2/5/10), with a one-line explanation.
+  - Results: a comparison **table** (distance, time, average risk, high-risk km), a summary line, and tabs for **Overview** (elevation + risk profile, km by class), **Hazards** (click to zoom) and **Help nearby** (emergency numbers 112/108/1070).
+  - Before a search: suggested routes, district risk totals and a weather table.
+- **Map:**
+  - Esri gray base map (light or dark to match the theme), with Streets and Terrain options.
+  - Layers: road risk (canvas), boundary, rivers, streams, past landslides, POIs, user reports.
+  - Route in the brand colour, the shortest route dashed, hazard markers, a collapsible legend.
+  - Clicking a road opens the **road details panel** (score, reasons, factor bars, details).
+- **Design system** (D17):
+  - Inter, Lucide icons, muted slate-blue `#2c4a6b`, neutral grays, light and dark daisyUI themes (`frontend/src/index.css`).
+  - Reusable pieces in `components/ui.jsx`: Segmented, Tabs, Notice, EmptyState, Skeleton, ConfirmDialog, Toasts, ThemeToggle.
+- **Accessibility:** risk is always shown as a dot plus a text label, visible focus rings, ARIA combobox and radios, native `<dialog>` for confirmations, reduced-motion support.
 
 ---
 
@@ -689,17 +762,17 @@ Data for phase 2 (reports, closures): simple JSON/SQLite storage is fine at coll
 
 | Phase | Deliverables | Owner | Status |
 |---|---|---|---|
-| **0. Setup** | venv, folders, requirements, .env.example, .gitignore, QGIS installed | All | ✅ Done (git not yet initialised) |
-| **1. Data collection** | `fetch_chamoli_data.py` end to end; summary passes the sanity checks | GIS | ✅ Done (GSI pending) |
-| 1+. Extra data | Rivers + streams; news landslide dataset | GIS | ✅ Done |
-| **2. Data preparation (QGIS / GeoPandas)** | Proper slope raster (EPSG:32644), zonal stats in a 50 m buffer, clipped/cleaned layers, `road_segments.gpkg` | GIS | ⏳ Next (slope can start now) |
-| **3. Maps** | Boundary, roads, elevation, slope, landslide, river, risk maps (QGIS layouts → PNG/PDF) | GIS | ⏳ Partly (QGIS project saved; layouts not yet made) |
-| **4. Risk attributes (final)** | All attributes + static_risk with GSI susceptibility; validation | GIS | ⏳ Waiting for GSI |
-| **5. Routing prototype** | Graph + A\* + λ; demo routes | Backend | ✅ Done (`backend/app/routing.py`, tests) |
-| **6. API** | FastAPI `/route`, `/segments`, `/hazards`, `/pois` + tests | Backend | ✅ Done (`backend/app/main.py`) |
-| **7. Frontend MVP** | Map + search + slider + route cards + risk layer | Frontend | ✅ Done (`frontend/`) |
-| **8. Live layers** | Weather updater, GSI alert input, reports + admin | Backend + Frontend | ✅ Done (needs Clerk key for reports/admin) |
-| **9. Validation and report** | Metrics, screenshots, documentation, presentation | All | ⬜ |
+| **0. Setup** | venv, folders, requirements, .env.example, .gitignore, QGIS installed, git repo | All | ✅ Done (Windows; GitHub repo) |
+| **1. Data collection** | `fetch_chamoli_data.py` end to end; summary passes the sanity checks | GIS | ✅ Done |
+| 1+. Extra data | Rivers + streams; news landslide dataset; places; NASA susceptibility | GIS | ✅ Done |
+| **2. Data preparation (QGIS / GeoPandas)** | Proper slope raster (EPSG:32644), zonal stats, clipped layers, `road_segments.gpkg` | GIS | ⬜ Not started (optional; a good QGIS task, §34) |
+| **3. Maps** | Boundary, roads, elevation, slope, landslide, river, risk maps (QGIS layouts → PNG/PDF) | GIS | ⬜ Not started (QGIS project exists; no layouts yet) |
+| **4. Risk attributes (final)** | Static risk with **GSI** susceptibility; validation | GIS | ⏳ Uses NASA for now; waiting for GSI (§34, §35) |
+| **5. Routing** | Graph + A\* + λ; demo routes | Backend | ✅ Done (`backend/app/routing.py`, tests) |
+| **6. API** | FastAPI endpoints + tests | Backend | ✅ Done (`backend/app/main.py`, 16 tests pass) |
+| **7. Frontend** | Map + search + preference + results + risk layer | Frontend | ✅ Done and redesigned (`frontend/`) |
+| **8. Live layers** | Weather updater, GSI alert input, reports + admin, closures | Backend + Frontend | ✅ Done (Clerk configured; admin user id set) |
+| **9. Validation and report** | Metrics, screenshots, documentation, presentation | All | ⏳ Partly (screenshots + README done; validation metrics not yet) |
 | **10. Expansion** | More districts, mobile, offline | — | Future |
 
 ### Rough timeline (from the app design discussion)
@@ -712,18 +785,18 @@ Data for phase 2 (reports, closures): simple JSON/SQLite storage is fine at coll
 | Extras (live rain, hospitals, warnings) | 1 week |
 | Testing, screenshots, report | 1 week |
 
-### Immediate next steps (summary; **full detail with "done when" checks in §32**)
-1. **Claude:** proper slope map (from the cached terrain tiles or the OpenTopography DEM) → better terrain_slope.
-2. **Claude:** routing test notebook (`notebooks/03_astar_prototype.ipynb` or a script) on the demo routes.
-3. **User:** retry GSI Bhukosh every few days; when the data arrives, export to GeoJSON (EPSG:4326) in `data/manual/` and re-run the script.
-4. Then: backend → frontend.
+### Immediate next steps (summary; **full detail in §32**)
+1. **User:** request GSI Bhukosh data (§35). Access and files are expected within days.
+2. **When GSI arrives:** switch from NASA to GSI (§34 "How to switch"), re-run the pipeline, refresh the screenshots and numbers.
+3. **Optional GIS work (good for the viva):** report maps in QGIS print layouts; slope raster; GeoPackage export.
+4. **Validation for the report:** hotspot check, hold-out test, weight sensitivity (§24).
 
 ---
 
 ## 24. Validation and testing plan
 
 - **Hold-out test:** keep back 20–30% of landslide points (e.g., the most recent years); check what % fall on or near high / very-high segments (success-rate / ROC per class).
-- **Known hotspots check:** chronic NH-7 zones (Pagal Nala, Patalganga, Helang, Lambagad, Nandprayag, Bhanerpani, Kameda) should score high. **Currently Nandprayag scores very high (0.76).**
+- **Known hotspots check:** chronic NH-7 zones (Pagal Nala, Patalganga, Helang, Lambagad, Nandprayag, Bhanerpani, Kameda) should score high. **Currently Nandprayag scores very high (0.795 with NASA susceptibility).**
 - **Sensitivity analysis:** vary the weights by ±0.05 and check how stable the top-risk rankings are.
 - **Routing tests:** λ = 0 equals the plain shortest path; increasing λ never increases route risk; closed edges are never used; heuristic admissible (h ≤ true cost).
 - **Unit tests:** segment lengths add up to the way length; haversine; point-in-polygon; curvature on synthetic lines; risk bounds [0, 1].
@@ -748,8 +821,10 @@ Data for phase 2 (reports, closures): simple JSON/SQLite storage is fine at coll
 | Open-Meteo free tier non-commercial | Licence limit | Fine for an academic project |
 | Overpass/Nominatim rate limits | Blocked requests | Cache, mirrors, User-Agent, delays |
 | Accident component dropped | No accident layer | Bends and sharp turns as the road-danger stand-in |
-| Live blockages lack API coverage | No real-time closures | User reports + admin panel (phase 2) |
-| QGIS Flatpak LTS branch outdated (3.28.9) | Older UI/features | Works for this project; "stable" branch available |
+| Live blockages lack API coverage | No real-time closures | User reports + admin panel (built) |
+| **Susceptibility from NASA's global map (~1 km)** | Coarse; rates ~87% of roads "very high", so it is given a low weight (0.10) | Replace with GSI NLSM data when it arrives (§34) |
+| QGIS not yet used for processing | Weak "GIS workflow" story for the viva | Make report maps / slope raster in QGIS (§34) |
+| Weather is dry in November | Live rain feature looks idle | Admin demo rain scenarios (D18) |
 
 ---
 
@@ -759,6 +834,8 @@ Data for phase 2 (reports, closures): simple JSON/SQLite storage is fine at coll
 - **AWS Terrain Tiles** (Mapzen/Tilezen, SRTM-based in this region): attribute the terrain tile sources (Mapzen/Tilezen, SRTM/NASA).
 - **Copernicus DEM** (if used): "© DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA".
 - **Open-Meteo**: CC BY 4.0, non-commercial. "Weather data by Open-Meteo.com".
+- **NASA Global Landslide Susceptibility Map**: cite Stanley, T. & Kirschbaum, D.B. (2017), *A heuristic approach to global landslide susceptibility mapping*, Natural Hazards 87, 145–164.
+- **Esri base maps**: "Tiles © Esri, HERE, Garmin, © OpenStreetMap contributors" (shown on the map).
 - **NASA Global Landslide Catalog**: cite Kirschbaum, D.B., Stanley, T., & Zhou, Y. (2015), *Spatial and temporal analysis of a global landslide catalog*, Geomorphology 249, 4–15; and Juang, Stanley & Kirschbaum (2019), COOLR, PLOS ONE 14(7): e0218657.
 - **News sources**: cite each URL in the `source_url` column of `web_landslides.csv`.
 - **Rishiganga disaster**: Shugar et al. (2021), *Science*, doi:10.1126/science.abh4455.
@@ -771,50 +848,52 @@ Data for phase 2 (reports, closures): simple JSON/SQLite storage is fine at coll
 ## 27. Open tasks (who does what)
 
 ### User
-- [ ] Retry **GSI Bhukosh** (https://bhukosh.gsi.gov.in) every few days, from a different network if needed (mobile data / college Wi-Fi), with any VPN off. Request the **Landslide Inventory** + **Landslide Susceptibility (NLSM)** for Chamoli. If it's still down after 2–3 days, ask the project guide or college GIS lab.
-- [ ] When the data arrives: in QGIS, Export → Save Features As → GeoJSON, EPSG:4326 → `data/manual/gsi_landslides.geojson` and `data/manual/gsi_susceptibility.geojson`; re-run the script.
+- [ ] **Request GSI Bhukosh data** (landslide susceptibility + inventory for Chamoli): steps in **§35**. Access and files are expected within days.
+- [ ] When the files arrive: unzip them into `data/raw/gsi/` and tell the agent (or convert them yourself, §35 step 9).
+- [ ] (Optional, recommended for the viva) Make the report maps in QGIS print layouts (`YOUR_NEXT_STEPS.md` task 5).
 - [ ] (Optional) Free **OpenTopography** API key → `.env` (`OPENTOPO_API_KEY=`).
 - [ ] (Optional) TomTom key, if live incidents are wanted.
-- [x] ~~Install QGIS~~ (done)
-- [x] ~~Look at the data in QGIS~~ (project saved at `qgis/safeyatra.qgz`)
+- [x] ~~Install QGIS~~ (3.44.15 LTR on Windows)
+- [x] ~~Clerk keys + admin user id in `.env`~~
+- [x] ~~App screenshots~~ (`screenshots/`)
 - [x] ~~Accident list~~ (dropped)
 
-### Agent / Claude (next; see §32 for the detailed plan)
-- [ ] Proper slope raster + zonal statistics → better terrain_slope
-- [ ] Routing prototype (notebook/script) with λ, on the demo routes
-- [ ] FastAPI backend
-- [ ] React + Leaflet frontend
-- [ ] Optionally: add river and stream factors to the risk formula; percentile scaling
-- [ ] Optionally: `git init` + first commit (only when the user asks)
+### Agent / Claude
+- [x] ~~Routing (A\*), FastAPI backend, React frontend, live layers, UI redesign, git + GitHub~~
+- [ ] When GSI arrives: switch NASA → GSI (§34), re-run the pipeline, check hotspots, update numbers in this file
+- [ ] Optional: proper slope raster + zonal statistics; GeoPackage export; report maps by script
+- [ ] Optional: validation metrics for the report (§24); river/stream factor; percentile scaling
+- [ ] Commit and push only when the user asks
 
 ---
 
 ## 28. How-to: common commands
 
-```bash
-# activate the environment
-cd /home/aditya/gisproject
-source .venv/bin/activate
+All commands are for **Windows PowerShell**, run from `C:\Users\Aditya\Desktop\gisproject`.
 
-# run the full data pipeline (uses the cache; ~30–90 s after the first run)
-python scripts/fetch_chamoli_data.py
+```powershell
+# --- run the app (two terminals) ---
+cd backend;  ..\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --port 8000   # API + docs at :8000/docs
+cd frontend; npm run dev                                                                # app at http://localhost:5173
 
-# re-download everything fresh
-python scripts/fetch_chamoli_data.py --refresh
+# --- tests ---
+cd backend; ..\.venv\Scripts\python.exe -m pytest -q
 
-# run only some steps
-python scripts/fetch_chamoli_data.py --only weather
-python scripts/fetch_chamoli_data.py --only roads,elevation --segment-length 200
+# --- data pipeline (uses the cache; ~45 s) ---
+.\.venv\Scripts\python.exe scripts\fetch_chamoli_data.py > run.json 2> run.log
+.\.venv\Scripts\python.exe scripts\fetch_chamoli_data.py --refresh          # re-download everything
+.\.venv\Scripts\python.exe scripts\fetch_chamoli_data.py --only weather     # some steps only
+# after re-running the pipeline, restart the backend so it reloads output/
 
-# use the Open-Meteo elevation API instead of tiles (slow, rate-limited)
-python scripts/fetch_chamoli_data.py --elev-source open-meteo --max-elev-points 5000
+# --- frontend build / lint ---
+cd frontend; npm run build; npx oxlint
 
-# regenerate the app mockup images (after the data changes)
-python scripts/make_mockups.py
-
-# open QGIS
-flatpak run org.qgis.qgis//lts
+# --- git (only when the user asks) ---
+git add -A; git commit -m "message"; git push
 ```
+**Gotcha:** in PowerShell, `npm run dev -- --port 5173` loses the `--`. Use `npx vite --port 5173` instead.
+
+Open QGIS from the Start menu: **QGIS Desktop 3.44.15**.
 
 **Viewing data in QGIS:** New Empty Project → Browser → XYZ Tiles → OpenStreetMap → Home → gisproject → output → double-click the GeoJSON files → drag OpenStreetMap to the bottom → right-click boundary → Zoom to Layer → roads_segments → Properties → Symbology → **Categorized** by `risk_class` → Classify. Save in `qgis/`.
 
@@ -848,6 +927,10 @@ All on **24 Nov 2026**.
 22. Project moved to **Windows**; old Linux venv deleted, new Python 3.12 venv; QGIS 3.44.15 LTR installed with winget.
 23. GSI still unavailable → added **NASA global susceptibility** fallback (weight 0.10) and a `places` step.
 24. Built the **backend** (FastAPI, A\*, live risk from weather/GSI alert/closures/reports, Clerk JWT check, SQLite) and the **frontend** (React + DaisyUI + Leaflet + Clerk): Route, Report and Admin pages. Demo routes match §20 expectations (Karnaprayag→Gopeshwar 41.5 vs 39.8 km, 27% less high-risk road).
+25. **Clerk configured:** publishable + secret key in `.env` (the secret key is not used), admin user id in `ADMIN_USER_IDS`.
+26. **UI redesign** following the user's guidelines (D17): Inter, Lucide icons, neutral palette, light and dark themes, comparison table, tabs, bottom sheet on phones, confirm dialogs, toasts. CARTO base maps now need a key, so switched to Esri gray canvas.
+27. **Git repo** initialised and pushed to https://github.com/Aditya-madwal/safeyatra (`.env` excluded, `output/` included). App screenshots added to `screenshots/` and the README.
+28. Recorded **why QGIS isn't used yet and the NASA → GSI plan** (§34), plus GSI Bhukosh request steps (§35).
 
 ---
 
@@ -908,12 +991,14 @@ All on **24 Nov 2026**.
 
 ## 32. NEXT STEPS: detailed hand-off plan
 
-This is the work queue, **in order**. Each step lists its goal, the files to create or change, the method, and **"done when"** checks. Steps marked 🔓 can start now; 🔒 needs something from the user first.
+This is the work queue. Each step lists its goal, the files to create or change, the method, and **"done when"** checks. Steps marked 🔓 can start now; 🔒 needs something from the user first; ✅ is done.
+
+**Status (24 Nov 2026, night):** Steps 4–7 ✅ done. Step 8 🔒 waits for GSI Bhukosh (highest priority once the files arrive; see §34). Steps 1–3 and 9 are open and optional; Steps 1 and 3 are good ways to give QGIS a real role.
 
 ### Step 1 🔓 Proper terrain slope raster (replaces the `cross_slope_deg` stand-in)
 - **Goal:** a real slope map (degrees) for Chamoli, plus per-segment slope statistics, as the spec intends (§13, spec §10.2).
 - **Data:** reuse the **AWS Terrain Tiles** (zoom 12, ~33 m) already used by the pipeline. The `TerrainTiles` class in `fetch_chamoli_data.py` shows the URL and decoding. Only 80 tiles are cached (roads only); covering the whole district bbox needs about 12 × 13 ≈ 156 tiles (cheap, no limit). Alternative: the OpenTopography COP30 GeoTIFF, if the user adds `OPENTOPO_API_KEY`.
-- **New dependencies (pip, in .venv):** `numpy`, `rasterio`, `rasterstats` (and `geopandas`, `shapely`, `pyproj` for Step 2). Wheels exist for Python 3.10; no sudo needed. Add them to `requirements.txt` (uncomment the phase-2 block).
+- **New dependencies (pip, in .venv):** `numpy` and `rasterio` are already installed; add `rasterstats` (and `geopandas`, `shapely`, `pyproj` for Step 2). Add them to `requirements.txt`. **QGIS alternative:** Raster → Analysis → Slope, then Zonal Statistics on buffered roads.
 - **Method:**
   1. New script `scripts/compute_slope.py`: mosaic the tiles over the boundary bbox into a numpy array (Web-Mercator pixel grid), write `output/dem_tiles_z12.tif` (EPSG:3857), then reproject to **EPSG:32644** with rasterio's `warp` → `output/dem_32644.tif`.
   2. Slope in degrees with numpy gradients (Horn method, or `np.gradient` with the 30 m pixel size): `slope = degrees(arctan(hypot(dz/dx, dz/dy)))` → `output/slope_32644.tif`.
@@ -936,7 +1021,7 @@ This is the work queue, **in order**. Each step lists its goal, the files to cre
 - **Option B (agent):** a script `scripts/make_maps.py` with matplotlib/GeoPandas → `maps/*.png`. Include the attribution text.
 - **Done when:** about 7 PNG/PDF maps with title, legend, scale bar, north arrow and attribution exist in a `maps/` folder.
 
-### Step 4 🔓 Routing module + prototype (spec phase 5)
+### Step 4 ✅ Routing module (spec phase 5): DONE (`backend/app/routing.py`, `backend/tests/test_routing.py`). Original plan kept below for reference.
 - **Goal:** risk-weighted A\* that the backend will import.
 - **Files:** `backend/app/routing.py` (or `scripts/routing.py` first), plus optionally `notebooks/03_astar_prototype.ipynb` for the report.
 - **Method:** load `roads_segments` (GeoJSON or GPKG) → `networkx.MultiDiGraph` (or Graph) with nodes `u_node`/`v_node` (coordinates from segment ends), edges with `length_m`, `travel_time_s`, `static_risk`, `risk_now`, `closed`, `geometry`. Weight function `length·(1 + λ·risk_now)`, ∞ if closed. Heuristic: haversine to the goal. Snap start/end to the nearest **main-road** node (trunk–tertiary). The working pure-Python version is `astar()` in `scripts/make_mockups.py`; port it to NetworkX `astar_path`.
@@ -945,7 +1030,7 @@ This is the work queue, **in order**. Each step lists its goal, the files to cre
 - **Known expected results:** Gopeshwar → Joshimath = one road (~59.2 km, same for all λ). Karnaprayag → Gopeshwar: λ = 0 → 39.8 km, λ = 10 → 41.5 km with ~27% less high-risk km.
 - **Done when:** the tests pass and the demo routes (§3) print sensible results.
 
-### Step 5 🔓 FastAPI backend (spec phase 6)
+### Step 5 ✅ FastAPI backend (spec phase 6): DONE (see §21 for the real endpoints; weather lives in `app/weather.py`, not `app/updaters/`)
 - **Structure (simple):**
   ```
   backend/
@@ -961,36 +1046,34 @@ This is the work queue, **in order**. Each step lists its goal, the files to cre
 - **Run:** `uvicorn app.main:app --reload` from `backend/`. Swagger docs at `/docs` (good for the demo).
 - **Done when:** `/route?from=30.408,79.320&to=30.555,79.565&safety=5` returns both routes as GeoJSON in < 2 s; tests pass.
 
-### Step 6 🔓 React + Leaflet frontend (spec phase 7)
+### Step 6 ✅ React + Leaflet frontend (spec phase 7): DONE with DaisyUI + Clerk and redesigned (§22)
 - **Setup:** `npm create vite@latest frontend -- --template react` (Node 20 is installed), then `react-leaflet` + `leaflet`. Tailwind is optional; plain CSS is fine.
 - **Match the mockups** in `app images for future reference/` (colours and layout in §17): left panel (search, slider, route cards, hazard list), map with risk-coloured roads, landslide triangles, legend, layer switches, segment popup.
 - **Base map:** OSM tiles with "© OpenStreetMap contributors" (and Open-Meteo / NASA attribution in the footer).
 - **Done when:** the user can pick From/To, move the slider, see both routes and the hazard list, and click roads for details. End-to-end demo works with the backend.
 
-### Step 7 🔒/🔓 Live and phase-2 features
+### Step 7 ✅ Live and phase-2 features: DONE (weather loop, demo rain, GSI alert, reports, closures, nearest help)
 - Weather updater → `risk_now` (rain_factor per nearest town; §13) → the map recolours; rain banner.
 - GSI forecast input (admin enters the district alert level).
 - Reports + admin (SQLite or a JSON file is fine): POST /reports, verify/reject, closures (date-based). Verified blockages → `closed = True`.
 - Nearest help along the route (POIs within 1.5 km; logic exists in `make_mockups.py` `s08_help`).
 - **Done when:** a simulated heavy-rain scenario changes risks and routes; a verified report blocks a route.
 
-### Step 8 🔒 When the user gets the GSI Bhukosh data
-- The user (or agent) converts the shapefiles in QGIS → GeoJSON EPSG:4326 → `data/manual/gsi_landslides.geojson`, `data/manual/gsi_susceptibility.geojson`. (GeoPandas can also read the shapefiles directly: `gpd.read_file(...).to_crs(4326).to_file(...)`.)
-- Check the susceptibility class field name (the loader auto-detects a key containing "susc" or "class"; values Low/Moderate/High/Very High or 1–4). Adjust `susc_value_to_class()` if GSI uses other labels.
-- Re-run `fetch_chamoli_data.py`, then Step 2 scripts, then `make_mockups.py`. The susceptibility weight (0.30) will turn on automatically.
-- **Done when:** summary shows `gsi` > 0 landslides; `landslide_susc_class` is filled for most segments; the risk map is updated.
+### Step 8 🔒 When the user gets the GSI Bhukosh data (NEXT PRIORITY)
+Follow **§34 → "How to switch from NASA to GSI"**. In short: convert the shapefiles to GeoJSON EPSG:4326 in `data/manual/`, check the class field and labels, re-run the pipeline (GSI replaces NASA automatically at weight 0.30), restart the backend, check the hotspots and spread, then update §14 / §18 / the screenshots.
+- **Done when:** the summary shows `gsi` > 0 landslides; most segments have `susc_source = "GSI"`; the risk map has a sensible spread; the 16 tests still pass.
 
 ### Step 9 🔓 Validation + report material (spec phase 9)
 - Run the §24 checks: hold-out test (keep the 2024–25 news events back, check the share that falls on high-risk segments), hotspot check, sensitivity ±0.05 on the weights, routing tests.
-- Produce tables and figures for the report; reuse the mockups and maps.
-- Write a `README.md` for the repo (how to install and run), shorter than this file.
+- Produce tables and figures for the report; reuse the screenshots, mockups and maps.
+- ✅ `README.md` written (install, run, Clerk setup, screenshots).
 
 ### Optional improvements (only if time allows or the user asks)
 - Add a river/stream factor to the risk (e.g., `dist_to_river_m < 100` and `stream_crossings > 0`), and justify it in the report.
 - Percentile-based normalisation.
 - AHP-derived weights for the viva.
-- Install the newer QGIS "stable" branch (`flatpak install --user flathub org.qgis.qgis//stable`).
-- `git init` + `.gitignore` already present, **only when the user asks**.
+- Serve the built frontend from FastAPI for a one-command demo.
+- Commit and push changes to GitHub, **only when the user asks**.
 
 ### Keep this file updated
 After finishing any step: update §14 (numbers), §18 (inventory), §23 (phase status), §27 (open tasks), §29 (progress log) and this section.
@@ -1001,7 +1084,7 @@ After finishing any step: update §14 (numbers), §18 (inventory), §23 (phase s
 
 | # | Gotcha | What to do |
 |---|---|---|
-| G1 | `python3 -m venv` fails (no `ensurepip`; `python3.10-venv` missing, needs sudo) | Use `python3 -m virtualenv -p python3.10 .venv`, or just use the existing `.venv` |
+| G1 | *(Ubuntu only, historical)* `python3 -m venv` failed without `python3.10-venv` | On Windows, `py -3.12 -m venv .venv` works |
 | G2 | `fetch_chamoli_data.py` prints **JSON to stdout** and progress to **stderr** | Redirect: `python scripts/fetch_chamoli_data.py > run.json 2> run.log` |
 | G3 | Overpass `overpass-api.de` often returns **502/504**; `kumi.systems` and `private.coffee` time out | The script falls back to `maps.mail.ru`. Queries take 20–60 s. Results are cached in `cache/` |
 | G4 | NASA COOLR ArcGIS endpoints are **dead**; `data.nasa.gov/api/views/...` is 404 | Use the legacy CSV URL in §9; parse with `csv.DictReader(io.StringIO(text, newline=""))` (descriptions contain newlines) |
@@ -1010,14 +1093,118 @@ After finishing any step: update §14 (numbers), §18 (inventory), §23 (phase s
 | G7 | Nominatim needs a User-Agent and ≤ 1 request/s; it can't find many small Uttarakhand places (Bhanerpani, Helang, Kameda, Chatwapipal, Patalganga, Kuntari…) | Use Overpass name regex with spelling variants; snap to NH-7 or stream crossings (see §16) |
 | G8 | The OSM "Lambagad" hamlet point (30.6926, 79.5132) looks misplaced (next to Hanumanchatti) | Use the NH-7 × Khachar Gadhera crossing (30.64892, 79.52397) |
 | G9 | Nandanagar = **Ghat** (old name) in OSM | Search "Ghat" (PHC Ghat 30.25715, 79.44804) |
-| G10 | **GSI Bhukosh times out** (as of 24 Nov 2026), even from this machine | Only the user can retry (different network, no VPN) or ask their guide |
+| G10 | **GSI Bhukosh** was timing out on 24 Nov 2026 | Only the user can request the data (§35). Try another network or browser, with VPN off. NASA is used meanwhile (§34) |
 | G11 | Headless Chrome (`--headless=new`) screenshots are ~87 px short of `--window-size` | Render 200 px taller and crop with Pillow (done in `make_mockups.py`) |
-| G12 | The QGIS Flathub **LTS branch is old (3.28.9)** and must be chosen explicitly (`org.qgis.qgis//lts`); a plain `flatpak install` asks to choose a branch and fails non-interactively | Use the full ref `app/org.qgis.qgis/x86_64/lts` (or `//stable` for the newest) |
+| G12 | `qgis/safeyatra.qgz` was saved on Linux, so its layer paths point to `/home/aditya/...` | In QGIS: "Handle Unavailable Layers" → Auto-Find, or Browse to `output\` |
 | G13 | `make_mockups.py` **imports `fetch_chamoli_data`** (helpers + TOWNS) and reads `output/` | Run the pipeline first; keep the helper function names stable |
 | G14 | The pipeline doesn't clip roads to the boundary (ways crossing it keep their full geometry) | Clip in Step 2 |
 | G15 | Very short segments give huge gradients (up to 239%) | Ignore or cap in Step 2 |
 | G16 | Mountain routes often have **no alternative** | Expected; present as risk-aware routing + warnings (§2) |
 | G17 | Weather right now (late Nov) is 0 mm everywhere | To demo rain effects, use a simulated scenario (as in mockup 07) or the Open-Meteo **archive** API for a past monsoon date |
-| G18 | Python is **3.10**: avoid 3.11+ only features (e.g., `tomllib`, `ExceptionGroup`, `typing.Self`) | |
+| G18 | Python is now **3.12** on Windows | 3.11+ features are fine; keep code simple anyway |
 | G19 | Paths with spaces: `app images for future reference/` | Quote paths in shell commands |
 | G20 | `data/manual/accidents.csv` is intentionally header-only | Don't delete it (it keeps the loader from warning); don't add accident data (D4) |
+| G21 | `npm create vite … --template react` sometimes scaffolds **vanilla TypeScript** | Use `npx create-vite@latest frontend --template react --no-interactive` and check `package.json` |
+| G22 | PowerShell drops `--` in `npm run dev -- --port 5173`, so Vite treats `5173` as the root folder (every page returns 404) | Run `npx vite --port 5173` |
+| G23 | `@clerk/clerk-react` is deprecated; **`@clerk/react` v6** uses `<Show when="signed-in">` instead of `SignedIn` / `SignedOut` | Use `@clerk/react`; check its exports before using old examples |
+| G24 | Clerk shows keys as `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` (Next.js naming) | This app is Vite: use **`VITE_CLERK_PUBLISHABLE_KEY`** |
+| G25 | **CARTO base maps now return "API KEY REQUIRED"** tiles | Use Esri Canvas (World_Light/Dark_Gray_Base + _Reference), no key |
+| G26 | Starlette `GZipMiddleware` recompressed the 2.8 MB `/api/segments` at level 9 on every request (~2 s) | The endpoint caches pre-gzipped bytes and sets `Content-Encoding`, so the middleware passes it through |
+| G27 | The NASA susceptibility map rates ~87% of Chamoli roads "very high" | Don't give it the full 0.30 weight (`NASA_SUSC_WEIGHT = 0.10`) |
+| G28 | Headless Chrome has a **minimum viewport of ~500 px** wide, so 390 px screenshots are cropped, not truly mobile | Don't judge the phone layout from them; check real devices / DevTools |
+| G29 | `lucide-react` 1.x renamed icons (e.g. `CheckCircle2` → `CircleCheck`) | If the build fails on an icon import, look up the new name |
+| G30 | `.env` holds the real Clerk keys and admin id | Never commit it; keep `.env.example` in sync with blank values |
+
+---
+
+## 34. QGIS status, and why NASA data is used for now
+
+### Is QGIS used right now?
+**No, not for processing.** QGIS 3.44.15 LTR is installed, and a project file (`qgis/safeyatra.qgz`) exists from the old Linux machine. All data work is done in Python (`scripts/fetch_chamoli_data.py`), and the app (backend + frontend) never uses QGIS.
+
+### Why not?
+QGIS's main job in this project was to **open and prepare the GSI Bhukosh data**: the official landslide susceptibility zones and the landslide inventory for Chamoli, delivered as shapefiles. That data **isn't available yet**:
+
+- GSI Bhukosh (https://bhukosh.gsi.gov.in/) gives access and the files **after a request, which takes a few days** (steps in §35).
+- The project couldn't wait, so it uses the **NASA Global Landslide Susceptibility Map** in the meantime. It downloads instantly, needs no login, and can be read directly in Python with rasterio, so QGIS isn't needed for it.
+
+### NASA map vs GSI data
+
+| | NASA global map (now) | GSI Bhukosh NLSM (later) |
+|---|---|---|
+| Coverage | Whole world | India (district-level detail) |
+| Detail | ~1 km squares | Much finer (detailed maps) |
+| Classes | 5 (very low … very high) → mapped to our 1–4 | Low / Moderate / High / Very High |
+| How it rates Chamoli | ~87% of roads "very high", so it hardly separates roads | Should separate safer and riskier slopes much better |
+| Weight in our risk score | **0.10** (low trust because it's coarse) | **0.30** (the full weight from the spec) |
+| Landslide points | — (we use NASA catalogue + news: 78 points) | Official inventory (hundreds of events) |
+| Status | ✅ In use | ⏳ Requested; files expected in days |
+
+**Is NASA good enough?** For a working app and a college demo, yes. It is less precise, but the risk score also uses past landslides, hillside slope and road bends, which are detailed (~30 m). The routes and warnings make sense: Nandprayag is the riskiest NH-7 stretch, which matches news reports. **For the viva, say:** *"GSI's national data needs an access request, so we built the system with NASA's global susceptibility map (Stanley & Kirschbaum, 2017) at a lower weight. The design swaps in GSI data without code changes."*
+
+### What happens when the GSI files arrive
+The project is built so that GSI **automatically replaces NASA**. The pipeline uses GSI zones wherever they exist, and the NASA map is only loaded when no GSI file is present. **No changes are needed in the backend or frontend.**
+
+**How to switch from NASA to GSI** (about an hour; the agent can do every step except downloading):
+1. **User:** download the zip(s) from the GSI email and unzip them into `data/raw/gsi/`.
+2. **Convert to GeoJSON in EPSG:4326**, in **QGIS** (§35 step 9) or Python (`gpd.read_file(...).to_crs(4326).to_file(...)`):
+   - susceptibility polygons → `data/manual/gsi_susceptibility.geojson`
+   - landslide inventory → `data/manual/gsi_landslides.geojson`
+3. **Check the class field:** the loader looks for the first property containing "susc", otherwise "class", and understands Low / Moderate / High / Very High or 1–4. If GSI uses other labels or codes, update `susc_value_to_class()` in `scripts/fetch_chamoli_data.py`.
+4. If the zones only cover part of the district, uncovered segments still fall back to NASA. Check `susc_source` counts (GSI vs NASA). If coverage is near-complete, consider dropping the fallback.
+5. **Re-run the pipeline:** `.\.venv\Scripts\python.exe scripts\fetch_chamoli_data.py > run.json 2> run.log`. GSI segments get the full 0.30 weight automatically.
+6. **Restart the backend** (it reloads `output/`), then run the tests: `cd backend; ..\.venv\Scripts\python.exe -m pytest -q`.
+7. **Check the results:** risk spread by class (it should not be all one colour), hotspots (Nandprayag, Pagal Nala, Patalganga, Helang, Lambagad, Bhanerpani, Kameda should be high), and demo routes.
+8. **Update the records:** §14, §18 and §34 status in this file, README screenshots if colours changed, report numbers. Commit and push if the user asks.
+
+### Where QGIS fits from here
+| Task | Why it helps |
+|---|---|
+| **Open and convert the GSI shapefiles** (when they arrive) | QGIS's main planned job; also shows a real GIS workflow |
+| **Check the GSI zones against our roads visually** | Quality check before trusting the new weights |
+| **Report maps** (print layouts: boundary, roads, slope, landslides, risk) | Needed for the report; shows QGIS use in the viva |
+| *(Optional)* Slope raster (Raster → Analysis → Slope) + zonal statistics | Better terrain factor (§32 Step 1) |
+
+---
+
+## 35. How to request GSI Bhukosh data (step by step)
+
+**What we need:** for **Chamoli district, Uttarakhand**:
+1. **Landslide Susceptibility** map (NLSM, National Landslide Susceptibility Mapping)
+2. **Landslide Inventory** (past landslide locations)
+
+**Cost:** free. **Time:** about 30 minutes to request, then **a few days** for GSI to approve and email the files.
+
+### Steps
+1. **Open the website:** https://bhukosh.gsi.gov.in/ in Chrome or Edge.
+   - If it doesn't load: turn off any VPN, try mobile data (phone hotspot) or college Wi-Fi, or try another browser.
+2. **Create an account:** click **Register / Sign Up** (top right). Fill in your name, email, phone and organisation (your college).
+   - **Purpose / remarks:** *"Academic final-year project: landslide risk-aware route planning for Chamoli district, Uttarakhand."*
+3. **Confirm your email:** open the email from GSI and click the activation link. Check the spam folder too.
+4. **Log in** to Bhukosh with your new account.
+5. **Open the map viewer / data section** (look for **Map Viewer**, **Spatial Data**, **Data Download** or **Theme**).
+6. **Find the landslide layers:** in the layer or theme list, open **Landslide** (sometimes under "Geohazards" or "Engineering Geology") and tick:
+   - ☐ **Landslide Susceptibility** (may be called **NLSM**, 1:50,000)
+   - ☐ **Landslide Inventory**
+7. **Choose the area:** select **Uttarakhand → Chamoli**. If you can't choose a district, choose **Uttarakhand** (the agent will cut out Chamoli), or draw a box around Chamoli on the map.
+8. **Add to cart and submit:** click **Add to Cart**, open the **Cart**, and **Submit / Checkout / Request**. Choose **Shapefile** if asked for a format. Note any request number.
+9. **When the email arrives (a few days):** download the zip file(s), then either:
+   - **Easy:** unzip into `gisproject\data\raw\gsi\` and tell the agent "GSI files are in data/raw/gsi". The agent converts them and switches the project over (§34).
+   - **In QGIS (good viva practice):**
+     1. Open QGIS → **Layer → Add Layer → Add Vector Layer** → choose the `.shp` file → **Add**.
+     2. Right-click the layer → **Export → Save Features As…**
+     3. Format **GeoJSON**, CRS **EPSG:4326 - WGS 84**, file name `gisproject\data\manual\gsi_susceptibility.geojson` (or `gsi_landslides.geojson` for the inventory) → **OK**.
+     4. Tell the agent the files are in `data/manual/`.
+
+> The website's menus may be named slightly differently from the steps above. Look for the words **Register**, **Landslide**, **Cart** and **Download**.
+
+### If something goes wrong
+| Problem | What to do |
+|---|---|
+| Website won't load | Different network or browser, VPN off; try again later in the day |
+| No email after registering | Check spam; register again with another email |
+| Can't find the landslide layers | Search the layer list for "landslide" or "NLSM"; look under Geohazards |
+| No reply after about a week | Ask your project guide or the college GIS/geology lab (they often have GSI data); or contact GSI through the "Contact Us" page on gsi.gov.in |
+| Request rejected | Re-apply and make the academic purpose clear (college name, project title, guide's name) |
+
+**Until the files arrive, nothing is blocked.** The app runs fully on the NASA map (§34).
