@@ -1,0 +1,402 @@
+{
+ "generated_at": "2026-11-24T20:35:55+05:30",
+ "study_area": {
+  "name": "Chamoli",
+  "osm_relation_id": 374815,
+  "bbox": [
+   79.076,
+   29.9256,
+   80.102,
+   31.0723
+  ],
+  "area_km2": 7832.7
+ },
+ "datasets": {
+  "roads": {
+   "ways": 1226,
+   "segments": 5820,
+   "total_km": 2331.5,
+   "by_class_km": {
+    "unclassified": 1372.8,
+    "tertiary": 429.7,
+    "trunk": 353.0,
+    "primary": 91.2,
+    "secondary": 51.4,
+    "residential": 33.3
+   }
+  },
+  "landslides": {
+   "nasa": 41,
+   "news": 37,
+   "gsi": 0,
+   "sample": [
+    {
+     "event_date": "2011-07-21",
+     "description": "Chamoli , Uttarakhand",
+     "lon": 79.3318,
+     "lat": 30.4043
+    },
+    {
+     "event_date": "2017-05-20",
+     "description": "Landslide in Chanoli district",
+     "lon": 79.56163208,
+     "lat": 30.56504675
+    },
+    {
+     "event_date": "2017-05-20",
+     "description": "Badrinath highway landslide",
+     "lon": 79.49231617,
+     "lat": 30.73315585
+    },
+    {
+     "event_date": "2017-06-06",
+     "description": "Landslide near Nandprayag",
+     "lon": 79.31958144,
+     "lat": 30.33597362
+    },
+    {
+     "event_date": "2013-07-26",
+     "description": "Rishikesh-Badrinath Highway Near Kaleshwar",
+     "lon": 79.2498,
+     "lat": 30.2835
+    }
+   ]
+  },
+  "accidents": {
+   "count": 0,
+   "black_spots": 0
+  },
+  "pois": {
+   "fuel": 12,
+   "police": 4,
+   "clinic": 92,
+   "hospital": 13,
+   "healthcare_other": 1
+  },
+  "rivers": {
+   "river_ways": 61,
+   "stream_ways": 807,
+   "river_km": 740.1,
+   "stream_km": 2386.5,
+   "rivers_by_name_km": {
+    "Alaknanda": 124.0,
+    "Pindar": 75.4,
+    "Dhauli Ganga": 61.4,
+    "Nandakini": 56.7,
+    "Saraswati": 39.8,
+    "Kail Ganga": 34.7,
+    "Rishi Ganga": 32.6,
+    "Ramganga": 30.3,
+    "Birahi Ganga": 29.9,
+    "Pindar River": 28.3,
+    "(unnamed)": 21.0,
+    "Kalpa Ganga": 18.9
+   },
+   "road_km_within_100m_of_river": 363.2,
+   "road_km_within_250m_of_river": 682.9,
+   "road_km_within_500m_of_river": 911.7,
+   "segments_with_stream_crossings": 322,
+   "total_stream_crossings": 335
+  },
+  "weather": [
+   {
+    "name": "Gopeshwar",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Chamoli",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Joshimath",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Badrinath",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Govindghat",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Pipalkoti",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Nandprayag",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Karnaprayag",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Tharali",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   },
+   {
+    "name": "Gairsain",
+    "rain_past_72h_mm": 0.0,
+    "rain_next_24h_mm": 0.0,
+    "snow_next_24h_cm": 0.0,
+    "rain_factor": 0.0
+   }
+  ],
+  "incidents": {
+   "enabled": false,
+   "count": 0
+  },
+  "dem": null
+ },
+ "risk_preview": {
+  "note": "preview only - weights from section 10.4, factors without data skipped",
+  "by_class_km": {
+   "low": 55.6,
+   "medium": 1891.3,
+   "high": 383.7,
+   "very_high": 0.9
+  },
+  "top_10_segments": [
+   {
+    "segment_id": "w661160909_s001",
+    "name": null,
+    "ref": null,
+    "highway": "unclassified",
+    "static_risk": 0.84,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 0.8,
+     "terrain_slope": 0.689,
+     "curvature": 0.988
+    },
+    "mid_lonlat": [
+     79.42678,
+     30.43654
+    ]
+   },
+   {
+    "segment_id": "w701596507_s007",
+    "name": null,
+    "ref": "NH7",
+    "highway": "trunk",
+    "static_risk": 0.795,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 1,
+     "terrain_slope": 0.893,
+     "curvature": 0.255
+    },
+    "mid_lonlat": [
+     79.31624,
+     30.33058
+    ]
+   },
+   {
+    "segment_id": "w288196501_s002",
+    "name": null,
+    "ref": "NH7",
+    "highway": "trunk",
+    "static_risk": 0.74,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 1,
+     "terrain_slope": 0.733,
+     "curvature": 0.229
+    },
+    "mid_lonlat": [
+     79.31995,
+     30.33602
+    ]
+   },
+   {
+    "segment_id": "w288196501_s000",
+    "name": null,
+    "ref": "NH7",
+    "highway": "trunk",
+    "static_risk": 0.723,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 1,
+     "terrain_slope": 0.544,
+     "curvature": 0.407
+    },
+    "mid_lonlat": [
+     79.32049,
+     30.32974
+    ]
+   },
+   {
+    "segment_id": "w905740007_s000",
+    "name": null,
+    "ref": "NH7",
+    "highway": "trunk",
+    "static_risk": 0.72,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 1,
+     "terrain_slope": 0.604,
+     "curvature": 0.316
+    },
+    "mid_lonlat": [
+     79.32172,
+     30.3271
+    ]
+   },
+   {
+    "segment_id": "w247818326_s018",
+    "name": null,
+    "ref": null,
+    "highway": "unclassified",
+    "static_risk": 0.692,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 0.0,
+     "terrain_slope": 1,
+     "curvature": 1
+    },
+    "mid_lonlat": [
+     79.97796,
+     30.71117
+    ]
+   },
+   {
+    "segment_id": "w820267375_s008",
+    "name": null,
+    "ref": null,
+    "highway": "tertiary",
+    "static_risk": 0.676,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 0.0,
+     "terrain_slope": 1,
+     "curvature": 0.929
+    },
+    "mid_lonlat": [
+     79.39096,
+     30.13437
+    ]
+   },
+   {
+    "segment_id": "w227672417_s002",
+    "name": null,
+    "ref": "NH7",
+    "highway": "trunk",
+    "static_risk": 0.668,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 0.2,
+     "terrain_slope": 1,
+     "curvature": 0.63
+    },
+    "mid_lonlat": [
+     79.51317,
+     30.69769
+    ]
+   },
+   {
+    "segment_id": "w701311238_s004",
+    "name": null,
+    "ref": "NH7",
+    "highway": "trunk",
+    "static_risk": 0.663,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 0.6,
+     "terrain_slope": 0.844,
+     "curvature": 0.279
+    },
+    "mid_lonlat": [
+     79.46727,
+     30.47781
+    ]
+   },
+   {
+    "segment_id": "w1068552896_s002",
+    "name": null,
+    "ref": null,
+    "highway": "unclassified",
+    "static_risk": 0.662,
+    "factors": {
+     "susceptibility": 1.0,
+     "landslide_density": 0.4,
+     "terrain_slope": 0.538,
+     "curvature": 0.953
+    },
+    "mid_lonlat": [
+     79.45049,
+     30.25429
+    ]
+   }
+  ]
+ },
+ "sanity_checks": {
+  "area_km2": {
+   "value": 7832.7,
+   "expected": "~7,700",
+   "ok": true
+  },
+  "bbox_inside_expected": true,
+  "total_road_km": {
+   "value": 2331,
+   "ok": true
+  },
+  "nh7": {
+   "found": true,
+   "km": 177.3,
+   "continuous_karnaprayag_to_badrinath": true,
+   "start_node_dist_m": 69,
+   "end_node_dist_m": 37
+  },
+  "elevation_m": {
+   "Karnaprayag": 767.0,
+   "Badrinath": 3125.0,
+   "expected": "Karnaprayag ~700-900, Badrinath ~3,100"
+  },
+  "landslides_nearest_town": {
+   "Nandprayag": 14,
+   "Joshimath": 12,
+   "Pipalkoti": 12,
+   "Karnaprayag": 11,
+   "Govindghat": 10,
+   "Chamoli": 8,
+   "Badrinath": 8,
+   "Tharali": 2,
+   "Gopeshwar": 1
+  },
+  "weather_non_negative": true
+ },
+ "warnings": [
+  "NASA COOLR ArcGIS services are offline; using the Global Landslide Catalog CSV export instead (events 2007-2017 only)",
+  "data\\manual\\gsi_landslides.geojson not found - download the Landslide Inventory from GSI Bhukosh and export it to GeoJSON (EPSG:4326)",
+  "data\\manual\\gsi_susceptibility.geojson not found - using the NASA global susceptibility map instead (lower weight)",
+  "OPENTOPO_API_KEY not set - Copernicus 30 m DEM not downloaded (get a free key at portal.opentopography.org)"
+ ]
+}

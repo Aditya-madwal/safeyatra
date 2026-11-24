@@ -1,0 +1,6410 @@
+[
+ {
+  "name": "Badrinath",
+  "kind": "town",
+  "lat": 30.743,
+  "lon": 79.494
+ },
+ {
+  "name": "Chamoli",
+  "kind": "town",
+  "lat": 30.402,
+  "lon": 79.333
+ },
+ {
+  "name": "Gairsain",
+  "kind": "town",
+  "lat": 30.05,
+  "lon": 79.287
+ },
+ {
+  "name": "Gauchar",
+  "kind": "town",
+  "lat": 30.2889024,
+  "lon": 79.1570761
+ },
+ {
+  "name": "Ghāt",
+  "kind": "town",
+  "lat": 30.2584832,
+  "lon": 79.4481189
+ },
+ {
+  "name": "Gopeshwar",
+  "kind": "town",
+  "lat": 30.408,
+  "lon": 79.32
+ },
+ {
+  "name": "Govindghat",
+  "kind": "town",
+  "lat": 30.62,
+  "lon": 79.56
+ },
+ {
+  "name": "Joshimath",
+  "kind": "town",
+  "lat": 30.555,
+  "lon": 79.565
+ },
+ {
+  "name": "Karnaprayag",
+  "kind": "town",
+  "lat": 30.263,
+  "lon": 79.217
+ },
+ {
+  "name": "Nandaprayāg",
+  "kind": "town",
+  "lat": 30.33188,
+  "lon": 79.31992
+ },
+ {
+  "name": "Nandprayag",
+  "kind": "town",
+  "lat": 30.333,
+  "lon": 79.317
+ },
+ {
+  "name": "Narayn Bagar",
+  "kind": "town",
+  "lat": 30.14511,
+  "lon": 79.37348
+ },
+ {
+  "name": "Pipalkoti",
+  "kind": "town",
+  "lat": 30.429,
+  "lon": 79.427
+ },
+ {
+  "name": "Pokhri",
+  "kind": "town",
+  "lat": 30.34424,
+  "lon": 79.19907
+ },
+ {
+  "name": "Tharali",
+  "kind": "town",
+  "lat": 30.075,
+  "lon": 79.493
+ },
+ {
+  "name": "Aindgaon",
+  "kind": "village",
+  "lat": 30.2569196,
+  "lon": 79.1965953
+ },
+ {
+  "name": "Aser",
+  "kind": "village",
+  "lat": 30.1419623,
+  "lon": 79.4013142
+ },
+ {
+  "name": "Auli",
+  "kind": "village",
+  "lat": 30.5377872,
+  "lon": 79.5657242
+ },
+ {
+  "name": "Bachher",
+  "kind": "village",
+  "lat": 30.3834439,
+  "lon": 79.2939521
+ },
+ {
+  "name": "Badiyasem",
+  "kind": "village",
+  "lat": 29.9664543,
+  "lon": 79.3061437
+ },
+ {
+  "name": "Bagoli",
+  "kind": "village",
+  "lat": 30.19455,
+  "lon": 79.29795
+ },
+ {
+  "name": "Bagrigal",
+  "kind": "village",
+  "lat": 30.1255238,
+  "lon": 79.6131551
+ },
+ {
+  "name": "Bainoli",
+  "kind": "village",
+  "lat": 30.1140852,
+  "lon": 79.3995119
+ },
+ {
+  "name": "Baldimang",
+  "kind": "village",
+  "lat": 30.2844186,
+  "lon": 79.6259694
+ },
+ {
+  "name": "Balgaon",
+  "kind": "village",
+  "lat": 30.5190206,
+  "lon": 79.7316006
+ },
+ {
+  "name": "Bamanbera",
+  "kind": "village",
+  "lat": 30.0870938,
+  "lon": 79.5858738
+ },
+ {
+  "name": "Bangali",
+  "kind": "village",
+  "lat": 30.1927967,
+  "lon": 79.470181
+ },
+ {
+  "name": "Bangaon Malla",
+  "kind": "village",
+  "lat": 30.221018,
+  "lon": 79.2727539
+ },
+ {
+  "name": "Bangaon Talla",
+  "kind": "village",
+  "lat": 30.2214586,
+  "lon": 79.2640834
+ },
+ {
+  "name": "Banjbagar",
+  "kind": "village",
+  "lat": 30.214331,
+  "lon": 79.4528858
+ },
+ {
+  "name": "Bank",
+  "kind": "village",
+  "lat": 30.1298593,
+  "lon": 79.6263475
+ },
+ {
+  "name": "Batula",
+  "kind": "village",
+  "lat": 30.4135226,
+  "lon": 79.4171758
+ },
+ {
+  "name": "Bhagwati",
+  "kind": "village",
+  "lat": 30.1465848,
+  "lon": 79.3612692
+ },
+ {
+  "name": "Bhalsaun",
+  "kind": "village",
+  "lat": 30.1508051,
+  "lon": 79.2268109
+ },
+ {
+  "name": "Bhangota",
+  "kind": "village",
+  "lat": 30.1829097,
+  "lon": 79.3799706
+ },
+ {
+  "name": "Bhent",
+  "kind": "village",
+  "lat": 30.2143763,
+  "lon": 79.4826047
+ },
+ {
+  "name": "Bheragna",
+  "kind": "village",
+  "lat": 30.43625,
+  "lon": 79.30481
+ },
+ {
+  "name": "Bhyudar",
+  "kind": "village",
+  "lat": 30.674709,
+  "lon": 79.5913479
+ },
+ {
+  "name": "Bimtala",
+  "kind": "village",
+  "lat": 30.40741,
+  "lon": 79.35974
+ },
+ {
+  "name": "Birahi",
+  "kind": "village",
+  "lat": 30.40741,
+  "lon": 79.38584
+ },
+ {
+  "name": "Bursol",
+  "kind": "village",
+  "lat": 30.1380138,
+  "lon": 79.5255989
+ },
+ {
+  "name": "Chain",
+  "kind": "village",
+  "lat": 30.5669897,
+  "lon": 79.5387943
+ },
+ {
+  "name": "Chame Kharak",
+  "kind": "village",
+  "lat": 30.1514357,
+  "lon": 79.5032661
+ },
+ {
+  "name": "Chamtoli",
+  "kind": "village",
+  "lat": 30.5001965,
+  "lon": 79.6167121
+ },
+ {
+  "name": "Char pagna",
+  "kind": "village",
+  "lat": 30.3172103,
+  "lon": 79.429028
+ },
+ {
+  "name": "Chaur",
+  "kind": "village",
+  "lat": 30.0364519,
+  "lon": 79.6665859
+ },
+ {
+  "name": "Chepru",
+  "kind": "village",
+  "lat": 30.04898,
+  "lon": 79.5369
+ },
+ {
+  "name": "Chhaikura",
+  "kind": "village",
+  "lat": 30.1435633,
+  "lon": 79.3450804
+ },
+ {
+  "name": "Chhinka",
+  "kind": "village",
+  "lat": 30.4153852,
+  "lon": 79.3663756
+ },
+ {
+  "name": "Chopta",
+  "kind": "village",
+  "lat": 30.1801851,
+  "lon": 79.367685
+ },
+ {
+  "name": "Debal",
+  "kind": "village",
+  "lat": 30.0555018,
+  "lon": 79.5803459
+ },
+ {
+  "name": "Devali Bagar",
+  "kind": "village",
+  "lat": 30.3013698,
+  "lon": 79.2973928
+ },
+ {
+  "name": "Devrara",
+  "kind": "village",
+  "lat": 30.0629511,
+  "lon": 79.49796
+ },
+ {
+  "name": "Dewalkot",
+  "kind": "village",
+  "lat": 30.1693115,
+  "lon": 79.1823399
+ },
+ {
+  "name": "Dhak",
+  "kind": "village",
+  "lat": 30.498861,
+  "lon": 79.6113429
+ },
+ {
+  "name": "Dhamedo",
+  "kind": "village",
+  "lat": 29.9515137,
+  "lon": 79.4056606
+ },
+ {
+  "name": "Dharapani",
+  "kind": "village",
+  "lat": 29.9781165,
+  "lon": 79.2980108
+ },
+ {
+  "name": "Dhura",
+  "kind": "village",
+  "lat": 30.1063374,
+  "lon": 79.6411733
+ },
+ {
+  "name": "Dugari",
+  "kind": "village",
+  "lat": 30.4206217,
+  "lon": 79.2874684
+ },
+ {
+  "name": "Dumak",
+  "kind": "village",
+  "lat": 30.5072396,
+  "lon": 79.3831468
+ },
+ {
+  "name": "Dungri",
+  "kind": "village",
+  "lat": 30.1274277,
+  "lon": 79.5053667
+ },
+ {
+  "name": "Gadora",
+  "kind": "village",
+  "lat": 30.4173668,
+  "lon": 79.4294967
+ },
+ {
+  "name": "Gair",
+  "kind": "village",
+  "lat": 30.4158081,
+  "lon": 79.3083685
+ },
+ {
+  "name": "Ganaj",
+  "kind": "village",
+  "lat": 30.4725443,
+  "lon": 79.5036742
+ },
+ {
+  "name": "Gangalgaon",
+  "kind": "village",
+  "lat": 30.4320177,
+  "lon": 79.3174222
+ },
+ {
+  "name": "Garigaon",
+  "kind": "village",
+  "lat": 30.3835337,
+  "lon": 79.4199158
+ },
+ {
+  "name": "Garurganga",
+  "kind": "village",
+  "lat": 30.46509,
+  "lon": 79.44489
+ },
+ {
+  "name": "Gerur",
+  "kind": "village",
+  "lat": 30.1391297,
+  "lon": 79.518411
+ },
+ {
+  "name": "Ghangaria",
+  "kind": "village",
+  "lat": 30.7014544,
+  "lon": 79.5938002
+ },
+ {
+  "name": "Ghuni",
+  "kind": "village",
+  "lat": 30.3046082,
+  "lon": 79.5181884
+ },
+ {
+  "name": "Gingron",
+  "kind": "village",
+  "lat": 30.434674,
+  "lon": 79.3475023
+ },
+ {
+  "name": "Girsa",
+  "kind": "village",
+  "lat": 30.3004432,
+  "lon": 79.2842646
+ },
+ {
+  "name": "Gogna",
+  "kind": "village",
+  "lat": 29.9578575,
+  "lon": 79.3218042
+ },
+ {
+  "name": "Golti",
+  "kind": "village",
+  "lat": 30.05722,
+  "lon": 79.49982
+ },
+ {
+  "name": "Gulari",
+  "kind": "village",
+  "lat": 30.2816541,
+  "lon": 79.5306564
+ },
+ {
+  "name": "Gwāldam",
+  "kind": "village",
+  "lat": 30.0038983,
+  "lon": 79.5677881
+ },
+ {
+  "name": "Hargar",
+  "kind": "village",
+  "lat": 29.9734883,
+  "lon": 79.2855881
+ },
+ {
+  "name": "Helong",
+  "kind": "village",
+  "lat": 30.5240067,
+  "lon": 79.5014947
+ },
+ {
+  "name": "Irani",
+  "kind": "village",
+  "lat": 30.374719,
+  "lon": 79.5757474
+ },
+ {
+  "name": "Jaisau",
+  "kind": "village",
+  "lat": 30.4169297,
+  "lon": 79.4082726
+ },
+ {
+  "name": "Jakh",
+  "kind": "village",
+  "lat": 30.2372181,
+  "lon": 79.222786
+ },
+ {
+  "name": "Jasyara",
+  "kind": "village",
+  "lat": 30.2263656,
+  "lon": 79.302571
+ },
+ {
+  "name": "Jhumakhet Talla",
+  "kind": "village",
+  "lat": 29.9611372,
+  "lon": 79.4347714
+ },
+ {
+  "name": "Jilasu",
+  "kind": "village",
+  "lat": 30.2913246,
+  "lon": 79.2684537
+ },
+ {
+  "name": "Jorasi",
+  "kind": "village",
+  "lat": 30.386522,
+  "lon": 79.2047546
+ },
+ {
+  "name": "Jumma",
+  "kind": "village",
+  "lat": 30.60791,
+  "lon": 79.80606
+ },
+ {
+  "name": "Juner",
+  "kind": "village",
+  "lat": 30.1513608,
+  "lon": 79.3927438
+ },
+ {
+  "name": "Kail",
+  "kind": "village",
+  "lat": 30.0647773,
+  "lon": 79.5849014
+ },
+ {
+  "name": "Kalchundakhal",
+  "kind": "village",
+  "lat": 29.9620362,
+  "lon": 79.4044375
+ },
+ {
+  "name": "Kalsir",
+  "kind": "village",
+  "lat": 30.4382036,
+  "lon": 79.2079008
+ },
+ {
+  "name": "Kandai",
+  "kind": "village",
+  "lat": 30.0901482,
+  "lon": 79.5906191
+ },
+ {
+  "name": "Karchi",
+  "kind": "village",
+  "lat": 30.4830375,
+  "lon": 79.6077382
+ },
+ {
+  "name": "Khainoli",
+  "kind": "village",
+  "lat": 30.081402,
+  "lon": 79.3712993
+ },
+ {
+  "name": "Khainuri",
+  "kind": "village",
+  "lat": 30.3978928,
+  "lon": 79.3704929
+ },
+ {
+  "name": "Khal",
+  "kind": "village",
+  "lat": 30.29068,
+  "lon": 79.20044
+ },
+ {
+  "name": "Khankar",
+  "kind": "village",
+  "lat": 30.1815128,
+  "lon": 79.2639591
+ },
+ {
+  "name": "Kharori",
+  "kind": "village",
+  "lat": 30.5212631,
+  "lon": 79.5996133
+ },
+ {
+  "name": "Khatyari",
+  "kind": "village",
+  "lat": 30.2169967,
+  "lon": 79.3119903
+ },
+ {
+  "name": "Khera",
+  "kind": "village",
+  "lat": 30.1073301,
+  "lon": 79.5358994
+ },
+ {
+  "name": "Khoti",
+  "kind": "village",
+  "lat": 30.1604462,
+  "lon": 79.2815465
+ },
+ {
+  "name": "Khulsari",
+  "kind": "village",
+  "lat": 30.0902929,
+  "lon": 79.4574315
+ },
+ {
+  "name": "Kimana",
+  "kind": "village",
+  "lat": 30.4978872,
+  "lon": 79.4523689
+ },
+ {
+  "name": "Kolpuri",
+  "kind": "village",
+  "lat": 30.1475153,
+  "lon": 79.522053
+ },
+ {
+  "name": "Kothansar",
+  "kind": "village",
+  "lat": 29.9547275,
+  "lon": 79.4050031
+ },
+ {
+  "name": "Kothmi",
+  "kind": "village",
+  "lat": 30.0587416,
+  "lon": 79.5791567
+ },
+ {
+  "name": "Kuling",
+  "kind": "village",
+  "lat": 30.1592295,
+  "lon": 79.6185675
+ },
+ {
+  "name": "Kunar",
+  "kind": "village",
+  "lat": 30.0856721,
+  "lon": 79.6042816
+ },
+ {
+  "name": "Kunga",
+  "kind": "village",
+  "lat": 30.1307504,
+  "lon": 79.512756
+ },
+ {
+  "name": "Kunjaun",
+  "kind": "village",
+  "lat": 30.4390585,
+  "lon": 79.3693965
+ },
+ {
+  "name": "Kurur",
+  "kind": "village",
+  "lat": 30.27832,
+  "lon": 79.44763
+ },
+ {
+  "name": "Kuwar Sagwar",
+  "kind": "village",
+  "lat": 30.0716386,
+  "lon": 79.5245207
+ },
+ {
+  "name": "Lakheri",
+  "kind": "village",
+  "lat": 29.994321,
+  "lon": 79.2918909
+ },
+ {
+  "name": "Lambagarh",
+  "kind": "village",
+  "lat": 30.6541078,
+  "lon": 79.5165784
+ },
+ {
+  "name": "Langasu",
+  "kind": "village",
+  "lat": 30.2900573,
+  "lon": 79.2763934
+ },
+ {
+  "name": "Langsi",
+  "kind": "village",
+  "lat": 30.4933697,
+  "lon": 79.4792409
+ },
+ {
+  "name": "Lata",
+  "kind": "village",
+  "lat": 30.49667,
+  "lon": 79.70719
+ },
+ {
+  "name": "Latughair",
+  "kind": "village",
+  "lat": 29.9482168,
+  "lon": 79.3789613
+ },
+ {
+  "name": "Lawani",
+  "kind": "village",
+  "lat": 30.29755,
+  "lon": 79.47235
+ },
+ {
+  "name": "Limrakot",
+  "kind": "village",
+  "lat": 30.291036,
+  "lon": 79.3016325
+ },
+ {
+  "name": "Luntra",
+  "kind": "village",
+  "lat": 30.2816183,
+  "lon": 79.4393846
+ },
+ {
+  "name": "Lwani",
+  "kind": "village",
+  "lat": 30.10529,
+  "lon": 79.60007
+ },
+ {
+  "name": "Mahargaon",
+  "kind": "village",
+  "lat": 30.4061118,
+  "lon": 79.4205814
+ },
+ {
+  "name": "Mahilchari",
+  "kind": "village",
+  "lat": 29.98306,
+  "lon": 79.32404
+ },
+ {
+  "name": "Maijyari Talli",
+  "kind": "village",
+  "lat": 30.1695434,
+  "lon": 79.2046022
+ },
+ {
+  "name": "Maikholi",
+  "kind": "village",
+  "lat": 29.9894834,
+  "lon": 79.3062149
+ },
+ {
+  "name": "Maithan",
+  "kind": "village",
+  "lat": 29.9576306,
+  "lon": 79.4101724
+ },
+ {
+  "name": "Majathi",
+  "kind": "village",
+  "lat": 30.3733557,
+  "lon": 79.3514658
+ },
+ {
+  "name": "Malari",
+  "kind": "village",
+  "lat": 30.6845508,
+  "lon": 79.8893688
+ },
+ {
+  "name": "Malkot",
+  "kind": "village",
+  "lat": 29.9545775,
+  "lon": 79.3687326
+ },
+ {
+  "name": "Mana",
+  "kind": "village",
+  "lat": 30.7704762,
+  "lon": 79.4959435
+ },
+ {
+  "name": "Mathyana",
+  "kind": "village",
+  "lat": 30.36072,
+  "lon": 79.31717
+ },
+ {
+  "name": "Matkot",
+  "kind": "village",
+  "lat": 30.0372613,
+  "lon": 79.261678
+ },
+ {
+  "name": "Mirag",
+  "kind": "village",
+  "lat": 30.5295592,
+  "lon": 79.5932808
+ },
+ {
+  "name": "Molta",
+  "kind": "village",
+  "lat": 30.4831116,
+  "lon": 79.5207657
+ },
+ {
+  "name": "Mundoli",
+  "kind": "village",
+  "lat": 30.1313208,
+  "lon": 79.6143579
+ },
+ {
+  "name": "Nandkeshwari",
+  "kind": "village",
+  "lat": 30.04074,
+  "lon": 79.56711
+ },
+ {
+  "name": "Naugaon Malla",
+  "kind": "village",
+  "lat": 29.9450993,
+  "lon": 79.4010472
+ },
+ {
+  "name": "Naushiri",
+  "kind": "village",
+  "lat": 30.08194,
+  "lon": 79.5987
+ },
+ {
+  "name": "Nauti",
+  "kind": "village",
+  "lat": 30.205093,
+  "lon": 79.1993254
+ },
+ {
+  "name": "Nayachutti",
+  "kind": "village",
+  "lat": 30.6485378,
+  "lon": 79.5332429
+ },
+ {
+  "name": "Nijmula",
+  "kind": "village",
+  "lat": 30.3636459,
+  "lon": 79.4666154
+ },
+ {
+  "name": "Niti",
+  "kind": "village",
+  "lat": 30.7776642,
+  "lon": 79.8411215
+ },
+ {
+  "name": "Oucha",
+  "kind": "village",
+  "lat": 30.544045,
+  "lon": 79.5809743
+ },
+ {
+  "name": "Padli",
+  "kind": "village",
+  "lat": 30.2116934,
+  "lon": 79.3157449
+ },
+ {
+  "name": "Pagnau",
+  "kind": "village",
+  "lat": 30.4945351,
+  "lon": 79.4962988
+ },
+ {
+  "name": "Paithani",
+  "kind": "village",
+  "lat": 30.1243162,
+  "lon": 79.4030397
+ },
+ {
+  "name": "Pana",
+  "kind": "village",
+  "lat": 30.3913121,
+  "lon": 79.5558375
+ },
+ {
+  "name": "Pankal",
+  "kind": "village",
+  "lat": 30.3655999,
+  "lon": 79.2028871
+ },
+ {
+  "name": "Parari",
+  "kind": "village",
+  "lat": 30.5736131,
+  "lon": 79.5136711
+ },
+ {
+  "name": "Pari",
+  "kind": "village",
+  "lat": 30.2895987,
+  "lon": 79.5866036
+ },
+ {
+  "name": "Partha",
+  "kind": "village",
+  "lat": 30.0951607,
+  "lon": 79.5466
+ },
+ {
+  "name": "Pharkia",
+  "kind": "village",
+  "lat": 30.7318289,
+  "lon": 79.8262831
+ },
+ {
+  "name": "Pipalsera",
+  "kind": "village",
+  "lat": 30.2494957,
+  "lon": 79.2436406
+ },
+ {
+  "name": "Prant Chak",
+  "kind": "village",
+  "lat": 30.1574277,
+  "lon": 79.5362714
+ },
+ {
+  "name": "Pulna",
+  "kind": "village",
+  "lat": 30.6357595,
+  "lon": 79.5716275
+ },
+ {
+  "name": "Pīpalkoti",
+  "kind": "village",
+  "lat": 30.4335,
+  "lon": 79.42841
+ },
+ {
+  "name": "Raighadi",
+  "kind": "village",
+  "lat": 30.4779429,
+  "lon": 79.6102059
+ },
+ {
+  "name": "Ramni",
+  "kind": "village",
+  "lat": 30.3165805,
+  "lon": 79.5076489
+ },
+ {
+  "name": "Ranau",
+  "kind": "village",
+  "lat": 30.2911035,
+  "lon": 79.1743227
+ },
+ {
+  "name": "Ratgaon",
+  "kind": "village",
+  "lat": 30.1415274,
+  "lon": 79.5460367
+ },
+ {
+  "name": "Ratura",
+  "kind": "village",
+  "lat": 30.2019097,
+  "lon": 79.2652201
+ },
+ {
+  "name": "Ren",
+  "kind": "village",
+  "lat": 30.0422107,
+  "lon": 79.6234549
+ },
+ {
+  "name": "Reni",
+  "kind": "village",
+  "lat": 30.4852215,
+  "lon": 79.6910907
+ },
+ {
+  "name": "Ringi",
+  "kind": "village",
+  "lat": 30.4780383,
+  "lon": 79.618965
+ },
+ {
+  "name": "SINGLA",
+  "kind": "village",
+  "lat": 30.6462444,
+  "lon": 79.8258027
+ },
+ {
+  "name": "Saiji",
+  "kind": "village",
+  "lat": 30.36484,
+  "lon": 79.46137
+ },
+ {
+  "name": "Saikot",
+  "kind": "village",
+  "lat": 30.3678931,
+  "lon": 79.3038984
+ },
+ {
+  "name": "Sailkhola",
+  "kind": "village",
+  "lat": 30.0607743,
+  "lon": 79.5811629
+ },
+ {
+  "name": "Salna",
+  "kind": "village",
+  "lat": 30.3928307,
+  "lon": 79.2013293
+ },
+ {
+  "name": "Sananchori",
+  "kind": "village",
+  "lat": 29.95422,
+  "lon": 79.31031
+ },
+ {
+  "name": "Sankot",
+  "kind": "village",
+  "lat": 30.166307,
+  "lon": 79.4326953
+ },
+ {
+  "name": "Sankri",
+  "kind": "village",
+  "lat": 30.3578648,
+  "lon": 79.2357028
+ },
+ {
+  "name": "Sardikhal",
+  "kind": "village",
+  "lat": 30.35935,
+  "lon": 79.18396
+ },
+ {
+  "name": "Saringgaon",
+  "kind": "village",
+  "lat": 29.9714609,
+  "lon": 79.409244
+ },
+ {
+  "name": "Sartoli",
+  "kind": "village",
+  "lat": 30.3409142,
+  "lon": 79.3499552
+ },
+ {
+  "name": "Sawar",
+  "kind": "village",
+  "lat": 30.0732593,
+  "lon": 79.6108796
+ },
+ {
+  "name": "Semuwa",
+  "kind": "village",
+  "lat": 30.273526,
+  "lon": 79.2137585
+ },
+ {
+  "name": "Silingi",
+  "kind": "village",
+  "lat": 30.2644239,
+  "lon": 79.3005606
+ },
+ {
+  "name": "Silla",
+  "kind": "village",
+  "lat": 30.1209846,
+  "lon": 79.4366262
+ },
+ {
+  "name": "Simli",
+  "kind": "village",
+  "lat": 30.23438,
+  "lon": 79.25537
+ },
+ {
+  "name": "Simli Bazar",
+  "kind": "village",
+  "lat": 30.2309117,
+  "lon": 79.2592962
+ },
+ {
+  "name": "Siran",
+  "kind": "village",
+  "lat": 30.2616802,
+  "lon": 79.1815531
+ },
+ {
+  "name": "Sitel",
+  "kind": "village",
+  "lat": 30.276737,
+  "lon": 79.552701
+ },
+ {
+  "name": "Sitola",
+  "kind": "village",
+  "lat": 30.3772,
+  "lon": 79.27872
+ },
+ {
+  "name": "Soriala",
+  "kind": "village",
+  "lat": 30.37547,
+  "lon": 79.2919031
+ },
+ {
+  "name": "Srinthal",
+  "kind": "village",
+  "lat": 30.0570826,
+  "lon": 79.5637282
+ },
+ {
+  "name": "Subhain",
+  "kind": "village",
+  "lat": 30.4782325,
+  "lon": 79.6768841
+ },
+ {
+  "name": "Sung",
+  "kind": "village",
+  "lat": 30.28656,
+  "lon": 79.47098
+ },
+ {
+  "name": "Suraithota",
+  "kind": "village",
+  "lat": 30.53101,
+  "lon": 79.74152
+ },
+ {
+  "name": "Sutol",
+  "kind": "village",
+  "lat": 30.2718075,
+  "lon": 79.6196774
+ },
+ {
+  "name": "Syuni Talli",
+  "kind": "village",
+  "lat": 29.9951871,
+  "lon": 79.3387903
+ },
+ {
+  "name": "Taintura",
+  "kind": "village",
+  "lat": 29.9531898,
+  "lon": 79.3977645
+ },
+ {
+  "name": "Tajpur",
+  "kind": "village",
+  "lat": 30.0984439,
+  "lon": 79.5954938
+ },
+ {
+  "name": "Takmini",
+  "kind": "village",
+  "lat": 30.2737329,
+  "lon": 79.4204043
+ },
+ {
+  "name": "Talour",
+  "kind": "village",
+  "lat": 30.0525513,
+  "lon": 79.5909531
+ },
+ {
+  "name": "Tangsa",
+  "kind": "village",
+  "lat": 30.4170542,
+  "lon": 79.3008303
+ },
+ {
+  "name": "Tapoban",
+  "kind": "village",
+  "lat": 30.488531,
+  "lon": 79.6252673
+ },
+ {
+  "name": "Tatra",
+  "kind": "village",
+  "lat": 30.2672919,
+  "lon": 79.6399908
+ },
+ {
+  "name": "Tauli Daduli",
+  "kind": "village",
+  "lat": 30.2462597,
+  "lon": 79.2400406
+ },
+ {
+  "name": "Tewa Kharak",
+  "kind": "village",
+  "lat": 29.9453224,
+  "lon": 79.3656635
+ },
+ {
+  "name": "Thaing",
+  "kind": "village",
+  "lat": 30.5667243,
+  "lon": 79.5096105
+ },
+ {
+  "name": "Tharāli",
+  "kind": "village",
+  "lat": 30.0682075,
+  "lon": 79.5074347
+ },
+ {
+  "name": "Trishula",
+  "kind": "village",
+  "lat": 30.3504237,
+  "lon": 79.2527622
+ },
+ {
+  "name": "Tugasi",
+  "kind": "village",
+  "lat": 30.4822562,
+  "lon": 79.5981038
+ },
+ {
+  "name": "Tundri",
+  "kind": "village",
+  "lat": 30.053275,
+  "lon": 79.5541883
+ },
+ {
+  "name": "Ulangara",
+  "kind": "village",
+  "lat": 30.0778729,
+  "lon": 79.6016152
+ },
+ {
+  "name": "Urgam",
+  "kind": "village",
+  "lat": 30.5400882,
+  "lon": 79.4566318
+ },
+ {
+  "name": "Wan",
+  "kind": "village",
+  "lat": 30.205036,
+  "lon": 79.6175339
+ },
+ {
+  "name": "Will Pulna",
+  "kind": "village",
+  "lat": 30.635211,
+  "lon": 79.5724562
+ },
+ {
+  "name": "Wulangara",
+  "kind": "village",
+  "lat": 30.07782,
+  "lon": 79.59046
+ },
+ {
+  "name": "ming Gadhera",
+  "kind": "village",
+  "lat": 30.1142935,
+  "lon": 79.4091546
+ },
+ {
+  "name": "Adi Badri",
+  "kind": "hamlet",
+  "lat": 30.1559399,
+  "lon": 79.2269612
+ },
+ {
+  "name": "Adra",
+  "kind": "hamlet",
+  "lat": 30.083958,
+  "lon": 79.4605952
+ },
+ {
+  "name": "Agar",
+  "kind": "hamlet",
+  "lat": 30.1098928,
+  "lon": 79.3320376
+ },
+ {
+  "name": "Aira",
+  "kind": "hamlet",
+  "lat": 30.5416843,
+  "lon": 79.6190808
+ },
+ {
+  "name": "Airas",
+  "kind": "hamlet",
+  "lat": 30.2976585,
+  "lon": 79.2522251
+ },
+ {
+  "name": "Ala",
+  "kind": "hamlet",
+  "lat": 30.2884024,
+  "lon": 79.5479035
+ },
+ {
+  "name": "Ali",
+  "kind": "hamlet",
+  "lat": 30.3142849,
+  "lon": 79.2500348
+ },
+ {
+  "name": "Alkot",
+  "kind": "hamlet",
+  "lat": 30.0701225,
+  "lon": 79.4457775
+ },
+ {
+  "name": "Amkhet",
+  "kind": "hamlet",
+  "lat": 30.3627896,
+  "lon": 79.3064365
+ },
+ {
+  "name": "Anankharak",
+  "kind": "hamlet",
+  "lat": 30.1364984,
+  "lon": 79.1489249
+ },
+ {
+  "name": "Andrayan",
+  "kind": "hamlet",
+  "lat": 30.0238611,
+  "lon": 79.2700483
+ },
+ {
+  "name": "Angoth",
+  "kind": "hamlet",
+  "lat": 30.2761386,
+  "lon": 79.1208686
+ },
+ {
+  "name": "Angotha",
+  "kind": "hamlet",
+  "lat": 30.0896098,
+  "lon": 79.3893183
+ },
+ {
+  "name": "Ankhudi",
+  "kind": "hamlet",
+  "lat": 30.2182146,
+  "lon": 79.2989766
+ },
+ {
+  "name": "Anthruthet",
+  "kind": "hamlet",
+  "lat": 30.3279625,
+  "lon": 79.4348673
+ },
+ {
+  "name": "Ariyululi",
+  "kind": "hamlet",
+  "lat": 30.1373243,
+  "lon": 79.4163153
+ },
+ {
+  "name": "Aroshi",
+  "kind": "hamlet",
+  "lat": 30.5375373,
+  "lon": 79.4968207
+ },
+ {
+  "name": "Augura",
+  "kind": "hamlet",
+  "lat": 30.1872581,
+  "lon": 79.152149
+ },
+ {
+  "name": "Ayun",
+  "kind": "hamlet",
+  "lat": 30.0571328,
+  "lon": 79.2552982
+ },
+ {
+  "name": "BAMPA",
+  "kind": "hamlet",
+  "lat": 30.7436664,
+  "lon": 79.8297153
+ },
+ {
+  "name": "Bachuwawan",
+  "kind": "hamlet",
+  "lat": 29.9716096,
+  "lon": 79.421078
+ },
+ {
+  "name": "Badumath",
+  "kind": "hamlet",
+  "lat": 30.4482063,
+  "lon": 79.4184148
+ },
+ {
+  "name": "Bagargād",
+  "kind": "hamlet",
+  "lat": 30.1191596,
+  "lon": 79.60885
+ },
+ {
+  "name": "Baihtra",
+  "kind": "hamlet",
+  "lat": 30.141328,
+  "lon": 79.7151393
+ },
+ {
+  "name": "Baindu",
+  "kind": "hamlet",
+  "lat": 30.3581503,
+  "lon": 79.3013195
+ },
+ {
+  "name": "Bajani",
+  "kind": "hamlet",
+  "lat": 30.4442944,
+  "lon": 79.4188719
+ },
+ {
+  "name": "Baji Chak",
+  "kind": "hamlet",
+  "lat": 30.2988176,
+  "lon": 79.1704433
+ },
+ {
+  "name": "Balan",
+  "kind": "hamlet",
+  "lat": 30.162831,
+  "lon": 79.694784
+ },
+ {
+  "name": "Bali",
+  "kind": "hamlet",
+  "lat": 30.2690954,
+  "lon": 79.6008285
+ },
+ {
+  "name": "Bameli",
+  "kind": "hamlet",
+  "lat": 30.2300986,
+  "lon": 79.0870893
+ },
+ {
+  "name": "Bamiyala",
+  "kind": "hamlet",
+  "lat": 30.1511947,
+  "lon": 79.3118691
+ },
+ {
+  "name": "Bamoth",
+  "kind": "hamlet",
+  "lat": 30.2770052,
+  "lon": 79.1728812
+ },
+ {
+  "name": "Bamyala",
+  "kind": "hamlet",
+  "lat": 30.4193963,
+  "lon": 79.2737193
+ },
+ {
+  "name": "Banadwara",
+  "kind": "hamlet",
+  "lat": 30.4307602,
+  "lon": 79.2905343
+ },
+ {
+  "name": "Banali",
+  "kind": "hamlet",
+  "lat": 30.3798455,
+  "lon": 79.5626015
+ },
+ {
+  "name": "Banela",
+  "kind": "hamlet",
+  "lat": 30.1308168,
+  "lon": 79.4082753
+ },
+ {
+  "name": "Bangri",
+  "kind": "hamlet",
+  "lat": 30.2258688,
+  "lon": 79.2733974
+ },
+ {
+  "name": "Bangīna",
+  "kind": "hamlet",
+  "lat": 30.5351606,
+  "lon": 79.4613085
+ },
+ {
+  "name": "Banjani",
+  "kind": "hamlet",
+  "lat": 29.9765744,
+  "lon": 79.2562018
+ },
+ {
+  "name": "Bansa",
+  "kind": "hamlet",
+  "lat": 30.5290614,
+  "lon": 79.4412299
+ },
+ {
+  "name": "Bareth",
+  "kind": "hamlet",
+  "lat": 30.15395,
+  "lon": 79.1768682
+ },
+ {
+  "name": "Barki",
+  "kind": "hamlet",
+  "lat": 30.5484191,
+  "lon": 79.460013
+ },
+ {
+  "name": "Barmoli",
+  "kind": "hamlet",
+  "lat": 30.2205933,
+  "lon": 79.2881782
+ },
+ {
+  "name": "Barsali",
+  "kind": "hamlet",
+  "lat": 30.2708203,
+  "lon": 79.2320783
+ },
+ {
+  "name": "Bartoli",
+  "kind": "hamlet",
+  "lat": 30.2483168,
+  "lon": 79.101069
+ },
+ {
+  "name": "Basi",
+  "kind": "hamlet",
+  "lat": 30.004678,
+  "lon": 79.290708
+ },
+ {
+  "name": "Batgaon",
+  "kind": "hamlet",
+  "lat": 30.0299129,
+  "lon": 79.6738922
+ },
+ {
+  "name": "Batogarh",
+  "kind": "hamlet",
+  "lat": 30.1041443,
+  "lon": 79.2574807
+ },
+ {
+  "name": "Batoli",
+  "kind": "hamlet",
+  "lat": 30.2958253,
+  "lon": 79.3259507
+ },
+ {
+  "name": "Bedula",
+  "kind": "hamlet",
+  "lat": 30.1333273,
+  "lon": 79.3638183
+ },
+ {
+  "name": "Begar Nala",
+  "kind": "hamlet",
+  "lat": 30.3427166,
+  "lon": 79.5033175
+ },
+ {
+  "name": "Benoli Gaon",
+  "kind": "hamlet",
+  "lat": 30.1901555,
+  "lon": 79.2003801
+ },
+ {
+  "name": "Berdhar",
+  "kind": "hamlet",
+  "lat": 30.053595,
+  "lon": 79.574907
+ },
+ {
+  "name": "Bergaon",
+  "kind": "hamlet",
+  "lat": 30.1561498,
+  "lon": 79.3825118
+ },
+ {
+  "name": "Bethra",
+  "kind": "hamlet",
+  "lat": 30.1940836,
+  "lon": 79.3660626
+ },
+ {
+  "name": "Bhadakoti",
+  "kind": "hamlet",
+  "lat": 30.4478911,
+  "lon": 79.2872051
+ },
+ {
+  "name": "Bhainti",
+  "kind": "hamlet",
+  "lat": 30.3543112,
+  "lon": 79.3376409
+ },
+ {
+  "name": "Bhairiyana",
+  "kind": "hamlet",
+  "lat": 29.9922718,
+  "lon": 79.274524
+ },
+ {
+  "name": "Bhanali",
+  "kind": "hamlet",
+  "lat": 30.3784476,
+  "lon": 79.4776904
+ },
+ {
+  "name": "Bhangyul",
+  "kind": "hamlet",
+  "lat": 30.4956893,
+  "lon": 79.6321168
+ },
+ {
+  "name": "Bhani Chak",
+  "kind": "hamlet",
+  "lat": 30.2782788,
+  "lon": 79.3244341
+ },
+ {
+  "name": "Bhararisain",
+  "kind": "hamlet",
+  "lat": 30.0956768,
+  "lon": 79.2646553
+ },
+ {
+  "name": "Bharta",
+  "kind": "hamlet",
+  "lat": 30.0729114,
+  "lon": 79.4888447
+ },
+ {
+  "name": "Bhatgyala",
+  "kind": "hamlet",
+  "lat": 30.341098,
+  "lon": 79.3553109
+ },
+ {
+  "name": "Bhatiyana",
+  "kind": "hamlet",
+  "lat": 30.0750698,
+  "lon": 79.4431873
+ },
+ {
+  "name": "Bhatkwali",
+  "kind": "hamlet",
+  "lat": 30.2037734,
+  "lon": 79.1691327
+ },
+ {
+  "name": "Bhatoli Bazar",
+  "kind": "hamlet",
+  "lat": 30.1918949,
+  "lon": 79.2401683
+ },
+ {
+  "name": "Bhaunindhar",
+  "kind": "hamlet",
+  "lat": 30.2936317,
+  "lon": 79.4501727
+ },
+ {
+  "name": "Bherni",
+  "kind": "hamlet",
+  "lat": 30.3179945,
+  "lon": 79.347015
+ },
+ {
+  "name": "Bhijrakot",
+  "kind": "hamlet",
+  "lat": 30.430682,
+  "lon": 79.3602299
+ },
+ {
+  "name": "Bhikona",
+  "kind": "hamlet",
+  "lat": 30.3632729,
+  "lon": 79.214364
+ },
+ {
+  "name": "Bhimtolla",
+  "kind": "hamlet",
+  "lat": 30.315976,
+  "lon": 79.3923871
+ },
+ {
+  "name": "Bhudera",
+  "kind": "hamlet",
+  "lat": 30.114427,
+  "lon": 79.3684456
+ },
+ {
+  "name": "Bhulkhana Chatti",
+  "kind": "hamlet",
+  "lat": 30.4775813,
+  "lon": 79.2099858
+ },
+ {
+  "name": "Bhumkiya",
+  "kind": "hamlet",
+  "lat": 29.9826318,
+  "lon": 79.2840385
+ },
+ {
+  "name": "Bhyarl",
+  "kind": "hamlet",
+  "lat": 30.0939084,
+  "lon": 79.4237044
+ },
+ {
+  "name": "Bidoli",
+  "kind": "hamlet",
+  "lat": 30.247798,
+  "lon": 79.2689629
+ },
+ {
+  "name": "Bijor",
+  "kind": "hamlet",
+  "lat": 30.2712821,
+  "lon": 79.433297
+ },
+ {
+  "name": "Bilagarh",
+  "kind": "hamlet",
+  "lat": 30.4952734,
+  "lon": 79.6196412
+ },
+ {
+  "name": "Bimaru",
+  "kind": "hamlet",
+  "lat": 30.4611881,
+  "lon": 79.4168712
+ },
+ {
+  "name": "Bina",
+  "kind": "hamlet",
+  "lat": 29.9809159,
+  "lon": 79.2762279
+ },
+ {
+  "name": "Binayak",
+  "kind": "hamlet",
+  "lat": 30.1188828,
+  "lon": 79.3941965
+ },
+ {
+  "name": "Bingad",
+  "kind": "hamlet",
+  "lat": 30.3142993,
+  "lon": 79.1996903
+ },
+ {
+  "name": "Binwalgaon",
+  "kind": "hamlet",
+  "lat": 30.1180667,
+  "lon": 79.3882944
+ },
+ {
+  "name": "Birikat",
+  "kind": "hamlet",
+  "lat": 30.3451051,
+  "lon": 79.2813738
+ },
+ {
+  "name": "Bisauna",
+  "kind": "hamlet",
+  "lat": 30.1996008,
+  "lon": 79.1154456
+ },
+ {
+  "name": "Bisrakhet",
+  "kind": "hamlet",
+  "lat": 29.9969607,
+  "lon": 79.3198085
+ },
+ {
+  "name": "Bob",
+  "kind": "hamlet",
+  "lat": 30.3135864,
+  "lon": 79.1526595
+ },
+ {
+  "name": "Boora",
+  "kind": "hamlet",
+  "lat": 30.2941108,
+  "lon": 79.531985
+ },
+ {
+  "name": "Boragad",
+  "kind": "hamlet",
+  "lat": 30.0287304,
+  "lon": 79.6500875
+ },
+ {
+  "name": "Botha",
+  "kind": "hamlet",
+  "lat": 30.5406433,
+  "lon": 79.4701641
+ },
+ {
+  "name": "Buakhana",
+  "kind": "hamlet",
+  "lat": 30.0123972,
+  "lon": 79.3069409
+ },
+ {
+  "name": "Bunansidar",
+  "kind": "hamlet",
+  "lat": 30.3258314,
+  "lon": 79.4252242
+ },
+ {
+  "name": "Bunga",
+  "kind": "hamlet",
+  "lat": 30.1162021,
+  "lon": 79.3325923
+ },
+ {
+  "name": "Buradang",
+  "kind": "hamlet",
+  "lat": 30.0889062,
+  "lon": 79.4517552
+ },
+ {
+  "name": "Burakholi",
+  "kind": "hamlet",
+  "lat": 30.1410263,
+  "lon": 79.2022848
+ },
+ {
+  "name": "Buransi",
+  "kind": "hamlet",
+  "lat": 30.2909026,
+  "lon": 79.4401426
+ },
+ {
+  "name": "Burjhola",
+  "kind": "hamlet",
+  "lat": 30.0357325,
+  "lon": 79.5331788
+ },
+ {
+  "name": "Chaanda",
+  "kind": "hamlet",
+  "lat": 30.077269,
+  "lon": 79.4871651
+ },
+ {
+  "name": "Chachal",
+  "kind": "hamlet",
+  "lat": 30.0476434,
+  "lon": 79.7902465
+ },
+ {
+  "name": "Chak",
+  "kind": "hamlet",
+  "lat": 30.3428369,
+  "lon": 79.2694796
+ },
+ {
+  "name": "Chak Matha",
+  "kind": "hamlet",
+  "lat": 30.3109068,
+  "lon": 79.3881226
+ },
+ {
+  "name": "Chaliyapani",
+  "kind": "hamlet",
+  "lat": 30.1724661,
+  "lon": 79.3723975
+ },
+ {
+  "name": "Chamsil",
+  "kind": "hamlet",
+  "lat": 30.3483582,
+  "lon": 79.2276488
+ },
+ {
+  "name": "Chanchri",
+  "kind": "hamlet",
+  "lat": 30.483051,
+  "lon": 79.6662528
+ },
+ {
+  "name": "Chandiyal",
+  "kind": "hamlet",
+  "lat": 30.05992,
+  "lon": 79.2465949
+ },
+ {
+  "name": "Chandpur Garhi",
+  "kind": "hamlet",
+  "lat": 30.1782064,
+  "lon": 79.219172
+ },
+ {
+  "name": "Channri",
+  "kind": "hamlet",
+  "lat": 30.2912314,
+  "lon": 79.3971399
+ },
+ {
+  "name": "Chanyali",
+  "kind": "hamlet",
+  "lat": 30.05888,
+  "lon": 79.7627377
+ },
+ {
+  "name": "Charbang",
+  "kind": "hamlet",
+  "lat": 30.3068625,
+  "lon": 79.4769924
+ },
+ {
+  "name": "Charkhilqwar",
+  "kind": "hamlet",
+  "lat": 30.2306687,
+  "lon": 79.1125488
+ },
+ {
+  "name": "Chata",
+  "kind": "hamlet",
+  "lat": 30.3118793,
+  "lon": 79.3798862
+ },
+ {
+  "name": "Chatingyala",
+  "kind": "hamlet",
+  "lat": 30.2984756,
+  "lon": 79.3326694
+ },
+ {
+  "name": "Chauki",
+  "kind": "hamlet",
+  "lat": 30.0219733,
+  "lon": 79.6848369
+ },
+ {
+  "name": "Chaumanda Dhar",
+  "kind": "hamlet",
+  "lat": 30.1062894,
+  "lon": 79.3661379
+ },
+ {
+  "name": "Chaumass",
+  "kind": "hamlet",
+  "lat": 30.2647062,
+  "lon": 79.4181899
+ },
+ {
+  "name": "Chaurasain",
+  "kind": "hamlet",
+  "lat": 30.2010844,
+  "lon": 79.1757202
+ },
+ {
+  "name": "Chaurasairi",
+  "kind": "hamlet",
+  "lat": 29.9820742,
+  "lon": 79.4063687
+ },
+ {
+  "name": "Chautariya",
+  "kind": "hamlet",
+  "lat": 29.9837284,
+  "lon": 79.4194579
+ },
+ {
+  "name": "Chhaloli",
+  "kind": "hamlet",
+  "lat": 30.2106811,
+  "lon": 79.2033791
+ },
+ {
+  "name": "Chhandoli",
+  "kind": "hamlet",
+  "lat": 30.2938256,
+  "lon": 79.1831587
+ },
+ {
+  "name": "Chhapali",
+  "kind": "hamlet",
+  "lat": 30.0995848,
+  "lon": 79.4242433
+ },
+ {
+  "name": "Chharisian",
+  "kind": "hamlet",
+  "lat": 29.9987494,
+  "lon": 79.2589678
+ },
+ {
+  "name": "Chheli",
+  "kind": "hamlet",
+  "lat": 30.4782416,
+  "lon": 79.5346629
+ },
+ {
+  "name": "Chhern",
+  "kind": "hamlet",
+  "lat": 30.344938,
+  "lon": 79.3024297
+ },
+ {
+  "name": "Chhimta",
+  "kind": "hamlet",
+  "lat": 30.115675,
+  "lon": 79.2391491
+ },
+ {
+  "name": "Childinga Talla",
+  "kind": "hamlet",
+  "lat": 30.1276789,
+  "lon": 79.4222714
+ },
+ {
+  "name": "Chirkun",
+  "kind": "hamlet",
+  "lat": 30.2158547,
+  "lon": 79.3494217
+ },
+ {
+  "name": "Cholra",
+  "kind": "hamlet",
+  "lat": 30.2459812,
+  "lon": 79.1122591
+ },
+ {
+  "name": "Choprakot",
+  "kind": "hamlet",
+  "lat": 30.2938145,
+  "lon": 79.3939373
+ },
+ {
+  "name": "Chorara",
+  "kind": "hamlet",
+  "lat": 30.1076113,
+  "lon": 79.252491
+ },
+ {
+  "name": "Chorkathera",
+  "kind": "hamlet",
+  "lat": 30.0482006,
+  "lon": 79.7570514
+ },
+ {
+  "name": "Chormi",
+  "kind": "hamlet",
+  "lat": 30.5136333,
+  "lon": 79.6089889
+ },
+ {
+  "name": "Chothing",
+  "kind": "hamlet",
+  "lat": 30.0494079,
+  "lon": 79.7691107
+ },
+ {
+  "name": "Chula",
+  "kind": "hamlet",
+  "lat": 30.1787047,
+  "lon": 79.3068523
+ },
+ {
+  "name": "Chutwāpīpal",
+  "kind": "hamlet",
+  "lat": 30.2656592,
+  "lon": 79.1588707
+ },
+ {
+  "name": "DRONAGIRI",
+  "kind": "hamlet",
+  "lat": 30.5991704,
+  "lon": 79.8680413
+ },
+ {
+  "name": "Dadar",
+  "kind": "hamlet",
+  "lat": 30.3355043,
+  "lon": 79.2977699
+ },
+ {
+  "name": "Dadoli",
+  "kind": "hamlet",
+  "lat": 30.1842069,
+  "lon": 79.1556948
+ },
+ {
+  "name": "Dadon",
+  "kind": "hamlet",
+  "lat": 30.5497024,
+  "lon": 79.5613087
+ },
+ {
+  "name": "Damdar",
+  "kind": "hamlet",
+  "lat": 29.9307815,
+  "lon": 79.3132424
+ },
+ {
+  "name": "Damdhar",
+  "kind": "hamlet",
+  "lat": 30.3205576,
+  "lon": 79.431815
+ },
+ {
+  "name": "Danda",
+  "kind": "hamlet",
+  "lat": 30.4025612,
+  "lon": 79.1951461
+ },
+ {
+  "name": "Dandagair",
+  "kind": "hamlet",
+  "lat": 30.4335431,
+  "lon": 79.1980172
+ },
+ {
+  "name": "Dandagwar",
+  "kind": "hamlet",
+  "lat": 30.2451888,
+  "lon": 79.1060874
+ },
+ {
+  "name": "Dangtoli",
+  "kind": "hamlet",
+  "lat": 30.1049376,
+  "lon": 79.4115869
+ },
+ {
+  "name": "Dargaon",
+  "kind": "hamlet",
+  "lat": 30.2713233,
+  "lon": 79.4499527
+ },
+ {
+  "name": "Darmoli",
+  "kind": "hamlet",
+  "lat": 30.1626422,
+  "lon": 79.1964698
+ },
+ {
+  "name": "Darni",
+  "kind": "hamlet",
+  "lat": 30.4749207,
+  "lon": 79.4923213
+ },
+ {
+  "name": "Dasoli",
+  "kind": "hamlet",
+  "lat": 30.5014033,
+  "lon": 79.4993351
+ },
+ {
+  "name": "Dasoligarh",
+  "kind": "hamlet",
+  "lat": 30.281406,
+  "lon": 79.3227779
+ },
+ {
+  "name": "Dawar",
+  "kind": "hamlet",
+  "lat": 30.345557,
+  "lon": 79.2969975
+ },
+ {
+  "name": "Deringkhera",
+  "kind": "hamlet",
+  "lat": 30.1129675,
+  "lon": 79.5048816
+ },
+ {
+  "name": "Deval",
+  "kind": "hamlet",
+  "lat": 30.0755032,
+  "lon": 79.4807388
+ },
+ {
+  "name": "Devalgwar",
+  "kind": "hamlet",
+  "lat": 30.0900907,
+  "lon": 79.4686349
+ },
+ {
+  "name": "Devimadola",
+  "kind": "hamlet",
+  "lat": 30.0589939,
+  "lon": 79.2531633
+ },
+ {
+  "name": "Devkhal",
+  "kind": "hamlet",
+  "lat": 30.3336846,
+  "lon": 79.292346
+ },
+ {
+  "name": "Devkhet",
+  "kind": "hamlet",
+  "lat": 30.3477511,
+  "lon": 79.2347101
+ },
+ {
+  "name": "Devpuri",
+  "kind": "hamlet",
+  "lat": 30.1036696,
+  "lon": 79.4180355
+ },
+ {
+  "name": "Dewal",
+  "kind": "hamlet",
+  "lat": 30.2416806,
+  "lon": 79.1152096
+ },
+ {
+  "name": "Dewar",
+  "kind": "hamlet",
+  "lat": 30.1680997,
+  "lon": 79.4253237
+ },
+ {
+  "name": "Dewli",
+  "kind": "hamlet",
+  "lat": 30.4021179,
+  "lon": 79.1836072
+ },
+ {
+  "name": "Dhalu",
+  "kind": "hamlet",
+  "lat": 30.072162,
+  "lon": 79.4702589
+ },
+ {
+  "name": "Dhamk",
+  "kind": "hamlet",
+  "lat": 30.3505268,
+  "lon": 79.2392014
+ },
+ {
+  "name": "Dhamkar",
+  "kind": "hamlet",
+  "lat": 30.1595068,
+  "lon": 79.2154169
+ },
+ {
+  "name": "Dhanpur",
+  "kind": "hamlet",
+  "lat": 30.2221031,
+  "lon": 79.104588
+ },
+ {
+  "name": "Dhantala",
+  "kind": "hamlet",
+  "lat": 30.2603794,
+  "lon": 79.2854607
+ },
+ {
+  "name": "Dharbaram",
+  "kind": "hamlet",
+  "lat": 30.0863534,
+  "lon": 79.434889
+ },
+ {
+  "name": "Dhardungri",
+  "kind": "hamlet",
+  "lat": 30.2405108,
+  "lon": 79.2671107
+ },
+ {
+  "name": "Dhargair",
+  "kind": "hamlet",
+  "lat": 30.0351423,
+  "lon": 79.7694754
+ },
+ {
+  "name": "Dhargaon",
+  "kind": "hamlet",
+  "lat": 29.9893795,
+  "lon": 79.3180248
+ },
+ {
+  "name": "Dhargwar",
+  "kind": "hamlet",
+  "lat": 30.2275262,
+  "lon": 79.1169262
+ },
+ {
+  "name": "Dharh",
+  "kind": "hamlet",
+  "lat": 30.1097486,
+  "lon": 79.3423758
+ },
+ {
+  "name": "Dharikund",
+  "kind": "hamlet",
+  "lat": 30.3238281,
+  "lon": 79.3141418
+ },
+ {
+  "name": "Dharkot",
+  "kind": "hamlet",
+  "lat": 30.3381404,
+  "lon": 79.3379755
+ },
+ {
+  "name": "Dhasari",
+  "kind": "hamlet",
+  "lat": 30.2208421,
+  "lon": 79.3007862
+ },
+ {
+  "name": "Dhibrigad",
+  "kind": "hamlet",
+  "lat": 29.9612275,
+  "lon": 79.3103135
+ },
+ {
+  "name": "Dhurkunda",
+  "kind": "hamlet",
+  "lat": 30.4634951,
+  "lon": 79.626319
+ },
+ {
+  "name": "Dhurma",
+  "kind": "hamlet",
+  "lat": 30.2535223,
+  "lon": 79.4050644
+ },
+ {
+  "name": "Didina",
+  "kind": "hamlet",
+  "lat": 30.1653068,
+  "lon": 79.6333394
+ },
+ {
+  "name": "Digoli",
+  "kind": "hamlet",
+  "lat": 30.4101198,
+  "lon": 79.4232327
+ },
+ {
+  "name": "Dimmar",
+  "kind": "hamlet",
+  "lat": 30.2483357,
+  "lon": 79.2500697
+ },
+ {
+  "name": "Divalaunk",
+  "kind": "hamlet",
+  "lat": 29.9956412,
+  "lon": 79.23666
+ },
+ {
+  "name": "Diyuri",
+  "kind": "hamlet",
+  "lat": 30.262505,
+  "lon": 79.2415064
+ },
+ {
+  "name": "Doba",
+  "kind": "hamlet",
+  "lat": 30.0531856,
+  "lon": 79.6707615
+ },
+ {
+  "name": "Dobha",
+  "kind": "hamlet",
+  "lat": 30.182941,
+  "lon": 79.2439932
+ },
+ {
+  "name": "Dobra",
+  "kind": "hamlet",
+  "lat": 30.2387516,
+  "lon": 79.0918529
+ },
+ {
+  "name": "Dobriya",
+  "kind": "hamlet",
+  "lat": 30.1443015,
+  "lon": 79.3642689
+ },
+ {
+  "name": "Doltu",
+  "kind": "hamlet",
+  "lat": 30.1098373,
+  "lon": 79.2364132
+ },
+ {
+  "name": "Dowalatar",
+  "kind": "hamlet",
+  "lat": 30.4349258,
+  "lon": 79.3006318
+ },
+ {
+  "name": "Dukasaur",
+  "kind": "hamlet",
+  "lat": 30.3365153,
+  "lon": 79.1468367
+ },
+ {
+  "name": "Dumgri",
+  "kind": "hamlet",
+  "lat": 30.5153337,
+  "lon": 79.5173146
+ },
+ {
+  "name": "Dunali",
+  "kind": "hamlet",
+  "lat": 30.0857819,
+  "lon": 79.5612425
+ },
+ {
+  "name": "Dungar",
+  "kind": "hamlet",
+  "lat": 30.37734,
+  "lon": 79.2002012
+ },
+ {
+  "name": "Dungra",
+  "kind": "hamlet",
+  "lat": 30.5069688,
+  "lon": 79.5269168
+ },
+ {
+  "name": "Duni",
+  "kind": "hamlet",
+  "lat": 30.1138634,
+  "lon": 79.2818
+ },
+ {
+  "name": "Durgapuri",
+  "kind": "hamlet",
+  "lat": 30.4113865,
+  "lon": 79.387085
+ },
+ {
+  "name": "Durmi",
+  "kind": "hamlet",
+  "lat": 30.3713875,
+  "lon": 79.5121261
+ },
+ {
+  "name": "Duva",
+  "kind": "hamlet",
+  "lat": 30.2688609,
+  "lon": 79.1377924
+ },
+ {
+  "name": "Dwara",
+  "kind": "hamlet",
+  "lat": 30.3201655,
+  "lon": 79.1990742
+ },
+ {
+  "name": "Dwing",
+  "kind": "hamlet",
+  "lat": 30.4886522,
+  "lon": 79.4620501
+ },
+ {
+  "name": "Dyarkhet",
+  "kind": "hamlet",
+  "lat": 30.0462689,
+  "lon": 79.775151
+ },
+ {
+  "name": "Eijar",
+  "kind": "hamlet",
+  "lat": 30.1597943,
+  "lon": 79.1653347
+ },
+ {
+  "name": "GARPAK",
+  "kind": "hamlet",
+  "lat": 30.6269079,
+  "lon": 79.854244
+ },
+ {
+  "name": "Gabni",
+  "kind": "hamlet",
+  "lat": 30.1732292,
+  "lon": 79.3143559
+ },
+ {
+  "name": "Gadona",
+  "kind": "hamlet",
+  "lat": 30.283816,
+  "lon": 79.1928601
+ },
+ {
+  "name": "Gadot",
+  "kind": "hamlet",
+  "lat": 29.9669252,
+  "lon": 79.3563294
+ },
+ {
+  "name": "Gain",
+  "kind": "hamlet",
+  "lat": 30.2461824,
+  "lon": 79.3100025
+ },
+ {
+  "name": "Gainsaja",
+  "kind": "hamlet",
+  "lat": 30.2582224,
+  "lon": 79.2965261
+ },
+ {
+  "name": "Gaithi",
+  "kind": "hamlet",
+  "lat": 30.2444612,
+  "lon": 79.1236853
+ },
+ {
+  "name": "Gaja Kharak",
+  "kind": "hamlet",
+  "lat": 30.0380344,
+  "lon": 79.5943492
+ },
+ {
+  "name": "Galnau",
+  "kind": "hamlet",
+  "lat": 30.2681309,
+  "lon": 79.1843502
+ },
+ {
+  "name": "Gamshali",
+  "kind": "hamlet",
+  "lat": 30.7559986,
+  "lon": 79.8261873
+ },
+ {
+  "name": "Gandasu",
+  "kind": "hamlet",
+  "lat": 30.3069659,
+  "lon": 79.364325
+ },
+ {
+  "name": "Gandhnagar",
+  "kind": "hamlet",
+  "lat": 30.3804709,
+  "lon": 79.2876617
+ },
+ {
+  "name": "Gandik",
+  "kind": "hamlet",
+  "lat": 30.1596737,
+  "lon": 79.3326346
+ },
+ {
+  "name": "Gangtoli",
+  "kind": "hamlet",
+  "lat": 30.3060402,
+  "lon": 79.3337268
+ },
+ {
+  "name": "Ganoli",
+  "kind": "hamlet",
+  "lat": 30.2639948,
+  "lon": 79.2647784
+ },
+ {
+  "name": "Ganwali",
+  "kind": "hamlet",
+  "lat": 30.0430236,
+  "lon": 79.2820005
+ },
+ {
+  "name": "Garghaniya",
+  "kind": "hamlet",
+  "lat": 30.5008874,
+  "lon": 79.6243512
+ },
+ {
+  "name": "Garhi",
+  "kind": "hamlet",
+  "lat": 29.98169,
+  "lon": 79.4188
+ },
+ {
+  "name": "Gari",
+  "kind": "hamlet",
+  "lat": 30.2792382,
+  "lon": 79.5654753
+ },
+ {
+  "name": "Garibaram",
+  "kind": "hamlet",
+  "lat": 30.0827143,
+  "lon": 79.4270659
+ },
+ {
+  "name": "Garkhot",
+  "kind": "hamlet",
+  "lat": 30.1304347,
+  "lon": 79.4161746
+ },
+ {
+  "name": "Garkot",
+  "kind": "hamlet",
+  "lat": 30.0955997,
+  "lon": 79.3858218
+ },
+ {
+  "name": "Garsera",
+  "kind": "hamlet",
+  "lat": 30.1369473,
+  "lon": 79.3073949
+ },
+ {
+  "name": "Garsu",
+  "kind": "hamlet",
+  "lat": 30.0466098,
+  "lon": 79.619712
+ },
+ {
+  "name": "Gauga",
+  "kind": "hamlet",
+  "lat": 30.3735965,
+  "lon": 79.4856123
+ },
+ {
+  "name": "Gaugna",
+  "kind": "hamlet",
+  "lat": 29.9799368,
+  "lon": 79.4127846
+ },
+ {
+  "name": "Gaundi",
+  "kind": "hamlet",
+  "lat": 30.4631911,
+  "lon": 79.269541
+ },
+ {
+  "name": "Gaunkh",
+  "kind": "hamlet",
+  "lat": 30.5472291,
+  "lon": 79.5402106
+ },
+ {
+  "name": "Gawal",
+  "kind": "hamlet",
+  "lat": 30.3264804,
+  "lon": 79.3318907
+ },
+ {
+  "name": "Ghandiyal",
+  "kind": "hamlet",
+  "lat": 30.0309086,
+  "lon": 79.5332068
+ },
+ {
+  "name": "Ghandiyala",
+  "kind": "hamlet",
+  "lat": 30.1719921,
+  "lon": 79.2558002
+ },
+ {
+  "name": "Gharkuti",
+  "kind": "hamlet",
+  "lat": 30.2759021,
+  "lon": 79.2997288
+ },
+ {
+  "name": "Ghatbagar",
+  "kind": "hamlet",
+  "lat": 30.2615829,
+  "lon": 79.6453201
+ },
+ {
+  "name": "Ghatgad Khata",
+  "kind": "hamlet",
+  "lat": 29.9779852,
+  "lon": 79.3987512
+ },
+ {
+  "name": "Ghes",
+  "kind": "hamlet",
+  "lat": 30.1292924,
+  "lon": 79.7037274
+ },
+ {
+  "name": "Ghinapani",
+  "kind": "hamlet",
+  "lat": 30.1448332,
+  "lon": 79.4870092
+ },
+ {
+  "name": "Ghinaura",
+  "kind": "hamlet",
+  "lat": 30.2134977,
+  "lon": 79.4917456
+ },
+ {
+  "name": "Ghingarchaura",
+  "kind": "hamlet",
+  "lat": 30.324734,
+  "lon": 79.2420601
+ },
+ {
+  "name": "Ghungti",
+  "kind": "hamlet",
+  "lat": 30.1230317,
+  "lon": 79.5274283
+ },
+ {
+  "name": "Ghāstoli",
+  "kind": "hamlet",
+  "lat": 30.8592089,
+  "lon": 79.4699913
+ },
+ {
+  "name": "Gira",
+  "kind": "hamlet",
+  "lat": 30.5371492,
+  "lon": 79.4498508
+ },
+ {
+  "name": "Goana",
+  "kind": "hamlet",
+  "lat": 30.5370832,
+  "lon": 79.4912943
+ },
+ {
+  "name": "Godali",
+  "kind": "hamlet",
+  "lat": 30.4232972,
+  "lon": 79.2109797
+ },
+ {
+  "name": "Gognani",
+  "kind": "hamlet",
+  "lat": 29.9352258,
+  "lon": 79.3086505
+ },
+ {
+  "name": "Golak",
+  "kind": "hamlet",
+  "lat": 30.1676936,
+  "lon": 79.2776129
+ },
+ {
+  "name": "Gonjer",
+  "kind": "hamlet",
+  "lat": 30.3491884,
+  "lon": 79.2681161
+ },
+ {
+  "name": "Gorsal",
+  "kind": "hamlet",
+  "lat": 30.360953,
+  "lon": 79.2896625
+ },
+ {
+  "name": "Gothinda",
+  "kind": "hamlet",
+  "lat": 30.0681102,
+  "lon": 79.5557621
+ },
+ {
+  "name": "Guga",
+  "kind": "hamlet",
+  "lat": 30.0808872,
+  "lon": 79.4720973
+ },
+ {
+  "name": "Gugli",
+  "kind": "hamlet",
+  "lat": 30.3354,
+  "lon": 79.2203952
+ },
+ {
+  "name": "Gulabkoti",
+  "kind": "hamlet",
+  "lat": 30.5046348,
+  "lon": 79.4916067
+ },
+ {
+  "name": "Guleth",
+  "kind": "hamlet",
+  "lat": 30.346343,
+  "lon": 79.2222423
+ },
+ {
+  "name": "Guram",
+  "kind": "hamlet",
+  "lat": 30.4141547,
+  "lon": 79.2267588
+ },
+ {
+  "name": "Gurmatoli",
+  "kind": "hamlet",
+  "lat": 30.0975446,
+  "lon": 79.6735313
+ },
+ {
+  "name": "Guthara",
+  "kind": "hamlet",
+  "lat": 30.2649816,
+  "lon": 79.459815
+ },
+ {
+  "name": "Gwala",
+  "kind": "hamlet",
+  "lat": 30.303577,
+  "lon": 79.3392301
+ },
+ {
+  "name": "Gwar",
+  "kind": "hamlet",
+  "lat": 30.4860378,
+  "lon": 79.4152713
+ },
+ {
+  "name": "Gwarangi Kharak",
+  "kind": "hamlet",
+  "lat": 30.1092024,
+  "lon": 79.3550051
+ },
+ {
+  "name": "Gwat",
+  "kind": "hamlet",
+  "lat": 30.3066722,
+  "lon": 79.4997417
+ },
+ {
+  "name": "Hamlet",
+  "kind": "hamlet",
+  "lat": 30.05836,
+  "lon": 79.6174478
+ },
+ {
+  "name": "Hanskoti",
+  "kind": "hamlet",
+  "lat": 30.1086384,
+  "lon": 79.3940197
+ },
+ {
+  "name": "Hanumanchatti",
+  "kind": "hamlet",
+  "lat": 30.6955217,
+  "lon": 79.5141532
+ },
+ {
+  "name": "Hapla",
+  "kind": "hamlet",
+  "lat": 30.41565,
+  "lon": 79.20594
+ },
+ {
+  "name": "Harchand",
+  "kind": "hamlet",
+  "lat": 30.0611756,
+  "lon": 79.4861723
+ },
+ {
+  "name": "Hargaon",
+  "kind": "hamlet",
+  "lat": 30.1689127,
+  "lon": 79.2202073
+ },
+ {
+  "name": "Harkti",
+  "kind": "hamlet",
+  "lat": 30.3027312,
+  "lon": 79.306067
+ },
+ {
+  "name": "Harmal",
+  "kind": "hamlet",
+  "lat": 30.0581113,
+  "lon": 79.7910446
+ },
+ {
+  "name": "Harni",
+  "kind": "hamlet",
+  "lat": 30.1217443,
+  "lon": 79.5986187
+ },
+ {
+  "name": "Harsari",
+  "kind": "hamlet",
+  "lat": 30.001978,
+  "lon": 79.3156637
+ },
+ {
+  "name": "Hema",
+  "kind": "hamlet",
+  "lat": 30.2833993,
+  "lon": 79.3973348
+ },
+ {
+  "name": "Himni",
+  "kind": "hamlet",
+  "lat": 30.1453516,
+  "lon": 79.7260281
+ },
+ {
+  "name": "Hindoli",
+  "kind": "hamlet",
+  "lat": 30.288917,
+  "lon": 79.3314219
+ },
+ {
+  "name": "Hislani",
+  "kind": "hamlet",
+  "lat": 29.9553808,
+  "lon": 79.2907548
+ },
+ {
+  "name": "Hung",
+  "kind": "hamlet",
+  "lat": 30.3066406,
+  "lon": 79.4034889
+ },
+ {
+  "name": "Hurung",
+  "kind": "hamlet",
+  "lat": 30.3461964,
+  "lon": 79.4737747
+ },
+ {
+  "name": "Hyuna",
+  "kind": "hamlet",
+  "lat": 30.2087176,
+  "lon": 79.3195964
+ },
+ {
+  "name": "Ichholi",
+  "kind": "hamlet",
+  "lat": 30.0589543,
+  "lon": 79.5884156
+ },
+ {
+  "name": "Indarsingh Ka Jhumakhet",
+  "kind": "hamlet",
+  "lat": 29.9498776,
+  "lon": 79.4299507
+ },
+ {
+  "name": "Ira",
+  "kind": "hamlet",
+  "lat": 30.1568237,
+  "lon": 79.4254868
+ },
+ {
+  "name": "Jabarkot",
+  "kind": "hamlet",
+  "lat": 30.0908012,
+  "lon": 79.4411993
+ },
+ {
+  "name": "Jagda",
+  "kind": "hamlet",
+  "lat": 30.4135481,
+  "lon": 79.2313772
+ },
+ {
+  "name": "Jagri",
+  "kind": "hamlet",
+  "lat": 30.0630668,
+  "lon": 79.273145
+ },
+ {
+  "name": "Jaintha",
+  "kind": "hamlet",
+  "lat": 30.1758791,
+  "lon": 79.2865049
+ },
+ {
+  "name": "Jakhmala",
+  "kind": "hamlet",
+  "lat": 30.4227593,
+  "lon": 79.2031409
+ },
+ {
+  "name": "Jakhot",
+  "kind": "hamlet",
+  "lat": 30.1980152,
+  "lon": 79.1654742
+ },
+ {
+  "name": "Jakola",
+  "kind": "hamlet",
+  "lat": 30.506207,
+  "lon": 79.4636205
+ },
+ {
+  "name": "Jalgaon",
+  "kind": "hamlet",
+  "lat": 30.2440348,
+  "lon": 79.1133106
+ },
+ {
+  "name": "Jalkundi",
+  "kind": "hamlet",
+  "lat": 30.2870211,
+  "lon": 79.2584097
+ },
+ {
+  "name": "Jangro",
+  "kind": "hamlet",
+  "lat": 30.5157406,
+  "lon": 79.3916261
+ },
+ {
+  "name": "Jardugarh",
+  "kind": "hamlet",
+  "lat": 30.3398409,
+  "lon": 79.2100683
+ },
+ {
+  "name": "Jaskhola",
+  "kind": "hamlet",
+  "lat": 29.984509,
+  "lon": 79.4008326
+ },
+ {
+  "name": "Jaul Chaura",
+  "kind": "hamlet",
+  "lat": 30.0303203,
+  "lon": 79.5634753
+ },
+ {
+  "name": "Jawari",
+  "kind": "hamlet",
+  "lat": 30.3939664,
+  "lon": 79.2753818
+ },
+ {
+  "name": "Jelam",
+  "kind": "hamlet",
+  "lat": 30.6441526,
+  "lon": 79.8259171
+ },
+ {
+  "name": "Jeora",
+  "kind": "hamlet",
+  "lat": 30.0975217,
+  "lon": 79.3925653
+ },
+ {
+  "name": "Jetha",
+  "kind": "hamlet",
+  "lat": 30.3389433,
+  "lon": 79.3630039
+ },
+ {
+  "name": "Jhaliya",
+  "kind": "hamlet",
+  "lat": 30.072028,
+  "lon": 79.797188
+ },
+ {
+  "name": "Jhijholi",
+  "kind": "hamlet",
+  "lat": 30.072103,
+  "lon": 79.4410802
+ },
+ {
+  "name": "Jhinji",
+  "kind": "hamlet",
+  "lat": 30.3583333,
+  "lon": 79.5758333
+ },
+ {
+  "name": "Jhumakhet Malla",
+  "kind": "hamlet",
+  "lat": 29.9625448,
+  "lon": 79.4219301
+ },
+ {
+  "name": "Jiloti",
+  "kind": "hamlet",
+  "lat": 30.2975323,
+  "lon": 79.2696342
+ },
+ {
+  "name": "Jingauni",
+  "kind": "hamlet",
+  "lat": 30.1321374,
+  "lon": 79.3065905
+ },
+ {
+  "name": "Jingor",
+  "kind": "hamlet",
+  "lat": 30.0069435,
+  "lon": 79.3093693
+ },
+ {
+  "name": "Jokhwa Sitel",
+  "kind": "hamlet",
+  "lat": 30.2835101,
+  "lon": 79.5532316
+ },
+ {
+  "name": "Jokuda",
+  "kind": "hamlet",
+  "lat": 30.5167055,
+  "lon": 79.4034115
+ },
+ {
+  "name": "Jolchaura",
+  "kind": "hamlet",
+  "lat": 29.9789145,
+  "lon": 79.4211745
+ },
+ {
+  "name": "Jugju",
+  "kind": "hamlet",
+  "lat": 30.4902886,
+  "lon": 79.6903319
+ },
+ {
+  "name": "Junidhar",
+  "kind": "hamlet",
+  "lat": 30.0672744,
+  "lon": 79.531009
+ },
+ {
+  "name": "Juwagwar",
+  "kind": "hamlet",
+  "lat": 30.4931218,
+  "lon": 79.6743167
+ },
+ {
+  "name": "KAGA",
+  "kind": "hamlet",
+  "lat": 30.6124584,
+  "lon": 79.8238599
+ },
+ {
+  "name": "Kachula",
+  "kind": "hamlet",
+  "lat": 30.2658494,
+  "lon": 79.289231
+ },
+ {
+  "name": "Kaira",
+  "kind": "hamlet",
+  "lat": 30.1343272,
+  "lon": 79.1984653
+ },
+ {
+  "name": "Kajila",
+  "kind": "hamlet",
+  "lat": 30.6972318,
+  "lon": 79.5898879
+ },
+ {
+  "name": "Kalaundi",
+  "kind": "hamlet",
+  "lat": 30.3836233,
+  "lon": 79.2791571
+ },
+ {
+  "name": "Kalchora",
+  "kind": "hamlet",
+  "lat": 30.3892165,
+  "lon": 79.2940481
+ },
+ {
+  "name": "Kalgoth",
+  "kind": "hamlet",
+  "lat": 30.516532,
+  "lon": 79.415042
+ },
+ {
+  "name": "Kalla",
+  "kind": "hamlet",
+  "lat": 30.44952,
+  "lon": 79.2760727
+ },
+ {
+  "name": "Kalpeshwar",
+  "kind": "hamlet",
+  "lat": 30.5489227,
+  "lon": 79.4547646
+ },
+ {
+  "name": "Kalu Kharak",
+  "kind": "hamlet",
+  "lat": 29.9910881,
+  "lon": 79.4478464
+ },
+ {
+  "name": "Kaluhati",
+  "kind": "hamlet",
+  "lat": 29.9450435,
+  "lon": 79.3764782
+ },
+ {
+  "name": "Kalwan Chak",
+  "kind": "hamlet",
+  "lat": 30.2847216,
+  "lon": 79.3416499
+ },
+ {
+  "name": "Kalyan Malla",
+  "kind": "hamlet",
+  "lat": 29.9520715,
+  "lon": 79.2919242
+ },
+ {
+  "name": "Kalyari",
+  "kind": "hamlet",
+  "lat": 30.2069167,
+  "lon": 79.181149
+ },
+ {
+  "name": "Kamera",
+  "kind": "hamlet",
+  "lat": 30.2850146,
+  "lon": 79.3853139
+ },
+ {
+  "name": "Kamyar",
+  "kind": "hamlet",
+  "lat": 30.4174013,
+  "lon": 79.447924
+ },
+ {
+  "name": "Kana",
+  "kind": "hamlet",
+  "lat": 30.4321471,
+  "lon": 79.3887419
+ },
+ {
+  "name": "Kanakar",
+  "kind": "hamlet",
+  "lat": 30.5550357,
+  "lon": 79.511706
+ },
+ {
+  "name": "Kanda",
+  "kind": "hamlet",
+  "lat": 30.2639544,
+  "lon": 79.1265074
+ },
+ {
+  "name": "Kanda Chak",
+  "kind": "hamlet",
+  "lat": 30.3019297,
+  "lon": 79.1654292
+ },
+ {
+  "name": "Kandara",
+  "kind": "hamlet",
+  "lat": 30.4252508,
+  "lon": 79.3868007
+ },
+ {
+  "name": "Kandari Khor Malla",
+  "kind": "hamlet",
+  "lat": 29.9972766,
+  "lon": 79.4092226
+ },
+ {
+  "name": "Kandari Khor Talla",
+  "kind": "hamlet",
+  "lat": 29.9929651,
+  "lon": 79.4168615
+ },
+ {
+  "name": "Kanderi",
+  "kind": "hamlet",
+  "lat": 30.3472631,
+  "lon": 79.3023809
+ },
+ {
+  "name": "Kandol",
+  "kind": "hamlet",
+  "lat": 30.3103521,
+  "lon": 79.2579096
+ },
+ {
+  "name": "Kandwal",
+  "kind": "hamlet",
+  "lat": 30.1519858,
+  "lon": 79.341884
+ },
+ {
+  "name": "Kankikhali",
+  "kind": "hamlet",
+  "lat": 29.9905213,
+  "lon": 79.4108963
+ },
+ {
+  "name": "Kanol",
+  "kind": "hamlet",
+  "lat": 30.2539117,
+  "lon": 79.5953469
+ },
+ {
+  "name": "Kansola",
+  "kind": "hamlet",
+  "lat": 30.0924939,
+  "lon": 79.3781941
+ },
+ {
+  "name": "Kansuwa",
+  "kind": "hamlet",
+  "lat": 30.1589595,
+  "lon": 79.2000854
+ },
+ {
+  "name": "Kanth",
+  "kind": "hamlet",
+  "lat": 30.5103799,
+  "lon": 79.3742068
+ },
+ {
+  "name": "Kaphalkhet",
+  "kind": "hamlet",
+  "lat": 30.0183332,
+  "lon": 79.6703898
+ },
+ {
+  "name": "Kaphalpani",
+  "kind": "hamlet",
+  "lat": 30.3486118,
+  "lon": 79.2458599
+ },
+ {
+  "name": "Kaphalsain",
+  "kind": "hamlet",
+  "lat": 29.9786357,
+  "lon": 79.2461228
+ },
+ {
+  "name": "Kaphartir",
+  "kind": "hamlet",
+  "lat": 30.199441,
+  "lon": 79.3499274
+ },
+ {
+  "name": "Kapholi",
+  "kind": "hamlet",
+  "lat": 30.16346,
+  "lon": 79.3218036
+ },
+ {
+  "name": "Karchhuna",
+  "kind": "hamlet",
+  "lat": 30.297906,
+  "lon": 79.1858133
+ },
+ {
+  "name": "Kartiyan",
+  "kind": "hamlet",
+  "lat": 30.0392245,
+  "lon": 79.2872868
+ },
+ {
+  "name": "Kaulun",
+  "kind": "hamlet",
+  "lat": 30.2602106,
+  "lon": 79.1122095
+ },
+ {
+  "name": "Kaurau",
+  "kind": "hamlet",
+  "lat": 30.4184048,
+  "lon": 79.3526401
+ },
+ {
+  "name": "Kelapani",
+  "kind": "hamlet",
+  "lat": 30.2177232,
+  "lon": 79.2807882
+ },
+ {
+  "name": "Keri Talli",
+  "kind": "hamlet",
+  "lat": 30.1322487,
+  "lon": 79.2469382
+ },
+ {
+  "name": "Kewar",
+  "kind": "hamlet",
+  "lat": 30.1131869,
+  "lon": 79.4962379
+ },
+ {
+  "name": "Khadgoli",
+  "kind": "hamlet",
+  "lat": 30.2909363,
+  "lon": 79.3774144
+ },
+ {
+  "name": "Khadora",
+  "kind": "hamlet",
+  "lat": 30.4219115,
+  "lon": 79.3410565
+ },
+ {
+  "name": "Khageli",
+  "kind": "hamlet",
+  "lat": 30.1953075,
+  "lon": 79.2427754
+ },
+ {
+  "name": "Khakora",
+  "kind": "hamlet",
+  "lat": 30.1247917,
+  "lon": 79.3744359
+ },
+ {
+  "name": "Khalgaon",
+  "kind": "hamlet",
+  "lat": 30.1748303,
+  "lon": 79.2171979
+ },
+ {
+  "name": "Khaliyan",
+  "kind": "hamlet",
+  "lat": 29.9864744,
+  "lon": 79.3966538
+ },
+ {
+  "name": "Khandura",
+  "kind": "hamlet",
+  "lat": 30.192136,
+  "lon": 79.2597484
+ },
+ {
+  "name": "Khanna",
+  "kind": "hamlet",
+  "lat": 30.3687112,
+  "lon": 79.2133746
+ },
+ {
+  "name": "Khansar",
+  "kind": "hamlet",
+  "lat": 29.9997028,
+  "lon": 79.3049057
+ },
+ {
+  "name": "Kharsani",
+  "kind": "hamlet",
+  "lat": 30.2382604,
+  "lon": 79.1240179
+ },
+ {
+  "name": "Khet",
+  "kind": "hamlet",
+  "lat": 30.140182,
+  "lon": 79.1945279
+ },
+ {
+  "name": "Kheta",
+  "kind": "hamlet",
+  "lat": 30.0300055,
+  "lon": 79.7402076
+ },
+ {
+  "name": "Kheti",
+  "kind": "hamlet",
+  "lat": 30.133981,
+  "lon": 79.2615608
+ },
+ {
+  "name": "Khirao",
+  "kind": "hamlet",
+  "lat": 30.6849562,
+  "lon": 79.4763374
+ },
+ {
+  "name": "Khola",
+  "kind": "hamlet",
+  "lat": 30.2509882,
+  "lon": 79.2544326
+ },
+ {
+  "name": "Khori Chak",
+  "kind": "hamlet",
+  "lat": 30.2955893,
+  "lon": 79.1769387
+ },
+ {
+  "name": "Khunana",
+  "kind": "hamlet",
+  "lat": 30.2825218,
+  "lon": 79.4138869
+ },
+ {
+  "name": "Khuni",
+  "kind": "hamlet",
+  "lat": 30.0755873,
+  "lon": 79.538393
+ },
+ {
+  "name": "Kimni",
+  "kind": "hamlet",
+  "lat": 30.0790475,
+  "lon": 79.4791326
+ },
+ {
+  "name": "Kimoli",
+  "kind": "hamlet",
+  "lat": 30.1067714,
+  "lon": 79.3230246
+ },
+ {
+  "name": "Kimotha",
+  "kind": "hamlet",
+  "lat": 30.3833656,
+  "lon": 79.2006174
+ },
+ {
+  "name": "Kirsal",
+  "kind": "hamlet",
+  "lat": 30.181267,
+  "lon": 79.1518485
+ },
+ {
+  "name": "Kiruli",
+  "kind": "hamlet",
+  "lat": 30.4120957,
+  "lon": 79.4368825
+ },
+ {
+  "name": "Kob",
+  "kind": "hamlet",
+  "lat": 30.1198705,
+  "lon": 79.3738951
+ },
+ {
+  "name": "Koinda",
+  "kind": "hamlet",
+  "lat": 30.4160869,
+  "lon": 79.2399026
+ },
+ {
+  "name": "Koladungri",
+  "kind": "hamlet",
+  "lat": 30.2397942,
+  "lon": 79.2779536
+ },
+ {
+  "name": "Kolak",
+  "kind": "hamlet",
+  "lat": 30.0134421,
+  "lon": 79.2981568
+ },
+ {
+  "name": "Kolgam",
+  "kind": "hamlet",
+  "lat": 30.4058942,
+  "lon": 79.231063
+ },
+ {
+  "name": "Koriyadhar",
+  "kind": "hamlet",
+  "lat": 30.0207532,
+  "lon": 79.5981949
+ },
+ {
+  "name": "Kosa",
+  "kind": "hamlet",
+  "lat": 30.67793,
+  "lon": 79.8609495
+ },
+ {
+  "name": "Kot",
+  "kind": "hamlet",
+  "lat": 30.2267273,
+  "lon": 79.3466413
+ },
+ {
+  "name": "Koteshwar",
+  "kind": "hamlet",
+  "lat": 30.4453888,
+  "lon": 79.2803622
+ },
+ {
+  "name": "Kotha",
+  "kind": "hamlet",
+  "lat": 29.9412132,
+  "lon": 79.2997241
+ },
+ {
+  "name": "Kotha Rajondi",
+  "kind": "hamlet",
+  "lat": 30.133367,
+  "lon": 79.4315464
+ },
+ {
+  "name": "Kothaigaon",
+  "kind": "hamlet",
+  "lat": 29.9516438,
+  "lon": 79.3017196
+ },
+ {
+  "name": "Kothi",
+  "kind": "hamlet",
+  "lat": 30.0345855,
+  "lon": 79.5640726
+ },
+ {
+  "name": "Kothli",
+  "kind": "hamlet",
+  "lat": 30.2236926,
+  "lon": 79.3546496
+ },
+ {
+  "name": "Kothra",
+  "kind": "hamlet",
+  "lat": 30.228576,
+  "lon": 79.3578161
+ },
+ {
+  "name": "Kothyar",
+  "kind": "hamlet",
+  "lat": 30.0379338,
+  "lon": 79.2775976
+ },
+ {
+  "name": "Koti",
+  "kind": "hamlet",
+  "lat": 30.5227631,
+  "lon": 79.5775238
+ },
+ {
+  "name": "Kotigaon",
+  "kind": "hamlet",
+  "lat": 30.2924706,
+  "lon": 79.3342162
+ },
+ {
+  "name": "Kotkura",
+  "kind": "hamlet",
+  "lat": 30.6308139,
+  "lon": 79.5685367
+ },
+ {
+  "name": "Kujani",
+  "kind": "hamlet",
+  "lat": 30.511071,
+  "lon": 79.4223876
+ },
+ {
+  "name": "Kujasu",
+  "kind": "hamlet",
+  "lat": 30.308055,
+  "lon": 79.2090367
+ },
+ {
+  "name": "Kukartoli",
+  "kind": "hamlet",
+  "lat": 30.4086307,
+  "lon": 79.2168293
+ },
+ {
+  "name": "Kulara",
+  "kind": "hamlet",
+  "lat": 30.291309,
+  "lon": 79.2535571
+ },
+ {
+  "name": "Kulgad",
+  "kind": "hamlet",
+  "lat": 30.0282377,
+  "lon": 79.2735638
+ },
+ {
+  "name": "Kuling Garhi",
+  "kind": "hamlet",
+  "lat": 30.0410215,
+  "lon": 79.6637857
+ },
+ {
+  "name": "Kumala",
+  "kind": "hamlet",
+  "lat": 30.3481786,
+  "lon": 79.498915
+ },
+ {
+  "name": "Kumera",
+  "kind": "hamlet",
+  "lat": 30.2954095,
+  "lon": 79.1917532
+ },
+ {
+  "name": "Kumjung",
+  "kind": "hamlet",
+  "lat": 30.2727326,
+  "lon": 79.4610647
+ },
+ {
+  "name": "Kumoli",
+  "kind": "hamlet",
+  "lat": 30.0554127,
+  "lon": 79.2737043
+ },
+ {
+  "name": "Kund",
+  "kind": "hamlet",
+  "lat": 30.2077883,
+  "lon": 79.2840814
+ },
+ {
+  "name": "Kundi",
+  "kind": "hamlet",
+  "lat": 30.2426769,
+  "lon": 79.3988093
+ },
+ {
+  "name": "Kungurcha",
+  "kind": "hamlet",
+  "lat": 30.205473,
+  "lon": 79.4611982
+ },
+ {
+  "name": "Kunigad Malli",
+  "kind": "hamlet",
+  "lat": 29.9433887,
+  "lon": 79.2983293
+ },
+ {
+  "name": "Kunj",
+  "kind": "hamlet",
+  "lat": 30.5018638,
+  "lon": 79.6061622
+ },
+ {
+  "name": "Kunjeni",
+  "kind": "hamlet",
+  "lat": 30.4342182,
+  "lon": 79.2229739
+ },
+ {
+  "name": "Kunkhet",
+  "kind": "hamlet",
+  "lat": 30.0062334,
+  "lon": 79.2411232
+ },
+ {
+  "name": "Kunkul Mandoli",
+  "kind": "hamlet",
+  "lat": 30.4542721,
+  "lon": 79.2823678
+ },
+ {
+  "name": "Kunturi",
+  "kind": "hamlet",
+  "lat": 30.2416876,
+  "lon": 79.4426038
+ },
+ {
+  "name": "Kunwarpata",
+  "kind": "hamlet",
+  "lat": 30.0385046,
+  "lon": 79.7714281
+ },
+ {
+  "name": "Kuraipani",
+  "kind": "hamlet",
+  "lat": 30.5147004,
+  "lon": 79.7203934
+ },
+ {
+  "name": "Kurali",
+  "kind": "hamlet",
+  "lat": 30.2644506,
+  "lon": 79.4817703
+ },
+ {
+  "name": "Kurkuti",
+  "kind": "hamlet",
+  "lat": 30.7065954,
+  "lon": 79.8754333
+ },
+ {
+  "name": "Kusankhat",
+  "kind": "hamlet",
+  "lat": 30.006794,
+  "lon": 79.4646218
+ },
+ {
+  "name": "Kusrani",
+  "kind": "hamlet",
+  "lat": 29.9614041,
+  "lon": 79.4154668
+ },
+ {
+  "name": "Kusrani Bichali",
+  "kind": "hamlet",
+  "lat": 29.9568866,
+  "lon": 79.4207883
+ },
+ {
+  "name": "Kusrani Malla",
+  "kind": "hamlet",
+  "lat": 29.9511047,
+  "lon": 79.4117975
+ },
+ {
+  "name": "Kutera",
+  "kind": "hamlet",
+  "lat": 30.0249527,
+  "lon": 79.675405
+ },
+ {
+  "name": "Kwarkun",
+  "kind": "hamlet",
+  "lat": 30.3763663,
+  "lon": 79.3626084
+ },
+ {
+  "name": "Kwiralu",
+  "kind": "hamlet",
+  "lat": 30.3803007,
+  "lon": 79.3046229
+ },
+ {
+  "name": "Lagna",
+  "kind": "hamlet",
+  "lat": 30.3923535,
+  "lon": 79.5813005
+ },
+ {
+  "name": "Laguna",
+  "kind": "hamlet",
+  "lat": 30.1333723,
+  "lon": 79.3691361
+ },
+ {
+  "name": "Lakhi",
+  "kind": "hamlet",
+  "lat": 30.2263028,
+  "lon": 79.4556067
+ },
+ {
+  "name": "Lalager",
+  "kind": "hamlet",
+  "lat": 29.9436676,
+  "lon": 79.3680882
+ },
+ {
+  "name": "Lali Ka Kalyan",
+  "kind": "hamlet",
+  "lat": 29.95737,
+  "lon": 79.2971062
+ },
+ {
+  "name": "Laloti",
+  "kind": "hamlet",
+  "lat": 30.1874807,
+  "lon": 79.2371106
+ },
+ {
+  "name": "Lam Bagar",
+  "kind": "hamlet",
+  "lat": 29.9468656,
+  "lon": 79.4184923
+ },
+ {
+  "name": "Lamadra",
+  "kind": "hamlet",
+  "lat": 30.2871996,
+  "lon": 79.4151148
+ },
+ {
+  "name": "Lamar Ka Gad",
+  "kind": "hamlet",
+  "lat": 29.9430912,
+  "lon": 79.4267535
+ },
+ {
+  "name": "Lambagad",
+  "kind": "hamlet",
+  "lat": 30.692639,
+  "lon": 79.5132394
+ },
+ {
+  "name": "Langari",
+  "kind": "hamlet",
+  "lat": 30.0269591,
+  "lon": 79.6478534
+ },
+ {
+  "name": "Langiai",
+  "kind": "hamlet",
+  "lat": 30.1104684,
+  "lon": 79.2179489
+ },
+ {
+  "name": "Lanji",
+  "kind": "hamlet",
+  "lat": 30.480797,
+  "lon": 79.4483104
+ },
+ {
+  "name": "Lapon",
+  "kind": "hamlet",
+  "lat": 30.4941124,
+  "lon": 79.4731564
+ },
+ {
+  "name": "Lashyara",
+  "kind": "hamlet",
+  "lat": 30.3799086,
+  "lon": 79.3461526
+ },
+ {
+  "name": "Lasi",
+  "kind": "hamlet",
+  "lat": 30.384072,
+  "lon": 79.3504267
+ },
+ {
+  "name": "Latudhar",
+  "kind": "hamlet",
+  "lat": 29.9985774,
+  "lon": 79.3129205
+ },
+ {
+  "name": "Linkhet",
+  "kind": "hamlet",
+  "lat": 30.057693,
+  "lon": 79.6808092
+ },
+ {
+  "name": "Loani",
+  "kind": "hamlet",
+  "lat": 30.5542317,
+  "lon": 79.5193691
+ },
+ {
+  "name": "Lodala",
+  "kind": "hamlet",
+  "lat": 30.2954782,
+  "lon": 79.3908468
+ },
+ {
+  "name": "Lohba",
+  "kind": "hamlet",
+  "lat": 30.0324573,
+  "lon": 79.2908919
+ },
+ {
+  "name": "Lolti",
+  "kind": "hamlet",
+  "lat": 30.0566044,
+  "lon": 79.4951253
+ },
+ {
+  "name": "Luhan",
+  "kind": "hamlet",
+  "lat": 30.4101747,
+  "lon": 79.430124
+ },
+ {
+  "name": "Lutaung",
+  "kind": "hamlet",
+  "lat": 30.2347604,
+  "lon": 79.6111011
+ },
+ {
+  "name": "Lwani Sitel",
+  "kind": "hamlet",
+  "lat": 30.274845,
+  "lon": 79.5443088
+ },
+ {
+  "name": "Lālsānga",
+  "kind": "hamlet",
+  "lat": 30.402708,
+  "lon": 79.333028
+ },
+ {
+  "name": "MAHAR GAON",
+  "kind": "hamlet",
+  "lat": 30.7109424,
+  "lon": 79.8743727
+ },
+ {
+  "name": "Maatgaon",
+  "kind": "hamlet",
+  "lat": 30.3014433,
+  "lon": 79.2637313
+ },
+ {
+  "name": "Madna",
+  "kind": "hamlet",
+  "lat": 30.2675783,
+  "lon": 79.5628972
+ },
+ {
+  "name": "Madura",
+  "kind": "hamlet",
+  "lat": 30.3532463,
+  "lon": 79.4685866
+ },
+ {
+  "name": "Maholta",
+  "kind": "hamlet",
+  "lat": 30.4211902,
+  "lon": 79.3860023
+ },
+ {
+  "name": "Maikhura",
+  "kind": "hamlet",
+  "lat": 30.2689992,
+  "lon": 79.2728344
+ },
+ {
+  "name": "Maikot",
+  "kind": "hamlet",
+  "lat": 30.4362545,
+  "lon": 79.3736748
+ },
+ {
+  "name": "Maila",
+  "kind": "hamlet",
+  "lat": 30.1522651,
+  "lon": 79.6220028
+ },
+ {
+  "name": "Main",
+  "kind": "hamlet",
+  "lat": 30.1011062,
+  "lon": 79.497341
+ },
+ {
+  "name": "Mainkhali",
+  "kind": "hamlet",
+  "lat": 30.0919949,
+  "lon": 79.5235073
+ },
+ {
+  "name": "Mair",
+  "kind": "hamlet",
+  "lat": 30.3462341,
+  "lon": 79.3547204
+ },
+ {
+  "name": "Maithana",
+  "kind": "hamlet",
+  "lat": 30.3636767,
+  "lon": 79.3156742
+ },
+ {
+  "name": "Maitoli",
+  "kind": "hamlet",
+  "lat": 30.1629854,
+  "lon": 79.2237532
+ },
+ {
+  "name": "Majkhola",
+  "kind": "hamlet",
+  "lat": 30.2416806,
+  "lon": 79.099583
+ },
+ {
+  "name": "Majkot",
+  "kind": "hamlet",
+  "lat": 30.2264584,
+  "lon": 79.4675829
+ },
+ {
+  "name": "Majyari",
+  "kind": "hamlet",
+  "lat": 30.1332138,
+  "lon": 79.183166
+ },
+ {
+  "name": "Makhauti",
+  "kind": "hamlet",
+  "lat": 30.0316035,
+  "lon": 79.698649
+ },
+ {
+  "name": "Mal Bajwar",
+  "kind": "hamlet",
+  "lat": 30.0710942,
+  "lon": 79.479933
+ },
+ {
+  "name": "Malana",
+  "kind": "hamlet",
+  "lat": 30.4272852,
+  "lon": 79.3573102
+ },
+ {
+  "name": "Malgur",
+  "kind": "hamlet",
+  "lat": 30.1490052,
+  "lon": 79.1947639
+ },
+ {
+  "name": "Malia",
+  "kind": "hamlet",
+  "lat": 30.1070199,
+  "lon": 79.4315521
+ },
+ {
+  "name": "Malla",
+  "kind": "hamlet",
+  "lat": 30.1030696,
+  "lon": 79.6174815
+ },
+ {
+  "name": "Malla Baron",
+  "kind": "hamlet",
+  "lat": 30.2648901,
+  "lon": 79.3941437
+ },
+ {
+  "name": "Malla Gwar",
+  "kind": "hamlet",
+  "lat": 30.2254034,
+  "lon": 79.1158318
+ },
+ {
+  "name": "Malla Kanda",
+  "kind": "hamlet",
+  "lat": 30.2778062,
+  "lon": 79.4225811
+ },
+ {
+  "name": "Malla Kanukhul",
+  "kind": "hamlet",
+  "lat": 30.2541936,
+  "lon": 79.2713941
+ },
+ {
+  "name": "Malla Kewar",
+  "kind": "hamlet",
+  "lat": 30.1421791,
+  "lon": 79.3662946
+ },
+ {
+  "name": "Malla Makh",
+  "kind": "hamlet",
+  "lat": 30.2535988,
+  "lon": 79.3989089
+ },
+ {
+  "name": "Malsi",
+  "kind": "hamlet",
+  "lat": 30.1240932,
+  "lon": 79.2759756
+ },
+ {
+  "name": "Maltura",
+  "kind": "hamlet",
+  "lat": 30.0957919,
+  "lon": 79.4284614
+ },
+ {
+  "name": "Mamotta",
+  "kind": "hamlet",
+  "lat": 30.4867033,
+  "lon": 79.5094044
+ },
+ {
+  "name": "Mangroli",
+  "kind": "hamlet",
+  "lat": 30.3154821,
+  "lon": 79.3222543
+ },
+ {
+  "name": "Manil",
+  "kind": "hamlet",
+  "lat": 30.1242932,
+  "lon": 79.4957123
+ },
+ {
+  "name": "Manki",
+  "kind": "hamlet",
+  "lat": 30.2923125,
+  "lon": 79.4033422
+ },
+ {
+  "name": "Manlalikhet",
+  "kind": "hamlet",
+  "lat": 30.0395951,
+  "lon": 79.7474698
+ },
+ {
+  "name": "Manmatti",
+  "kind": "hamlet",
+  "lat": 30.0410308,
+  "lon": 79.7541117
+ },
+ {
+  "name": "Maopata",
+  "kind": "hamlet",
+  "lat": 30.0192411,
+  "lon": 79.6890326
+ },
+ {
+  "name": "Mariger",
+  "kind": "hamlet",
+  "lat": 30.3088585,
+  "lon": 79.2189264
+ },
+ {
+  "name": "Markura",
+  "kind": "hamlet",
+  "lat": 30.5867532,
+  "lon": 79.7776427
+ },
+ {
+  "name": "Marora",
+  "kind": "hamlet",
+  "lat": 30.1015466,
+  "lon": 79.3762926
+ },
+ {
+  "name": "Masoli",
+  "kind": "hamlet",
+  "lat": 30.4154709,
+  "lon": 79.2158064
+ },
+ {
+  "name": "Mason",
+  "kind": "hamlet",
+  "lat": 30.2893623,
+  "lon": 79.2880885
+ },
+ {
+  "name": "Matai",
+  "kind": "hamlet",
+  "lat": 30.3227959,
+  "lon": 79.394968
+ },
+ {
+  "name": "Math",
+  "kind": "hamlet",
+  "lat": 30.3776552,
+  "lon": 79.2962153
+ },
+ {
+  "name": "Matharpal",
+  "kind": "hamlet",
+  "lat": 30.338125,
+  "lon": 79.3424631
+ },
+ {
+  "name": "Mauna",
+  "kind": "hamlet",
+  "lat": 30.1496877,
+  "lon": 79.3528943
+ },
+ {
+  "name": "Maunigad",
+  "kind": "hamlet",
+  "lat": 30.0363768,
+  "lon": 79.7270576
+ },
+ {
+  "name": "Mawar",
+  "kind": "hamlet",
+  "lat": 30.2984979,
+  "lon": 79.3978572
+ },
+ {
+  "name": "Medadwakti",
+  "kind": "hamlet",
+  "lat": 30.3136148,
+  "lon": 79.3284023
+ },
+ {
+  "name": "Meduni",
+  "kind": "hamlet",
+  "lat": 30.0838013,
+  "lon": 79.3806804
+ },
+ {
+  "name": "Melbagar",
+  "kind": "hamlet",
+  "lat": 30.0625757,
+  "lon": 79.2381513
+ },
+ {
+  "name": "Melkhet",
+  "kind": "hamlet",
+  "lat": 30.0242392,
+  "lon": 79.7209228
+ },
+ {
+  "name": "Meltha",
+  "kind": "hamlet",
+  "lat": 30.0750132,
+  "lon": 79.4759973
+ },
+ {
+  "name": "Meta Malla",
+  "kind": "hamlet",
+  "lat": 30.0804498,
+  "lon": 79.4475304
+ },
+ {
+  "name": "Meta Talla",
+  "kind": "hamlet",
+  "lat": 30.0846633,
+  "lon": 79.4477529
+ },
+ {
+  "name": "Milotha",
+  "kind": "hamlet",
+  "lat": 30.0520594,
+  "lon": 79.6125324
+ },
+ {
+  "name": "Ming",
+  "kind": "hamlet",
+  "lat": 30.1177913,
+  "lon": 79.39933
+ },
+ {
+  "name": "Mingtir",
+  "kind": "hamlet",
+  "lat": 30.2147668,
+  "lon": 79.4722011
+ },
+ {
+  "name": "Modoparan",
+  "kind": "hamlet",
+  "lat": 30.0390061,
+  "lon": 79.6824002
+ },
+ {
+  "name": "Mothi",
+  "kind": "hamlet",
+  "lat": 30.3823788,
+  "lon": 79.5905768
+ },
+ {
+  "name": "Mullagaon",
+  "kind": "hamlet",
+  "lat": 30.2442851,
+  "lon": 79.0997708
+ },
+ {
+  "name": "Munlall",
+  "kind": "hamlet",
+  "lat": 30.3214671,
+  "lon": 79.3261262
+ },
+ {
+  "name": "Murunna",
+  "kind": "hamlet",
+  "lat": 30.4694786,
+  "lon": 79.7030888
+ },
+ {
+  "name": "Nagar",
+  "kind": "hamlet",
+  "lat": 30.0635136,
+  "lon": 79.7585857
+ },
+ {
+  "name": "Nagari",
+  "kind": "hamlet",
+  "lat": 30.3708547,
+  "lon": 79.3038933
+ },
+ {
+  "name": "Nagdhar",
+  "kind": "hamlet",
+  "lat": 30.3362672,
+  "lon": 79.2442335
+ },
+ {
+  "name": "Nagli",
+  "kind": "hamlet",
+  "lat": 30.1634399,
+  "lon": 79.2142582
+ },
+ {
+  "name": "Nail",
+  "kind": "hamlet",
+  "lat": 30.0773575,
+  "lon": 79.4606303
+ },
+ {
+  "name": "Nail Malla",
+  "kind": "hamlet",
+  "lat": 29.9774089,
+  "lon": 79.4272256
+ },
+ {
+  "name": "Nail Talla",
+  "kind": "hamlet",
+  "lat": 29.9819627,
+  "lon": 79.4271612
+ },
+ {
+  "name": "Naini",
+  "kind": "hamlet",
+  "lat": 30.1205185,
+  "lon": 79.3473567
+ },
+ {
+  "name": "Nakholi",
+  "kind": "hamlet",
+  "lat": 30.1600637,
+  "lon": 79.4245693
+ },
+ {
+  "name": "Nakot",
+  "kind": "hamlet",
+  "lat": 30.2555883,
+  "lon": 79.2467538
+ },
+ {
+  "name": "Naldhura",
+  "kind": "hamlet",
+  "lat": 30.0257975,
+  "lon": 79.7004051
+ },
+ {
+  "name": "Nalgaon",
+  "kind": "hamlet",
+  "lat": 30.2430153,
+  "lon": 79.1108858
+ },
+ {
+  "name": "Nalpani",
+  "kind": "hamlet",
+  "lat": 30.1002973,
+  "lon": 79.6835424
+ },
+ {
+  "name": "Namla",
+  "kind": "hamlet",
+  "lat": 30.0755004,
+  "lon": 79.7681021
+ },
+ {
+  "name": "Naptol",
+  "kind": "hamlet",
+  "lat": 30.0770949,
+  "lon": 79.4193294
+ },
+ {
+  "name": "Narangi",
+  "kind": "hamlet",
+  "lat": 30.2636068,
+  "lon": 79.4650224
+ },
+ {
+  "name": "Narayan",
+  "kind": "hamlet",
+  "lat": 30.3833989,
+  "lon": 79.2834252
+ },
+ {
+  "name": "Nargoli",
+  "kind": "hamlet",
+  "lat": 30.4227194,
+  "lon": 79.4370102
+ },
+ {
+  "name": "Nathol Chak",
+  "kind": "hamlet",
+  "lat": 30.362968,
+  "lon": 79.3407759
+ },
+ {
+  "name": "Naug",
+  "kind": "hamlet",
+  "lat": 30.5925978,
+  "lon": 79.7704128
+ },
+ {
+  "name": "Naugaon",
+  "kind": "hamlet",
+  "lat": 30.0927684,
+  "lon": 79.3730831
+ },
+ {
+  "name": "Nauli",
+  "kind": "hamlet",
+  "lat": 30.1013071,
+  "lon": 79.3937884
+ },
+ {
+  "name": "Nauna",
+  "kind": "hamlet",
+  "lat": 30.2984899,
+  "lon": 79.3826587
+ },
+ {
+  "name": "Netha",
+  "kind": "hamlet",
+  "lat": 30.0802003,
+  "lon": 79.6316758
+ },
+ {
+  "name": "Niglani",
+  "kind": "hamlet",
+  "lat": 29.9371185,
+  "lon": 79.292751
+ },
+ {
+  "name": "Nyauli",
+  "kind": "hamlet",
+  "lat": 30.2991364,
+  "lon": 79.3036219
+ },
+ {
+  "name": "Odhar",
+  "kind": "hamlet",
+  "lat": 30.0332989,
+  "lon": 79.6351045
+ },
+ {
+  "name": "Orthe",
+  "kind": "hamlet",
+  "lat": 30.0832564,
+  "lon": 79.5486448
+ },
+ {
+  "name": "Pab",
+  "kind": "hamlet",
+  "lat": 30.351348,
+  "lon": 79.2114306
+ },
+ {
+  "name": "Padarghow",
+  "kind": "hamlet",
+  "lat": 30.3073773,
+  "lon": 79.527016
+ },
+ {
+  "name": "Padmalla",
+  "kind": "hamlet",
+  "lat": 30.0478291,
+  "lon": 79.5981788
+ },
+ {
+  "name": "Paduli",
+  "kind": "hamlet",
+  "lat": 30.2517564,
+  "lon": 79.1239478
+ },
+ {
+  "name": "Pagna",
+  "kind": "hamlet",
+  "lat": 30.3723741,
+  "lon": 79.5361392
+ },
+ {
+  "name": "Pagti",
+  "kind": "hamlet",
+  "lat": 30.5566439,
+  "lon": 79.7758162
+ },
+ {
+  "name": "Paing",
+  "kind": "hamlet",
+  "lat": 30.472931,
+  "lon": 79.713102
+ },
+ {
+  "name": "Paingarh",
+  "kind": "hamlet",
+  "lat": 30.1036894,
+  "lon": 79.4433161
+ },
+ {
+  "name": "Paini Palli",
+  "kind": "hamlet",
+  "lat": 30.3051559,
+  "lon": 79.2328399
+ },
+ {
+  "name": "Paini Walli",
+  "kind": "hamlet",
+  "lat": 30.3082583,
+  "lon": 79.2268236
+ },
+ {
+  "name": "Painka",
+  "kind": "hamlet",
+  "lat": 30.5706174,
+  "lon": 79.5888238
+ },
+ {
+  "name": "Painti",
+  "kind": "hamlet",
+  "lat": 30.1499693,
+  "lon": 79.4181968
+ },
+ {
+  "name": "Paiyara",
+  "kind": "hamlet",
+  "lat": 30.1577257,
+  "lon": 79.2118764
+ },
+ {
+  "name": "Pajyana",
+  "kind": "hamlet",
+  "lat": 30.113856,
+  "lon": 79.2206526
+ },
+ {
+  "name": "Pakan Tok",
+  "kind": "hamlet",
+  "lat": 30.0735183,
+  "lon": 79.571291
+ },
+ {
+  "name": "Palaitha",
+  "kind": "hamlet",
+  "lat": 30.359967,
+  "lon": 79.3253095
+ },
+ {
+  "name": "Palam",
+  "kind": "hamlet",
+  "lat": 30.5013671,
+  "lon": 79.4870733
+ },
+ {
+  "name": "Palangwadi",
+  "kind": "hamlet",
+  "lat": 29.9403207,
+  "lon": 79.4004464
+ },
+ {
+  "name": "Pali",
+  "kind": "hamlet",
+  "lat": 30.1137755,
+  "lon": 79.3916895
+ },
+ {
+  "name": "Palla",
+  "kind": "hamlet",
+  "lat": 30.5122953,
+  "lon": 79.4720821
+ },
+ {
+  "name": "Palla Baron",
+  "kind": "hamlet",
+  "lat": 30.2732403,
+  "lon": 79.389537
+ },
+ {
+  "name": "Paltingdhar",
+  "kind": "hamlet",
+  "lat": 30.278452,
+  "lon": 79.5863053
+ },
+ {
+  "name": "Panai",
+  "kind": "hamlet",
+  "lat": 30.2832323,
+  "lon": 79.2304766
+ },
+ {
+  "name": "Panchali",
+  "kind": "hamlet",
+  "lat": 30.0202696,
+  "lon": 79.2854887
+ },
+ {
+  "name": "Pandauri",
+  "kind": "hamlet",
+  "lat": 30.1223289,
+  "lon": 79.1959762
+ },
+ {
+  "name": "Pandukeshar",
+  "kind": "hamlet",
+  "lat": 30.6344074,
+  "lon": 79.5470819
+ },
+ {
+  "name": "Panga",
+  "kind": "hamlet",
+  "lat": 30.1925209,
+  "lon": 79.1328263
+ },
+ {
+  "name": "Paniger",
+  "kind": "hamlet",
+  "lat": 30.3171064,
+  "lon": 79.3527465
+ },
+ {
+  "name": "Panjachauk",
+  "kind": "hamlet",
+  "lat": 30.2805713,
+  "lon": 79.6019658
+ },
+ {
+  "name": "Panmari",
+  "kind": "hamlet",
+  "lat": 30.2599298,
+  "lon": 79.5688323
+ },
+ {
+  "name": "Panwarsa",
+  "kind": "hamlet",
+  "lat": 30.5517287,
+  "lon": 79.7553134
+ },
+ {
+  "name": "Pariyana",
+  "kind": "hamlet",
+  "lat": 30.043294,
+  "lon": 79.2653846
+ },
+ {
+  "name": "Parkandai Malli",
+  "kind": "hamlet",
+  "lat": 30.065609,
+  "lon": 79.2597621
+ },
+ {
+  "name": "Parkandai Talli",
+  "kind": "hamlet",
+  "lat": 30.0619041,
+  "lon": 79.2609366
+ },
+ {
+  "name": "Parkhet",
+  "kind": "hamlet",
+  "lat": 30.2679661,
+  "lon": 79.4423776
+ },
+ {
+  "name": "Parsongad",
+  "kind": "hamlet",
+  "lat": 30.0207864,
+  "lon": 79.5668721
+ },
+ {
+  "name": "Parwari",
+  "kind": "hamlet",
+  "lat": 30.0878293,
+  "lon": 79.2568963
+ },
+ {
+  "name": "Patal",
+  "kind": "hamlet",
+  "lat": 29.9885792,
+  "lon": 79.4426965
+ },
+ {
+  "name": "Patharkata",
+  "kind": "hamlet",
+  "lat": 29.995782,
+  "lon": 79.4418619
+ },
+ {
+  "name": "Pati",
+  "kind": "hamlet",
+  "lat": 30.4243603,
+  "lon": 79.2043697
+ },
+ {
+  "name": "Patla",
+  "kind": "hamlet",
+  "lat": 30.0154086,
+  "lon": 79.5466981
+ },
+ {
+  "name": "Patuari",
+  "kind": "hamlet",
+  "lat": 30.1248457,
+  "lon": 79.3404616
+ },
+ {
+  "name": "Paunkila Malla",
+  "kind": "hamlet",
+  "lat": 30.3052012,
+  "lon": 79.3579542
+ },
+ {
+  "name": "Payyan",
+  "kind": "hamlet",
+  "lat": 30.1715956,
+  "lon": 79.2019576
+ },
+ {
+  "name": "Peb",
+  "kind": "hamlet",
+  "lat": 30.1733278,
+  "lon": 79.1650772
+ },
+ {
+  "name": "Peri",
+  "kind": "hamlet",
+  "lat": 30.1942613,
+  "lon": 79.6177147
+ },
+ {
+  "name": "Phali",
+  "kind": "hamlet",
+  "lat": 30.2441473,
+  "lon": 79.4507319
+ },
+ {
+  "name": "Pharali",
+  "kind": "hamlet",
+  "lat": 30.1085815,
+  "lon": 79.5709179
+ },
+ {
+  "name": "Pharsaun",
+  "kind": "hamlet",
+  "lat": 30.0069923,
+  "lon": 79.3166031
+ },
+ {
+  "name": "Pheti",
+  "kind": "hamlet",
+  "lat": 30.0409658,
+  "lon": 79.6364379
+ },
+ {
+  "name": "Pholota",
+  "kind": "hamlet",
+  "lat": 30.2380646,
+  "lon": 79.2902862
+ },
+ {
+  "name": "Phuldungi",
+  "kind": "hamlet",
+  "lat": 30.0646278,
+  "lon": 79.2455971
+ },
+ {
+  "name": "Pilang",
+  "kind": "hamlet",
+  "lat": 30.3817748,
+  "lon": 79.31228
+ },
+ {
+  "name": "Pilkni",
+  "kind": "hamlet",
+  "lat": 30.5384208,
+  "lon": 79.4792423
+ },
+ {
+  "name": "Pinau",
+  "kind": "hamlet",
+  "lat": 30.1358702,
+  "lon": 79.6912412
+ },
+ {
+  "name": "Pindwali Malli",
+  "kind": "hamlet",
+  "lat": 30.1436427,
+  "lon": 79.1534257
+ },
+ {
+  "name": "Pindwali Talli",
+  "kind": "hamlet",
+  "lat": 30.1418242,
+  "lon": 79.1607213
+ },
+ {
+  "name": "Pinola",
+  "kind": "hamlet",
+  "lat": 30.6143413,
+  "lon": 79.5652861
+ },
+ {
+  "name": "Pipal Chati",
+  "kind": "hamlet",
+  "lat": 30.1611394,
+  "lon": 79.2300296
+ },
+ {
+  "name": "Pokhani",
+  "kind": "hamlet",
+  "lat": 30.4708447,
+  "lon": 79.4271978
+ },
+ {
+  "name": "Pokhari",
+  "kind": "hamlet",
+  "lat": 30.2791095,
+  "lon": 79.4671382
+ },
+ {
+  "name": "Pokhiri",
+  "kind": "hamlet",
+  "lat": 30.06731,
+  "lon": 79.6190399
+ },
+ {
+  "name": "Premnagar",
+  "kind": "hamlet",
+  "lat": 30.5341999,
+  "lon": 79.5803201
+ },
+ {
+  "name": "Pulau Chak",
+  "kind": "hamlet",
+  "lat": 30.2705089,
+  "lon": 79.3387162
+ },
+ {
+  "name": "Pungaon",
+  "kind": "hamlet",
+  "lat": 30.1922844,
+  "lon": 79.1329229
+ },
+ {
+  "name": "Purna",
+  "kind": "hamlet",
+  "lat": 30.1871485,
+  "lon": 79.2966119
+ },
+ {
+  "name": "Pursati",
+  "kind": "hamlet",
+  "lat": 30.3484024,
+  "lon": 79.3158463
+ },
+ {
+  "name": "Pyonra",
+  "kind": "hamlet",
+  "lat": 30.124584,
+  "lon": 79.21561
+ },
+ {
+  "name": "Raingaon",
+  "kind": "hamlet",
+  "lat": 30.1582966,
+  "lon": 79.4010814
+ },
+ {
+  "name": "Rains",
+  "kind": "hamlet",
+  "lat": 30.1857959,
+  "lon": 79.3696724
+ },
+ {
+  "name": "Rajwakti",
+  "kind": "hamlet",
+  "lat": 30.3104188,
+  "lon": 79.3316947
+ },
+ {
+  "name": "Rakoil",
+  "kind": "hamlet",
+  "lat": 30.0714339,
+  "lon": 79.4944145
+ },
+ {
+  "name": "Rakot",
+  "kind": "hamlet",
+  "lat": 29.972065,
+  "lon": 79.3479073
+ },
+ {
+  "name": "Rakra",
+  "kind": "hamlet",
+  "lat": 30.084094,
+  "lon": 79.4766558
+ },
+ {
+  "name": "Rampur",
+  "kind": "hamlet",
+  "lat": 30.0534754,
+  "lon": 79.7890448
+ },
+ {
+  "name": "Ramra",
+  "kind": "hamlet",
+  "lat": 30.0471233,
+  "lon": 79.2341494
+ },
+ {
+  "name": "Ramwori",
+  "kind": "hamlet",
+  "lat": 30.3189737,
+  "lon": 79.3196373
+ },
+ {
+  "name": "Randoli",
+  "kind": "hamlet",
+  "lat": 30.1495248,
+  "lon": 79.2420888
+ },
+ {
+  "name": "Ranga",
+  "kind": "hamlet",
+  "lat": 30.1990838,
+  "lon": 79.63212
+ },
+ {
+  "name": "Rangehauna",
+  "kind": "hamlet",
+  "lat": 29.9757825,
+  "lon": 79.3142724
+ },
+ {
+  "name": "Rangeli",
+  "kind": "hamlet",
+  "lat": 30.4764781,
+  "lon": 79.6331412
+ },
+ {
+  "name": "Ranihat",
+  "kind": "hamlet",
+  "lat": 30.1998605,
+  "lon": 79.4609991
+ },
+ {
+  "name": "Ranta",
+  "kind": "hamlet",
+  "lat": 30.5408156,
+  "lon": 79.4516298
+ },
+ {
+  "name": "Rarki",
+  "kind": "hamlet",
+  "lat": 30.2350056,
+  "lon": 79.2525744
+ },
+ {
+  "name": "Rasodha",
+  "kind": "hamlet",
+  "lat": 30.3373728,
+  "lon": 79.2244868
+ },
+ {
+  "name": "Ratni",
+  "kind": "hamlet",
+  "lat": 30.1405359,
+  "lon": 79.3586517
+ },
+ {
+  "name": "Raul",
+  "kind": "hamlet",
+  "lat": 30.015326,
+  "lon": 79.685927
+ },
+ {
+  "name": "Raulgoon",
+  "kind": "hamlet",
+  "lat": 30.1185655,
+  "lon": 79.3672654
+ },
+ {
+  "name": "Rawanri",
+  "kind": "hamlet",
+  "lat": 30.1660001,
+  "lon": 79.2157388
+ },
+ {
+  "name": "Rei",
+  "kind": "hamlet",
+  "lat": 30.0643069,
+  "lon": 79.4236866
+ },
+ {
+  "name": "Retali",
+  "kind": "hamlet",
+  "lat": 30.4227109,
+  "lon": 79.4294369
+ },
+ {
+  "name": "Rikholi",
+  "kind": "hamlet",
+  "lat": 30.0568138,
+  "lon": 79.2833931
+ },
+ {
+  "name": "Rikhulti",
+  "kind": "hamlet",
+  "lat": 30.4703129,
+  "lon": 79.6295181
+ },
+ {
+  "name": "Rikhwari",
+  "kind": "hamlet",
+  "lat": 30.2935964,
+  "lon": 79.2628235
+ },
+ {
+  "name": "Rini",
+  "kind": "hamlet",
+  "lat": 30.4840721,
+  "lon": 79.6510041
+ },
+ {
+  "name": "Rohida",
+  "kind": "hamlet",
+  "lat": 29.9872577,
+  "lon": 79.2429759
+ },
+ {
+  "name": "Rohira",
+  "kind": "hamlet",
+  "lat": 29.9843417,
+  "lon": 79.2605638
+ },
+ {
+  "name": "Rointha",
+  "kind": "hamlet",
+  "lat": 30.2520231,
+  "lon": 79.3079786
+ },
+ {
+  "name": "Ronida",
+  "kind": "hamlet",
+  "lat": 29.990547,
+  "lon": 79.2535464
+ },
+ {
+  "name": "Rowala",
+  "kind": "hamlet",
+  "lat": 30.4111787,
+  "lon": 79.3820566
+ },
+ {
+  "name": "Ruisan",
+  "kind": "hamlet",
+  "lat": 30.1392999,
+  "lon": 79.4885307
+ },
+ {
+  "name": "Rupung",
+  "kind": "hamlet",
+  "lat": 30.4888981,
+  "lon": 79.5244004
+ },
+ {
+  "name": "Rwisan",
+  "kind": "hamlet",
+  "lat": 30.1276905,
+  "lon": 79.5319337
+ },
+ {
+  "name": "Ryal Bagar",
+  "kind": "hamlet",
+  "lat": 30.7110763,
+  "lon": 79.8435457
+ },
+ {
+  "name": "Sagar",
+  "kind": "hamlet",
+  "lat": 30.4397587,
+  "lon": 79.3213368
+ },
+ {
+  "name": "Sail",
+  "kind": "hamlet",
+  "lat": 30.2817936,
+  "lon": 79.1414916
+ },
+ {
+  "name": "Sainar",
+  "kind": "hamlet",
+  "lat": 30.1414555,
+  "lon": 79.4159204
+ },
+ {
+  "name": "Sainj",
+  "kind": "hamlet",
+  "lat": 30.3722712,
+  "lon": 79.4384617
+ },
+ {
+  "name": "Sakand",
+  "kind": "hamlet",
+  "lat": 30.2348957,
+  "lon": 79.1478467
+ },
+ {
+  "name": "Sakni",
+  "kind": "hamlet",
+  "lat": 30.3165445,
+  "lon": 79.1933212
+ },
+ {
+  "name": "Sal",
+  "kind": "hamlet",
+  "lat": 30.6497801,
+  "lon": 79.5825101
+ },
+ {
+  "name": "Saldhar",
+  "kind": "hamlet",
+  "lat": 30.4876073,
+  "lon": 79.666307
+ },
+ {
+  "name": "Salma",
+  "kind": "hamlet",
+  "lat": 30.5298379,
+  "lon": 79.4917899
+ },
+ {
+  "name": "Salpur",
+  "kind": "hamlet",
+  "lat": 30.0801684,
+  "lon": 79.4541106
+ },
+ {
+  "name": "Salung",
+  "kind": "hamlet",
+  "lat": 30.1598964,
+  "lon": 79.2910123
+ },
+ {
+  "name": "Salyana",
+  "kind": "hamlet",
+  "lat": 30.1891499,
+  "lon": 79.276936
+ },
+ {
+  "name": "Samdungra",
+  "kind": "hamlet",
+  "lat": 30.3730687,
+  "lon": 79.3233916
+ },
+ {
+  "name": "Sani",
+  "kind": "hamlet",
+  "lat": 30.3088588,
+  "lon": 79.3733336
+ },
+ {
+  "name": "Sanj",
+  "kind": "hamlet",
+  "lat": 30.2700891,
+  "lon": 79.3027779
+ },
+ {
+  "name": "Sankand",
+  "kind": "hamlet",
+  "lat": 30.3252016,
+  "lon": 79.3431184
+ },
+ {
+  "name": "Sankari",
+  "kind": "hamlet",
+  "lat": 30.3194003,
+  "lon": 79.3892331
+ },
+ {
+  "name": "Sanyara",
+  "kind": "hamlet",
+  "lat": 30.0971801,
+  "lon": 79.4074654
+ },
+ {
+  "name": "Sarana",
+  "kind": "hamlet",
+  "lat": 30.3405019,
+  "lon": 79.2222953
+ },
+ {
+  "name": "Sarkol",
+  "kind": "hamlet",
+  "lat": 30.0855084,
+  "lon": 79.2470026
+ },
+ {
+  "name": "Sarkot",
+  "kind": "hamlet",
+  "lat": 30.0371114,
+  "lon": 79.5771074
+ },
+ {
+  "name": "Sarma",
+  "kind": "hamlet",
+  "lat": 30.2491643,
+  "lon": 79.5848344
+ },
+ {
+  "name": "Sarmata Tok",
+  "kind": "hamlet",
+  "lat": 30.1175032,
+  "lon": 79.7015834
+ },
+ {
+  "name": "Sarmola",
+  "kind": "hamlet",
+  "lat": 30.291889,
+  "lon": 79.1923708
+ },
+ {
+  "name": "Sarna",
+  "kind": "hamlet",
+  "lat": 30.2947848,
+  "lon": 79.2399998
+ },
+ {
+  "name": "Saror",
+  "kind": "hamlet",
+  "lat": 29.9783383,
+  "lon": 79.3369317
+ },
+ {
+  "name": "Sattur",
+  "kind": "hamlet",
+  "lat": 30.320777,
+  "lon": 79.2496632
+ },
+ {
+  "name": "Sauna",
+  "kind": "hamlet",
+  "lat": 30.183644,
+  "lon": 79.3032437
+ },
+ {
+  "name": "Sauramanga",
+  "kind": "hamlet",
+  "lat": 30.3344613,
+  "lon": 79.2292845
+ },
+ {
+  "name": "Saurka",
+  "kind": "hamlet",
+  "lat": 30.2071578,
+  "lon": 79.2699623
+ },
+ {
+  "name": "Sauta",
+  "kind": "hamlet",
+  "lat": 30.0878485,
+  "lon": 79.3748594
+ },
+ {
+  "name": "Sem",
+  "kind": "hamlet",
+  "lat": 30.3560587,
+  "lon": 79.2410138
+ },
+ {
+  "name": "Sema",
+  "kind": "hamlet",
+  "lat": 30.3144786,
+  "lon": 79.373189
+ },
+ {
+  "name": "Sena",
+  "kind": "hamlet",
+  "lat": 30.0596338,
+  "lon": 79.2659765
+ },
+ {
+  "name": "Sendungra",
+  "kind": "hamlet",
+  "lat": 30.3070745,
+  "lon": 79.2581296
+ },
+ {
+  "name": "Sengha",
+  "kind": "hamlet",
+  "lat": 30.3458069,
+  "lon": 79.2633115
+ },
+ {
+  "name": "Senthi",
+  "kind": "hamlet",
+  "lat": 30.2367204,
+  "lon": 79.4480386
+ },
+ {
+  "name": "Sentuna",
+  "kind": "hamlet",
+  "lat": 30.438395,
+  "lon": 79.3565601
+ },
+ {
+  "name": "Sera",
+  "kind": "hamlet",
+  "lat": 30.2717042,
+  "lon": 79.4132732
+ },
+ {
+  "name": "Serao",
+  "kind": "hamlet",
+  "lat": 30.3308603,
+  "lon": 79.3627377
+ },
+ {
+  "name": "Serapankhudi",
+  "kind": "hamlet",
+  "lat": 30.1995101,
+  "lon": 79.3280616
+ },
+ {
+  "name": "Shalla",
+  "kind": "hamlet",
+  "lat": 30.4267259,
+  "lon": 79.4365109
+ },
+ {
+  "name": "Shyan",
+  "kind": "hamlet",
+  "lat": 30.2013167,
+  "lon": 79.3066833
+ },
+ {
+  "name": "Sik",
+  "kind": "hamlet",
+  "lat": 30.2981965,
+  "lon": 79.5672149
+ },
+ {
+  "name": "Sila",
+  "kind": "hamlet",
+  "lat": 29.9813307,
+  "lon": 79.4040298
+ },
+ {
+  "name": "Silanga",
+  "kind": "hamlet",
+  "lat": 29.977948,
+  "lon": 79.316225
+ },
+ {
+  "name": "Silbori",
+  "kind": "hamlet",
+  "lat": 30.2732358,
+  "lon": 79.5384959
+ },
+ {
+  "name": "Silkot",
+  "kind": "hamlet",
+  "lat": 30.0403157,
+  "lon": 79.2409301
+ },
+ {
+  "name": "Silkoti",
+  "kind": "hamlet",
+  "lat": 30.1628043,
+  "lon": 79.4071339
+ },
+ {
+  "name": "Silori",
+  "kind": "hamlet",
+  "lat": 30.1024764,
+  "lon": 79.413907
+ },
+ {
+  "name": "Silpata",
+  "kind": "hamlet",
+  "lat": 30.112371,
+  "lon": 79.226768
+ },
+ {
+  "name": "Simana",
+  "kind": "hamlet",
+  "lat": 30.0195798,
+  "lon": 79.2991322
+ },
+ {
+  "name": "Simliya",
+  "kind": "hamlet",
+  "lat": 29.9476279,
+  "lon": 79.302814
+ },
+ {
+  "name": "Simti",
+  "kind": "hamlet",
+  "lat": 30.3103681,
+  "lon": 79.3467857
+ },
+ {
+  "name": "Simtoli",
+  "kind": "hamlet",
+  "lat": 30.1658888,
+  "lon": 79.2654991
+ },
+ {
+  "name": "Simula",
+  "kind": "hamlet",
+  "lat": 30.3630641,
+  "lon": 79.4842454
+ },
+ {
+  "name": "Sindrawani",
+  "kind": "hamlet",
+  "lat": 30.2613605,
+  "lon": 79.1165099
+ },
+ {
+  "name": "Sirana",
+  "kind": "hamlet",
+  "lat": 30.1163376,
+  "lon": 79.2632778
+ },
+ {
+  "name": "Sirgad",
+  "kind": "hamlet",
+  "lat": 30.4291645,
+  "lon": 79.1987178
+ },
+ {
+  "name": "Siri",
+  "kind": "hamlet",
+  "lat": 30.1670528,
+  "lon": 79.3982862
+ },
+ {
+  "name": "Siroli",
+  "kind": "hamlet",
+  "lat": 30.467236,
+  "lon": 79.2799138
+ },
+ {
+  "name": "Sirpal",
+  "kind": "hamlet",
+  "lat": 30.1837896,
+  "lon": 79.278717
+ },
+ {
+  "name": "Sirtoli",
+  "kind": "hamlet",
+  "lat": 30.2799309,
+  "lon": 79.25622
+ },
+ {
+  "name": "Siwai Malli",
+  "kind": "hamlet",
+  "lat": 30.2856375,
+  "lon": 79.2368375
+ },
+ {
+  "name": "Siwai Tali",
+  "kind": "hamlet",
+  "lat": 30.2817763,
+  "lon": 79.2354167
+ },
+ {
+  "name": "Solur",
+  "kind": "hamlet",
+  "lat": 30.5058234,
+  "lon": 79.5135901
+ },
+ {
+  "name": "Som",
+  "kind": "hamlet",
+  "lat": 30.0085224,
+  "lon": 79.2960634
+ },
+ {
+  "name": "Soni",
+  "kind": "hamlet",
+  "lat": 30.2827377,
+  "lon": 79.3717249
+ },
+ {
+  "name": "Sonka",
+  "kind": "hamlet",
+  "lat": 30.2781066,
+  "lon": 79.2890747
+ },
+ {
+  "name": "Sonsiya Kharak",
+  "kind": "hamlet",
+  "lat": 30.1633589,
+  "lon": 79.5294186
+ },
+ {
+  "name": "Sonyana",
+  "kind": "hamlet",
+  "lat": 30.0447811,
+  "lon": 79.2905857
+ },
+ {
+  "name": "Sorling",
+  "kind": "hamlet",
+  "lat": 30.2101062,
+  "lon": 79.1828227
+ },
+ {
+  "name": "Sugal",
+  "kind": "hamlet",
+  "lat": 30.3242867,
+  "lon": 79.4152642
+ },
+ {
+  "name": "Sugar",
+  "kind": "hamlet",
+  "lat": 30.1372407,
+  "lon": 79.2292785
+ },
+ {
+  "name": "Sugarh",
+  "kind": "hamlet",
+  "lat": 30.278208,
+  "lon": 79.6357871
+ },
+ {
+  "name": "Sugi",
+  "kind": "hamlet",
+  "lat": 30.2869163,
+  "lon": 79.1826523
+ },
+ {
+  "name": "Sujalkot",
+  "kind": "hamlet",
+  "lat": 30.0233002,
+  "lon": 79.6961371
+ },
+ {
+  "name": "Suki",
+  "kind": "hamlet",
+  "lat": 30.5195944,
+  "lon": 79.7252943
+ },
+ {
+  "name": "Suktoli",
+  "kind": "hamlet",
+  "lat": 30.2356392,
+  "lon": 79.2812338
+ },
+ {
+  "name": "Sumalta",
+  "kind": "hamlet",
+  "lat": 30.2322096,
+  "lon": 79.2730189
+ },
+ {
+  "name": "Suna",
+  "kind": "hamlet",
+  "lat": 30.0954009,
+  "lon": 79.4556129
+ },
+ {
+  "name": "Sunai",
+  "kind": "hamlet",
+  "lat": 30.2036624,
+  "lon": 79.3177223
+ },
+ {
+  "name": "Sunak",
+  "kind": "hamlet",
+  "lat": 30.2408279,
+  "lon": 79.1123128
+ },
+ {
+  "name": "Sunala",
+  "kind": "hamlet",
+  "lat": 30.3167478,
+  "lon": 79.3079112
+ },
+ {
+  "name": "Sunaun",
+  "kind": "hamlet",
+  "lat": 30.0876907,
+  "lon": 79.4905389
+ },
+ {
+  "name": "Sunbhi",
+  "kind": "hamlet",
+  "lat": 30.2407048,
+  "lon": 79.3533348
+ },
+ {
+  "name": "Sunil",
+  "kind": "hamlet",
+  "lat": 30.5511851,
+  "lon": 79.5473452
+ },
+ {
+  "name": "Sunila",
+  "kind": "hamlet",
+  "lat": 30.0860933,
+  "lon": 79.478111
+ },
+ {
+  "name": "Suranda",
+  "kind": "hamlet",
+  "lat": 30.455353,
+  "lon": 79.4174015
+ },
+ {
+  "name": "Surani",
+  "kind": "hamlet",
+  "lat": 30.1919592,
+  "lon": 79.2311963
+ },
+ {
+  "name": "Swan",
+  "kind": "hamlet",
+  "lat": 30.1003929,
+  "lon": 79.3390409
+ },
+ {
+  "name": "Swarkha",
+  "kind": "hamlet",
+  "lat": 30.2841035,
+  "lon": 79.2791833
+ },
+ {
+  "name": "Syalkot",
+  "kind": "hamlet",
+  "lat": 30.1551467,
+  "lon": 79.2197728
+ },
+ {
+  "name": "Syari",
+  "kind": "hamlet",
+  "lat": 30.2047283,
+  "lon": 79.4765178
+ },
+ {
+  "name": "Syuni Mali",
+  "kind": "hamlet",
+  "lat": 30.0154858,
+  "lon": 79.3285675
+ },
+ {
+  "name": "Syunigad",
+  "kind": "hamlet",
+  "lat": 30.0494265,
+  "lon": 79.5734596
+ },
+ {
+  "name": "Tal",
+  "kind": "hamlet",
+  "lat": 30.0160086,
+  "lon": 79.5347432
+ },
+ {
+  "name": "Talauja",
+  "kind": "hamlet",
+  "lat": 30.1522709,
+  "lon": 79.1987014
+ },
+ {
+  "name": "Talla Baron",
+  "kind": "hamlet",
+  "lat": 30.2672296,
+  "lon": 79.3967212
+ },
+ {
+  "name": "Talla Gwar",
+  "kind": "hamlet",
+  "lat": 30.2245088,
+  "lon": 79.124085
+ },
+ {
+  "name": "Talla Kanda",
+  "kind": "hamlet",
+  "lat": 30.2739301,
+  "lon": 79.4293542
+ },
+ {
+  "name": "Talla Kanukhul",
+  "kind": "hamlet",
+  "lat": 30.2558235,
+  "lon": 79.2652888
+ },
+ {
+  "name": "Talla Kewar",
+  "kind": "hamlet",
+  "lat": 30.1431552,
+  "lon": 79.3678285
+ },
+ {
+  "name": "Talla Makh",
+  "kind": "hamlet",
+  "lat": 30.2625082,
+  "lon": 79.4029218
+ },
+ {
+  "name": "Talla Rupa",
+  "kind": "hamlet",
+  "lat": 30.380102,
+  "lon": 79.2697354
+ },
+ {
+  "name": "Talla Simana",
+  "kind": "hamlet",
+  "lat": 30.0226378,
+  "lon": 79.3044142
+ },
+ {
+  "name": "Talwani",
+  "kind": "hamlet",
+  "lat": 30.1775253,
+  "lon": 79.6283385
+ },
+ {
+  "name": "Talwari",
+  "kind": "hamlet",
+  "lat": 30.0389989,
+  "lon": 79.5163628
+ },
+ {
+  "name": "Tamak",
+  "kind": "hamlet",
+  "lat": 30.5971919,
+  "lon": 79.7853143
+ },
+ {
+  "name": "Tanduna",
+  "kind": "hamlet",
+  "lat": 30.3744905,
+  "lon": 79.3056902
+ },
+ {
+  "name": "Tangi Malli",
+  "kind": "hamlet",
+  "lat": 30.4775801,
+  "lon": 79.4734521
+ },
+ {
+  "name": "Tangi Talli",
+  "kind": "hamlet",
+  "lat": 30.4772727,
+  "lon": 79.4637431
+ },
+ {
+  "name": "Taphana",
+  "kind": "hamlet",
+  "lat": 30.3048896,
+  "lon": 79.3287533
+ },
+ {
+  "name": "Tarakhansal",
+  "kind": "hamlet",
+  "lat": 30.3766104,
+  "lon": 79.2734794
+ },
+ {
+  "name": "Taraktal",
+  "kind": "hamlet",
+  "lat": 30.345427,
+  "lon": 79.4850225
+ },
+ {
+  "name": "Telapata",
+  "kind": "hamlet",
+  "lat": 30.0132616,
+  "lon": 79.7142381
+ },
+ {
+  "name": "Tephana",
+  "kind": "hamlet",
+  "lat": 30.301235,
+  "lon": 79.3360554
+ },
+ {
+  "name": "Thai",
+  "kind": "hamlet",
+  "lat": 30.018988,
+  "lon": 79.6460662
+ },
+ {
+  "name": "Thala",
+  "kind": "hamlet",
+  "lat": 29.9894341,
+  "lon": 79.3221688
+ },
+ {
+  "name": "Thaladhar",
+  "kind": "hamlet",
+  "lat": 30.1722704,
+  "lon": 79.2223799
+ },
+ {
+  "name": "Thalgarh",
+  "kind": "hamlet",
+  "lat": 30.4303172,
+  "lon": 79.2106119
+ },
+ {
+  "name": "Than",
+  "kind": "hamlet",
+  "lat": 30.1220494,
+  "lon": 79.3685761
+ },
+ {
+  "name": "Thana",
+  "kind": "hamlet",
+  "lat": 30.5313269,
+  "lon": 79.4740295
+ },
+ {
+  "name": "Thapli",
+  "kind": "hamlet",
+  "lat": 30.1959937,
+  "lon": 79.2777729
+ },
+ {
+  "name": "Tharetha",
+  "kind": "hamlet",
+  "lat": 30.45157,
+  "lon": 79.4209406
+ },
+ {
+  "name": "Thirpak",
+  "kind": "hamlet",
+  "lat": 30.3011463,
+  "lon": 79.3591553
+ },
+ {
+  "name": "Thrikot",
+  "kind": "hamlet",
+  "lat": 30.1841801,
+  "lon": 79.2985994
+ },
+ {
+  "name": "Timalkhali",
+  "kind": "hamlet",
+  "lat": 29.9436862,
+  "lon": 79.4051456
+ },
+ {
+  "name": "Timilpani",
+  "kind": "hamlet",
+  "lat": 29.9310232,
+  "lon": 79.3038762
+ },
+ {
+  "name": "Timli",
+  "kind": "hamlet",
+  "lat": 30.0964479,
+  "lon": 79.6407727
+ },
+ {
+  "name": "Toli",
+  "kind": "hamlet",
+  "lat": 30.5840446,
+  "lon": 79.5471218
+ },
+ {
+  "name": "Tolma",
+  "kind": "hamlet",
+  "lat": 30.5239133,
+  "lon": 79.752224
+ },
+ {
+  "name": "Tolpani",
+  "kind": "hamlet",
+  "lat": 30.1536135,
+  "lon": 79.6450058
+ },
+ {
+  "name": "Top",
+  "kind": "hamlet",
+  "lat": 30.1860896,
+  "lon": 79.2282057
+ },
+ {
+  "name": "Torti",
+  "kind": "hamlet",
+  "lat": 30.0381888,
+  "lon": 79.7858047
+ },
+ {
+  "name": "Trikot",
+  "kind": "hamlet",
+  "lat": 30.0354767,
+  "lon": 79.5459189
+ },
+ {
+  "name": "Tuna Kharak",
+  "kind": "hamlet",
+  "lat": 30.0580401,
+  "lon": 79.6567916
+ },
+ {
+  "name": "Tunala",
+  "kind": "hamlet",
+  "lat": 30.2849653,
+  "lon": 79.3891683
+ },
+ {
+  "name": "Tundal",
+  "kind": "hamlet",
+  "lat": 30.2577871,
+  "lon": 79.1114331
+ },
+ {
+  "name": "Tundyal",
+  "kind": "hamlet",
+  "lat": 30.2540297,
+  "lon": 79.1078033
+ },
+ {
+  "name": "Tunera",
+  "kind": "hamlet",
+  "lat": 30.1810509,
+  "lon": 79.3721447
+ },
+ {
+  "name": "Turanji",
+  "kind": "hamlet",
+  "lat": 30.3848027,
+  "lon": 79.1888583
+ },
+ {
+  "name": "Tyula",
+  "kind": "hamlet",
+  "lat": 30.090783,
+  "lon": 79.4254408
+ },
+ {
+  "name": "Uchchhawa Gwar",
+  "kind": "hamlet",
+  "lat": 30.4949721,
+  "lon": 79.4142467
+ },
+ {
+  "name": "Uchwan",
+  "kind": "hamlet",
+  "lat": 30.5031669,
+  "lon": 79.4317932
+ },
+ {
+  "name": "Udaipur",
+  "kind": "hamlet",
+  "lat": 30.0873744,
+  "lon": 79.76174
+ },
+ {
+  "name": "Ujethiya",
+  "kind": "hamlet",
+  "lat": 29.9717769,
+  "lon": 79.3159032
+ },
+ {
+  "name": "Ukaldhar",
+  "kind": "hamlet",
+  "lat": 30.0974869,
+  "lon": 79.6976192
+ },
+ {
+  "name": "Ukhaldhar",
+  "kind": "hamlet",
+  "lat": 30.1337671,
+  "lon": 79.6840542
+ },
+ {
+  "name": "Ulphara",
+  "kind": "hamlet",
+  "lat": 30.2810161,
+  "lon": 79.2916497
+ },
+ {
+  "name": "Umatata",
+  "kind": "hamlet",
+  "lat": 30.273725,
+  "lon": 79.2383401
+ },
+ {
+  "name": "Unibargar",
+  "kind": "hamlet",
+  "lat": 30.021589,
+  "lon": 79.6621664
+ },
+ {
+  "name": "Unjwalpur",
+  "kind": "hamlet",
+  "lat": 30.1794677,
+  "lon": 79.2218327
+ },
+ {
+  "name": "Urchyuri",
+  "kind": "hamlet",
+  "lat": 30.4900662,
+  "lon": 79.5328187
+ },
+ {
+  "name": "Ustoli",
+  "kind": "hamlet",
+  "lat": 30.2465192,
+  "lon": 79.4575597
+ },
+ {
+  "name": "Uttaun",
+  "kind": "hamlet",
+  "lat": 30.3162285,
+  "lon": 79.2951536
+ },
+ {
+  "name": "Uvathora",
+  "kind": "hamlet",
+  "lat": 30.2798623,
+  "lon": 79.5743993
+ },
+ {
+  "name": "Vanala",
+  "kind": "hamlet",
+  "lat": 30.2959141,
+  "lon": 79.3727707
+ },
+ {
+  "name": "Vena Malla",
+  "kind": "hamlet",
+  "lat": 30.3351155,
+  "lon": 79.2371934
+ },
+ {
+  "name": "Vena Talla",
+  "kind": "hamlet",
+  "lat": 30.3378752,
+  "lon": 79.2358525
+ },
+ {
+  "name": "Vijaypur",
+  "kind": "hamlet",
+  "lat": 30.0472659,
+  "lon": 79.5302015
+ },
+ {
+  "name": "Viragan",
+  "kind": "hamlet",
+  "lat": 30.4434889,
+  "lon": 79.2854782
+ },
+ {
+  "name": "Visal",
+  "kind": "hamlet",
+  "lat": 30.3443753,
+  "lon": 79.2094315
+ },
+ {
+  "name": "Visalkhal",
+  "kind": "hamlet",
+  "lat": 30.3415453,
+  "lon": 79.2177193
+ },
+ {
+  "name": "Vishnuprayāg",
+  "kind": "hamlet",
+  "lat": 30.5626444,
+  "lon": 79.5791482
+ },
+ {
+  "name": "Wadukh",
+  "kind": "hamlet",
+  "lat": 30.2814263,
+  "lon": 79.5115379
+ },
+ {
+  "name": "Wanjyani Khata",
+  "kind": "hamlet",
+  "lat": 29.9979084,
+  "lon": 79.4236851
+ },
+ {
+  "name": "Wanoli",
+  "kind": "hamlet",
+  "lat": 30.2797582,
+  "lon": 79.2725008
+ },
+ {
+  "name": "Wanswara",
+  "kind": "hamlet",
+  "lat": 30.2651066,
+  "lon": 79.4068258
+ },
+ {
+  "name": "Warosi",
+  "kind": "hamlet",
+  "lat": 30.5100821,
+  "lon": 79.5129244
+ },
+ {
+  "name": "barjiya ka simar3",
+  "kind": "hamlet",
+  "lat": 29.9949583,
+  "lon": 79.2545503
+ },
+ {
+  "name": "chhapaludiyar",
+  "kind": "hamlet",
+  "lat": 29.9972115,
+  "lon": 79.2678916
+ },
+ {
+  "name": "khilla",
+  "kind": "hamlet",
+  "lat": 29.9916178,
+  "lon": 79.2577207
+ },
+ {
+  "name": "kimigad talli",
+  "kind": "hamlet",
+  "lat": 29.9435746,
+  "lon": 79.3187141
+ },
+ {
+  "name": "masisera",
+  "kind": "hamlet",
+  "lat": 29.9900659,
+  "lon": 79.2663467
+ },
+ {
+  "name": "matagad",
+  "kind": "hamlet",
+  "lat": 29.9735458,
+  "lon": 79.2726431
+ },
+ {
+  "name": "naugaon talla",
+  "kind": "hamlet",
+  "lat": 29.946438,
+  "lon": 79.4098019
+ },
+ {
+  "name": "nikakhal",
+  "kind": "hamlet",
+  "lat": 29.9712455,
+  "lon": 79.2655178
+ },
+ {
+  "name": "paliyalun",
+  "kind": "hamlet",
+  "lat": 29.981814,
+  "lon": 79.2503071
+ },
+ {
+  "name": "panghat",
+  "kind": "hamlet",
+  "lat": 29.9680634,
+  "lon": 79.259167
+ },
+ {
+  "name": "Ādbadri",
+  "kind": "hamlet",
+  "lat": 30.1465202,
+  "lon": 79.2472158
+ },
+ {
+  "name": "Ali Bugyal",
+  "kind": "locality",
+  "lat": 30.1717695,
+  "lon": 79.6527457
+ },
+ {
+  "name": "Argam",
+  "kind": "locality",
+  "lat": 30.5070614,
+  "lon": 79.4455331
+ },
+ {
+  "name": "Barahoti",
+  "kind": "locality",
+  "lat": 30.84132,
+  "lon": 79.9643031
+ },
+ {
+  "name": "Bedni Bugyal",
+  "kind": "locality",
+  "lat": 30.2056557,
+  "lon": 79.6662426
+ },
+ {
+  "name": "Bhagwabhasa",
+  "kind": "locality",
+  "lat": 30.2512826,
+  "lon": 79.7117328
+ },
+ {
+  "name": "Chakulthela",
+  "kind": "locality",
+  "lat": 30.7409296,
+  "lon": 79.6499961
+ },
+ {
+  "name": "Chitrakantha",
+  "kind": "locality",
+  "lat": 30.4670916,
+  "lon": 79.5728749
+ },
+ {
+  "name": "Chota Hoti",
+  "kind": "locality",
+  "lat": 30.832109,
+  "lon": 80.0217283
+ },
+ {
+  "name": "Delasera",
+  "kind": "locality",
+  "lat": 30.4259437,
+  "lon": 79.6233749
+ },
+ {
+  "name": "Dhakwani",
+  "kind": "locality",
+  "lat": 30.4411675,
+  "lon": 79.5623803
+ },
+ {
+  "name": "Dhal Dungi",
+  "kind": "locality",
+  "lat": 30.7645288,
+  "lon": 79.8082564
+ },
+ {
+  "name": "En Udiar",
+  "kind": "locality",
+  "lat": 30.8043218,
+  "lon": 79.7094348
+ },
+ {
+  "name": "Girthi Dobala",
+  "kind": "locality",
+  "lat": 30.7089891,
+  "lon": 79.985433
+ },
+ {
+  "name": "Gorsoun top",
+  "kind": "locality",
+  "lat": 30.509604,
+  "lon": 79.564359
+ },
+ {
+  "name": "Home Kund",
+  "kind": "locality",
+  "lat": 30.2913521,
+  "lon": 79.732562
+ },
+ {
+  "name": "Jhandi Top",
+  "kind": "locality",
+  "lat": 30.4600703,
+  "lon": 79.5788079
+ },
+ {
+  "name": "Kaliyaghu",
+  "kind": "locality",
+  "lat": 30.38783,
+  "lon": 79.5680937
+ },
+ {
+  "name": "Kullara Top",
+  "kind": "locality",
+  "lat": 30.4532195,
+  "lon": 79.5802255
+ },
+ {
+  "name": "Lokpāl",
+  "kind": "locality",
+  "lat": 30.6990121,
+  "lon": 79.6149755
+ },
+ {
+  "name": "Mildhar",
+  "kind": "locality",
+  "lat": 30.0470561,
+  "lon": 79.6951269
+ },
+ {
+  "name": "Patal Nachani",
+  "kind": "locality",
+  "lat": 30.2299828,
+  "lon": 79.6910262
+ },
+ {
+  "name": "Raj Paro",
+  "kind": "locality",
+  "lat": 30.8910666,
+  "lon": 79.3410301
+ },
+ {
+  "name": "Raj Shin",
+  "kind": "locality",
+  "lat": 30.793428,
+  "lon": 79.7657032
+ },
+ {
+  "name": "Rimkhim",
+  "kind": "locality",
+  "lat": 30.8231788,
+  "lon": 79.9779914
+ },
+ {
+  "name": "Sumna",
+  "kind": "locality",
+  "lat": 30.7359575,
+  "lon": 80.0257761
+ },
+ {
+  "name": "Thaur Udiar",
+  "kind": "locality",
+  "lat": 30.801433,
+  "lon": 79.7495612
+ },
+ {
+  "name": "ridge top",
+  "kind": "locality",
+  "lat": 30.1520853,
+  "lon": 79.6497845
+ },
+ {
+  "name": "永",
+  "kind": "locality",
+  "lat": 30.757767,
+  "lon": 80.0196068
+ }
+]

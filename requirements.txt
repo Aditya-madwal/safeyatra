@@ -1,0 +1,17 @@
+# Data pipeline (scripts/fetch_chamoli_data.py)
+requests>=2.31
+Pillow>=10          # reads the PNG elevation tiles
+rasterio>=1.4       # reads the NASA landslide susceptibility GeoTIFF
+numpy>=2.0
+
+# Backend API (backend/)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9   # photo uploads in blockage reports
+networkx>=3.3             # A* routing
+httpx>=0.27               # live weather from Open-Meteo
+pyjwt[crypto]>=2.9        # checks Clerk sign-in tokens
+cryptography>=42
+
+# Tests
+pytest>=8

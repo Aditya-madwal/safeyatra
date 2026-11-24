@@ -1,0 +1,2079 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5282318,
+     30.5400718
+    ]
+   },
+   "properties": {
+    "id": "n6031232189",
+    "osm_id": 6031232189,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5676071,
+     30.5355032
+    ]
+   },
+   "properties": {
+    "id": "n6574850286",
+    "osm_id": 6574850286,
+    "category": "police",
+    "name": "Military border",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2158423,
+     30.259922
+    ]
+   },
+   "properties": {
+    "id": "n7121752317",
+    "osm_id": 7121752317,
+    "category": "clinic",
+    "name": "CHC Karanprayag",
+    "phone": "1363244225"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4325038,
+     30.4331813
+    ]
+   },
+   "properties": {
+    "id": "n7121752333",
+    "osm_id": 7121752333,
+    "category": "clinic",
+    "name": "APHC Pipalkhoti",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.448044,
+     30.257154
+    ]
+   },
+   "properties": {
+    "id": "n7121752358",
+    "osm_id": 7121752358,
+    "category": "clinic",
+    "name": "PHC Ghat",
+    "phone": "1372255223"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5534806,
+     30.567618
+    ]
+   },
+   "properties": {
+    "id": "n7121752380",
+    "osm_id": 7121752380,
+    "category": "clinic",
+    "name": "CHC Joshimath",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1974297,
+     30.344273
+    ]
+   },
+   "properties": {
+    "id": "n7127949285",
+    "osm_id": 7127949285,
+    "category": "clinic",
+    "name": "CHC Pokhari",
+    "phone": "1372222131"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.501955,
+     30.073407
+    ]
+   },
+   "properties": {
+    "id": "n7127949300",
+    "osm_id": 7127949300,
+    "category": "clinic",
+    "name": "CHC Tharali",
+    "phone": "1363271250"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2898377,
+     30.0538437
+    ]
+   },
+   "properties": {
+    "id": "n7127949316",
+    "osm_id": 7127949316,
+    "category": "clinic",
+    "name": "CHC Gairsain",
+    "phone": "1363268140"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3742721,
+     30.1466934
+    ]
+   },
+   "properties": {
+    "id": "n7127949341",
+    "osm_id": 7127949341,
+    "category": "clinic",
+    "name": "PHC Narayanbagar",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3210273,
+     30.3316591
+    ]
+   },
+   "properties": {
+    "id": "n7127949346",
+    "osm_id": 7127949346,
+    "category": "hospital",
+    "name": "Nandprayag Governnment Hospital",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1972671,
+     30.2031238
+    ]
+   },
+   "properties": {
+    "id": "n7148918833",
+    "osm_id": 7148918833,
+    "category": "clinic",
+    "name": "Health Sub Center ,Taluk Karanpryag",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3173807,
+     30.4097231
+    ]
+   },
+   "properties": {
+    "id": "n7479937212",
+    "osm_id": 7479937212,
+    "category": "clinic",
+    "name": "Dr. Kathait Eye Care Centre",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2149926,
+     30.2602971
+    ]
+   },
+   "properties": {
+    "id": "n7479937215",
+    "osm_id": 7479937215,
+    "category": "hospital",
+    "name": "Government Hospital, Karnaprayag",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4012884,
+     30.1407397
+    ]
+   },
+   "properties": {
+    "id": "n7479937216",
+    "osm_id": 7479937216,
+    "category": "hospital",
+    "name": "Parkhal Hospital",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2904817,
+     30.056436
+    ]
+   },
+   "properties": {
+    "id": "n7479937219",
+    "osm_id": 7479937219,
+    "category": "clinic",
+    "name": "Jai Clinic",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2151662,
+     30.2632645
+    ]
+   },
+   "properties": {
+    "id": "n7479937224",
+    "osm_id": 7479937224,
+    "category": "hospital",
+    "name": "Trauma Centre",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2542109,
+     30.2893171
+    ]
+   },
+   "properties": {
+    "id": "n7479937234",
+    "osm_id": 7479937234,
+    "category": "clinic",
+    "name": "ECHS Poly Clinic",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3723226,
+     30.1809855
+    ]
+   },
+   "properties": {
+    "id": "n7479937238",
+    "osm_id": 7479937238,
+    "category": "hospital",
+    "name": "Governnment Hospital, Tuneda",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4302887,
+     30.4334554
+    ]
+   },
+   "properties": {
+    "id": "n7479937239",
+    "osm_id": 7479937239,
+    "category": "hospital",
+    "name": "Pipalkoti SD Ground Hospital",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.317032,
+     30.409741
+    ]
+   },
+   "properties": {
+    "id": "n7479937242",
+    "osm_id": 7479937242,
+    "category": "clinic",
+    "name": "Navjyoti Eye Clinic",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5034623,
+     30.0724495
+    ]
+   },
+   "properties": {
+    "id": "n7479937254",
+    "osm_id": 7479937254,
+    "category": "hospital",
+    "name": "Berkandai Tharali Hospital",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4497273,
+     30.2588857
+    ]
+   },
+   "properties": {
+    "id": "n7479937259",
+    "osm_id": 7479937259,
+    "category": "clinic",
+    "name": "Farswan Clinic",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.145176,
+     30.287139
+    ]
+   },
+   "properties": {
+    "id": "n7479937264",
+    "osm_id": 7479937264,
+    "category": "hospital",
+    "name": "ITBP Hospital",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2175616,
+     30.2602157
+    ]
+   },
+   "properties": {
+    "id": "n7479937265",
+    "osm_id": 7479937265,
+    "category": "clinic",
+    "name": "Semwal Clinic",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.318032,
+     30.409441
+    ]
+   },
+   "properties": {
+    "id": "n7479937269",
+    "osm_id": 7479937269,
+    "category": "clinic",
+    "name": "Tammanna Eye Care & Optical Centre",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3165566,
+     30.4131135
+    ]
+   },
+   "properties": {
+    "id": "n7479937285",
+    "osm_id": 7479937285,
+    "category": "clinic",
+    "name": "Physio for Relief Physiotherapy Centre",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3175123,
+     30.4094225
+    ]
+   },
+   "properties": {
+    "id": "n7479937290",
+    "osm_id": 7479937290,
+    "category": "clinic",
+    "name": "Shree Gopinath Health Care",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2163164,
+     30.2594962
+    ]
+   },
+   "properties": {
+    "id": "n7479937299",
+    "osm_id": 7479937299,
+    "category": "clinic",
+    "name": "Anandita Clinic",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.500668,
+     30.0735654
+    ]
+   },
+   "properties": {
+    "id": "n7479937302",
+    "osm_id": 7479937302,
+    "category": "clinic",
+    "name": "Dinesh Joshi Medikose, Tharali",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2487361,
+     30.2833591
+    ]
+   },
+   "properties": {
+    "id": "n7479937306",
+    "osm_id": 7479937306,
+    "category": "clinic",
+    "name": "ECHS PolyClinic",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3202306,
+     30.4075987
+    ]
+   },
+   "properties": {
+    "id": "n7479937309",
+    "osm_id": 7479937309,
+    "category": "clinic",
+    "name": "Guru Kirpa Clinic",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4268799,
+     30.4284287
+    ]
+   },
+   "properties": {
+    "id": "n7479937316",
+    "osm_id": 7479937316,
+    "category": "hospital",
+    "name": "Swami Vivekanand Dharmarth Chikitsalay",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2185449,
+     30.2559647
+    ]
+   },
+   "properties": {
+    "id": "n7479937325",
+    "osm_id": 7479937325,
+    "category": "clinic",
+    "name": "D.R Memorial Ortho Physio Care",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2041717,
+     30.3867191
+    ]
+   },
+   "properties": {
+    "id": "n8218190323",
+    "osm_id": 8218190323,
+    "category": "clinic",
+    "name": "SubCentre, Jourasi",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2139008,
+     30.1624964
+    ]
+   },
+   "properties": {
+    "id": "n8219424171",
+    "osm_id": 8219424171,
+    "category": "clinic",
+    "name": "SubCentre, Miroli",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3510914,
+     30.3735428
+    ]
+   },
+   "properties": {
+    "id": "n8227110478",
+    "osm_id": 8227110478,
+    "category": "clinic",
+    "name": "SubCentre, Majothi",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2065304,
+     30.4145522
+    ]
+   },
+   "properties": {
+    "id": "n8227112833",
+    "osm_id": 8227112833,
+    "category": "clinic",
+    "name": "SubCentre, Haapla",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1803995,
+     30.2620303
+    ]
+   },
+   "properties": {
+    "id": "n8227139103",
+    "osm_id": 8227139103,
+    "category": "clinic",
+    "name": "SubCentre, Siran",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2727984,
+     30.1224896
+    ]
+   },
+   "properties": {
+    "id": "n8227144425",
+    "osm_id": 8227144425,
+    "category": "clinic",
+    "name": "SubCentre, Malasi",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5762226,
+     30.3762789
+    ]
+   },
+   "properties": {
+    "id": "n8227160353",
+    "osm_id": 8227160353,
+    "category": "clinic",
+    "name": "SubCentre, Irani",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3642762,
+     30.4164407
+    ]
+   },
+   "properties": {
+    "id": "n8227174035",
+    "osm_id": 8227174035,
+    "category": "clinic",
+    "name": "SubCentre, Chhinka",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3960369,
+     30.1678144
+    ]
+   },
+   "properties": {
+    "id": "n8227178684",
+    "osm_id": 8227178684,
+    "category": "clinic",
+    "name": "SubCentre, Dungri",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4789091,
+     30.4920628
+    ]
+   },
+   "properties": {
+    "id": "n8227211796",
+    "osm_id": 8227211796,
+    "category": "clinic",
+    "name": "SubCentre, Langsi",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4281241,
+     30.317038
+    ]
+   },
+   "properties": {
+    "id": "n8227212831",
+    "osm_id": 8227212831,
+    "category": "clinic",
+    "name": "SubCentre, Pagana",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3874538,
+     30.1312509
+    ]
+   },
+   "properties": {
+    "id": "n8227234268",
+    "osm_id": 8227234268,
+    "category": "clinic",
+    "name": "SubCentre, Narainbagar",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3299573,
+     30.2834527
+    ]
+   },
+   "properties": {
+    "id": "n8227259914",
+    "osm_id": 8227259914,
+    "category": "clinic",
+    "name": "SubCentre, Kandara",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2884308,
+     30.2891379
+    ]
+   },
+   "properties": {
+    "id": "n8227273394",
+    "osm_id": 8227273394,
+    "category": "clinic",
+    "name": "SubCentre, Langasu",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4639175,
+     30.4767634
+    ]
+   },
+   "properties": {
+    "id": "n8227286511",
+    "osm_id": 8227286511,
+    "category": "clinic",
+    "name": "SubCentre, Tirosi",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2594008,
+     29.9843844
+    ]
+   },
+   "properties": {
+    "id": "n8227294591",
+    "osm_id": 8227294591,
+    "category": "clinic",
+    "name": "SubCentre, Rohira",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2228079,
+     30.4338097
+    ]
+   },
+   "properties": {
+    "id": "n8227315752",
+    "osm_id": 8227315752,
+    "category": "clinic",
+    "name": "SubCentre, Nauli",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1952447,
+     30.3215744
+    ]
+   },
+   "properties": {
+    "id": "n8227368692",
+    "osm_id": 8227368692,
+    "category": "clinic",
+    "name": "SubCentre, Udamanda",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.7909356,
+     30.0573962
+    ]
+   },
+   "properties": {
+    "id": "n8227376342",
+    "osm_id": 8227376342,
+    "category": "clinic",
+    "name": "SubCentre, Harmal",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5072014,
+     30.1251883
+    ]
+   },
+   "properties": {
+    "id": "n8227394014",
+    "osm_id": 8227394014,
+    "category": "clinic",
+    "name": "SubCentre, Dungri",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5208392,
+     30.5110697
+    ]
+   },
+   "properties": {
+    "id": "n8227397922",
+    "osm_id": 8227397922,
+    "category": "clinic",
+    "name": "SubCentre, Saluddungra",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4605034,
+     30.0843042
+    ]
+   },
+   "properties": {
+    "id": "n8227405632",
+    "osm_id": 8227405632,
+    "category": "clinic",
+    "name": "SubCentre, Kulsari",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5533255,
+     30.2769809
+    ]
+   },
+   "properties": {
+    "id": "n8227435197",
+    "osm_id": 8227435197,
+    "category": "clinic",
+    "name": "SubCentre, Sitel",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4408163,
+     30.4209619
+    ]
+   },
+   "properties": {
+    "id": "n8229529947",
+    "osm_id": 8229529947,
+    "category": "clinic",
+    "name": "SubCentre, Gadora",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2578922,
+     30.2292378
+    ]
+   },
+   "properties": {
+    "id": "n8229532674",
+    "osm_id": 8229532674,
+    "category": "clinic",
+    "name": "SubCentre, Simli",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3232199,
+     29.948238
+    ]
+   },
+   "properties": {
+    "id": "n8229539180",
+    "osm_id": 8229539180,
+    "category": "clinic",
+    "name": "SubCentre, Kunigad",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2652829,
+     30.255745
+    ]
+   },
+   "properties": {
+    "id": "n8229543307",
+    "osm_id": 8229543307,
+    "category": "clinic",
+    "name": "SubCentre, Kankhul Malla",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3543124,
+     30.2097866
+    ]
+   },
+   "properties": {
+    "id": "n8229550825",
+    "osm_id": 8229550825,
+    "category": "clinic",
+    "name": "SubCentre, Sainj",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.6269331,
+     30.490821
+    ]
+   },
+   "properties": {
+    "id": "n8229553590",
+    "osm_id": 8229553590,
+    "category": "clinic",
+    "name": "SubCentre, Topoban",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3804435,
+     29.948233
+    ]
+   },
+   "properties": {
+    "id": "n8229638431",
+    "osm_id": 8229638431,
+    "category": "clinic",
+    "name": "SubCentre, Latoogair",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.156036,
+     30.3765713
+    ]
+   },
+   "properties": {
+    "id": "n8229650778",
+    "osm_id": 8229650778,
+    "category": "clinic",
+    "name": "SubCentre, Mohankhal",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4096866,
+     29.9570566
+    ]
+   },
+   "properties": {
+    "id": "n8229656917",
+    "osm_id": 8229656917,
+    "category": "clinic",
+    "name": "SubCentre, Maithan",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4556035,
+     30.5408136
+    ]
+   },
+   "properties": {
+    "id": "n8229657396",
+    "osm_id": 8229657396,
+    "category": "clinic",
+    "name": "SubCentre, Urgam",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.8892394,
+     30.6841905
+    ]
+   },
+   "properties": {
+    "id": "n8229667238",
+    "osm_id": 8229667238,
+    "category": "clinic",
+    "name": "SubCentre, Malari",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2715918,
+     30.2674524
+    ]
+   },
+   "properties": {
+    "id": "n8229768263",
+    "osm_id": 8229768263,
+    "category": "clinic",
+    "name": "SubCentre, Kanda Maikhura",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.44168,
+     30.0672927
+    ]
+   },
+   "properties": {
+    "id": "n8229784198",
+    "osm_id": 8229784198,
+    "category": "clinic",
+    "name": "SubCentre, Alkot",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.173724,
+     30.2777826
+    ]
+   },
+   "properties": {
+    "id": "n8229787470",
+    "osm_id": 8229787470,
+    "category": "clinic",
+    "name": "SubCentre, Bamoth",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5020465,
+     30.4729745
+    ]
+   },
+   "properties": {
+    "id": "n8229906403",
+    "osm_id": 8229906403,
+    "category": "clinic",
+    "name": "SubCentre, Ganai",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.6959953,
+     30.1207116
+    ]
+   },
+   "properties": {
+    "id": "n8229924759",
+    "osm_id": 8229924759,
+    "category": "clinic",
+    "name": "SubCentre, Ghes",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3889371,
+     30.3174927
+    ]
+   },
+   "properties": {
+    "id": "n8229932386",
+    "osm_id": 8229932386,
+    "category": "clinic",
+    "name": "SubCentre, Sema",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2902019,
+     30.3766913
+    ]
+   },
+   "properties": {
+    "id": "n8229953736",
+    "osm_id": 8229953736,
+    "category": "clinic",
+    "name": "SubCentre, Sonla",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2121228,
+     30.2010694
+    ]
+   },
+   "properties": {
+    "id": "n8229957119",
+    "osm_id": 8229957119,
+    "category": "clinic",
+    "name": "SubCentre, Naini",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3783738,
+     30.1825263
+    ]
+   },
+   "properties": {
+    "id": "n8229961855",
+    "osm_id": 8229961855,
+    "category": "clinic",
+    "name": "SubCentre, Chopata",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4716966,
+     30.2992466
+    ]
+   },
+   "properties": {
+    "id": "n8229993627",
+    "osm_id": 8229993627,
+    "category": "clinic",
+    "name": "SubCentre, Lwani",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.6150077,
+     30.1308128
+    ]
+   },
+   "properties": {
+    "id": "n8229997947",
+    "osm_id": 8229997947,
+    "category": "clinic",
+    "name": "SubCentre, Mundoli",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1321694,
+     30.1927953
+    ]
+   },
+   "properties": {
+    "id": "n8229999383",
+    "osm_id": 8229999383,
+    "category": "clinic",
+    "name": "SubCentre, Pungaon",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.8685826,
+     30.5987684
+    ]
+   },
+   "properties": {
+    "id": "n8230057315",
+    "osm_id": 8230057315,
+    "category": "clinic",
+    "name": "SubCentre, Dronagiri",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.321627,
+     29.9848083
+    ]
+   },
+   "properties": {
+    "id": "n8230064440",
+    "osm_id": 8230064440,
+    "category": "hospital",
+    "name": "Government Hospital, Mehalchauri",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4521205,
+     30.4979716
+    ]
+   },
+   "properties": {
+    "id": "n8230084884",
+    "osm_id": 8230084884,
+    "category": "clinic",
+    "name": "SubCentre, Kimana",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3283059,
+     30.4035898
+    ]
+   },
+   "properties": {
+    "id": "n8230091902",
+    "osm_id": 8230091902,
+    "category": "clinic",
+    "name": "SubCentre, Chamoli Gopeshwar",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5317928,
+     30.2934155
+    ]
+   },
+   "properties": {
+    "id": "n8230104730",
+    "osm_id": 8230104730,
+    "category": "clinic",
+    "name": "SubCentre, Boora",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.7421602,
+     30.5311244
+    ]
+   },
+   "properties": {
+    "id": "n8230117244",
+    "osm_id": 8230117244,
+    "category": "clinic",
+    "name": "SubCentre, Suraitota",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3030152,
+     30.366861
+    ]
+   },
+   "properties": {
+    "id": "n8230171625",
+    "osm_id": 8230171625,
+    "category": "clinic",
+    "name": "SubCentre, Saikot",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2541547,
+     30.2736647
+    ]
+   },
+   "properties": {
+    "id": "n8230172832",
+    "osm_id": 8230172832,
+    "category": "clinic",
+    "name": "SubCentre, Umatta",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3634696,
+     30.3010778
+    ]
+   },
+   "properties": {
+    "id": "n8230207932",
+    "osm_id": 8230207932,
+    "category": "clinic",
+    "name": "SubCentre, Thirpak",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3106521,
+     30.2231982
+    ]
+   },
+   "properties": {
+    "id": "n8230257657",
+    "osm_id": 8230257657,
+    "category": "clinic",
+    "name": "SubCentre, Jasyara",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.7121949,
+     30.4981815
+    ]
+   },
+   "properties": {
+    "id": "n8230258764",
+    "osm_id": 8230258764,
+    "category": "clinic",
+    "name": "SubCentre, Lata",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2507731,
+     30.1089898
+    ]
+   },
+   "properties": {
+    "id": "n8230269835",
+    "osm_id": 8230269835,
+    "category": "clinic",
+    "name": "SubCentre, Chorda",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1753424,
+     30.2004942
+    ]
+   },
+   "properties": {
+    "id": "n8230310787",
+    "osm_id": 8230310787,
+    "category": "clinic",
+    "name": "SubCentre, Malai",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2057452,
+     30.1700295
+    ]
+   },
+   "properties": {
+    "id": "n8230311594",
+    "osm_id": 8230311594,
+    "category": "clinic",
+    "name": "SubCentre, Kansuwa",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2866866,
+     30.1755714
+    ]
+   },
+   "properties": {
+    "id": "n8230346740",
+    "osm_id": 8230346740,
+    "category": "clinic",
+    "name": "SubCentre, Jainta",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3412672,
+     30.3826725
+    ]
+   },
+   "properties": {
+    "id": "n8230358265",
+    "osm_id": 8230358265,
+    "category": "clinic",
+    "name": "SubCentre, Harmani",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.6178428,
+     30.2051156
+    ]
+   },
+   "properties": {
+    "id": "n8230460353",
+    "osm_id": 8230460353,
+    "category": "clinic",
+    "name": "SubCentre, Wan",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1890474,
+     30.3852611
+    ]
+   },
+   "properties": {
+    "id": "n8230484275",
+    "osm_id": 8230484275,
+    "category": "clinic",
+    "name": "SubCentre, Salna",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.383642,
+     30.5078849
+    ]
+   },
+   "properties": {
+    "id": "n8230508558",
+    "osm_id": 8230508558,
+    "category": "clinic",
+    "name": "SubCentre, Dhumak",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5084479,
+     30.3171987
+    ]
+   },
+   "properties": {
+    "id": "n8230546837",
+    "osm_id": 8230546837,
+    "category": "clinic",
+    "name": "SubCentre, Ramani",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5467009,
+     30.6341237
+    ]
+   },
+   "properties": {
+    "id": "n8230563162",
+    "osm_id": 8230563162,
+    "category": "clinic",
+    "name": "SubCentre, Pandukeshwar",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4209843,
+     29.9454104
+    ]
+   },
+   "properties": {
+    "id": "n8230572891",
+    "osm_id": 8230572891,
+    "category": "clinic",
+    "name": "SubCentre, Kushrani Malli",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5107127,
+     30.0494877
+    ]
+   },
+   "properties": {
+    "id": "n8230576466",
+    "osm_id": 8230576466,
+    "category": "clinic",
+    "name": "SubCentre, Lolti",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1326791,
+     30.366576
+    ]
+   },
+   "properties": {
+    "id": "n8256742077",
+    "osm_id": 8256742077,
+    "category": "clinic",
+    "name": "SubCentre, Malkoti",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4950006,
+     30.7384875
+    ]
+   },
+   "properties": {
+    "id": "n10001188417",
+    "osm_id": 10001188417,
+    "category": "fuel",
+    "name": "Indian Oil",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5577105,
+     30.6239016
+    ]
+   },
+   "properties": {
+    "id": "n11163318018",
+    "osm_id": 11163318018,
+    "category": "police",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4293804,
+     30.433061
+    ]
+   },
+   "properties": {
+    "id": "n12049297524",
+    "osm_id": 12049297524,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5775706,
+     30.5524648
+    ]
+   },
+   "properties": {
+    "id": "n12049307382",
+    "osm_id": 12049307382,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1301994,
+     30.2862298
+    ]
+   },
+   "properties": {
+    "id": "n12049311910",
+    "osm_id": 12049311910,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4449059,
+     30.4637606
+    ]
+   },
+   "properties": {
+    "id": "n12049324151",
+    "osm_id": 12049324151,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3483866,
+     30.4072976
+    ]
+   },
+   "properties": {
+    "id": "n12049326858",
+    "osm_id": 12049326858,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4278016,
+     30.4291455
+    ]
+   },
+   "properties": {
+    "id": "n12049327971",
+    "osm_id": 12049327971,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1741166,
+     30.2665544
+    ]
+   },
+   "properties": {
+    "id": "n12049328153",
+    "osm_id": 12049328153,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4653039,
+     30.4785745
+    ]
+   },
+   "properties": {
+    "id": "n12049328154",
+    "osm_id": 12049328154,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4815702,
+     30.4911894
+    ]
+   },
+   "properties": {
+    "id": "n12049329773",
+    "osm_id": 12049329773,
+    "category": "fuel",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3194724,
+     30.4084822
+    ]
+   },
+   "properties": {
+    "id": "n12595986328",
+    "osm_id": 12595986328,
+    "category": "fuel",
+    "name": "INDIAN OIL FUEL STATION",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3200203,
+     30.4099098
+    ]
+   },
+   "properties": {
+    "id": "w906330606",
+    "osm_id": 906330606,
+    "category": "hospital",
+    "name": "District Hospital Gopeshwar",
+    "phone": "01372 252 245"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5640929,
+     30.0029404
+    ]
+   },
+   "properties": {
+    "id": "w1066872891",
+    "osm_id": 1066872891,
+    "category": "hospital",
+    "name": "ssbhospital",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5663876,
+     30.0038566
+    ]
+   },
+   "properties": {
+    "id": "w1066872892",
+    "osm_id": 1066872892,
+    "category": "hospital",
+    "name": "gwaldam hospital",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5705739,
+     30.0060407
+    ]
+   },
+   "properties": {
+    "id": "w1066877493",
+    "osm_id": 1066877493,
+    "category": "police",
+    "name": null,
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3185017,
+     30.4096623
+    ]
+   },
+   "properties": {
+    "id": "w1360651631",
+    "osm_id": 1360651631,
+    "category": "police",
+    "name": "POLICE STATION",
+    "phone": null
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.332762,
+     30.4041493
+    ]
+   },
+   "properties": {
+    "id": "w1360701751",
+    "osm_id": 1360701751,
+    "category": "healthcare_other",
+    "name": "PRIMARY HEALTH CENTRE",
+    "phone": null
+   }
+  }
+ ]
+}

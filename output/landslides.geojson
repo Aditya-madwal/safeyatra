@@ -1,0 +1,1602 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3318,
+     30.4043
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_3819",
+    "source": "NASA_GLC",
+    "event_date": "2011-07-21",
+    "category": "landslide",
+    "trigger": "rain",
+    "fatalities": 1,
+    "description": "Chamoli , Uttarakhand",
+    "location_precision": "25km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.56163208,
+     30.56504675
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_9802",
+    "source": "NASA_GLC",
+    "event_date": "2017-05-20",
+    "category": "landslide",
+    "trigger": "unknown",
+    "fatalities": 0,
+    "description": "Landslide in Chanoli district",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.49231617,
+     30.73315585
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_9809",
+    "source": "NASA_GLC",
+    "event_date": "2017-05-20",
+    "category": "landslide",
+    "trigger": "rain",
+    "fatalities": 13,
+    "description": "Badrinath highway landslide",
+    "location_precision": "25km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.31958144,
+     30.33597362
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_9706",
+    "source": "NASA_GLC",
+    "event_date": "2017-06-06",
+    "category": "landslide",
+    "trigger": "rain",
+    "fatalities": 1,
+    "description": "Landslide near Nandprayag",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2498,
+     30.2835
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5208",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-26",
+    "category": "landslide",
+    "trigger": "rain",
+    "fatalities": null,
+    "description": "Rishikesh-Badrinath Highway Near Kaleshwar",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.8102,
+     30.6145
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_6928",
+    "source": "NASA_GLC",
+    "event_date": "2015-03-31",
+    "category": "landslide",
+    "trigger": "construction",
+    "fatalities": 4,
+    "description": "Joshimath-Mallari road",
+    "location_precision": "25km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4929,
+     30.7412
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_3749",
+    "source": "NASA_GLC",
+    "event_date": "2011-07-09",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Badrinath",
+    "location_precision": "25km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2191,
+     30.262
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5179",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-24",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Karnaprayag, Uttarakhand",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5322,
+     30.9013
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2454",
+    "source": "NASA_GLC",
+    "event_date": "2010-09-19",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 2,
+    "description": "near Mt. Kamet and Ghastoli village, near Mana pass, Chamoli district, Uttarakhand",
+    "location_precision": "10km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5765,
+     30.5631
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_7111",
+    "source": "NASA_GLC",
+    "event_date": "2015-04-28",
+    "category": "landslide",
+    "trigger": "continuous_rain",
+    "fatalities": 0,
+    "description": "Vishnuprayag, Joshimath",
+    "location_precision": "1km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5306,
+     30.6463
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2227",
+    "source": "NASA_GLC",
+    "event_date": "2010-08-09",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Nirgaddu about 4 km from Tapovan on Rishikesh - Badrinath route, Uttarakhand ",
+    "location_precision": "50km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4954,
+     30.7386
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_9449",
+    "source": "NASA_GLC",
+    "event_date": "2016-08-04",
+    "category": "debris_flow",
+    "trigger": "continuous_rain",
+    "fatalities": 0,
+    "description": "Valley of Flowers near Badrinath",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3628,
+     30.301
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5182",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-24",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Thirpak, Uttarakhand",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5605,
+     30.6594
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_4481",
+    "source": "NASA_GLC",
+    "event_date": "2012-08-17",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 4,
+    "description": "Chamoli, Uttarakhand",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5192,
+     30.6509
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_3746",
+    "source": "NASA_GLC",
+    "event_date": "2011-07-08",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Lambagad",
+    "location_precision": "10km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3158,
+     30.3642
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5360",
+    "source": "NASA_GLC",
+    "event_date": "2013-08-18",
+    "category": "landslide",
+    "trigger": "rain",
+    "fatalities": null,
+    "description": "Chamoli District, Uttarakhand",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5566,
+     30.6521
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_3900",
+    "source": "NASA_GLC",
+    "event_date": "2011-08-08",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Govindghat, on the Rishikesh-Badrinath highway",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2293,
+     30.4749
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_3141",
+    "source": "NASA_GLC",
+    "event_date": "2011-02-23",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Rishikesh-Badrinath national highway to Rudraprayag, Chamoli, and Badrinath, Uttarakhand",
+    "location_precision": "50km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3286,
+     30.3056
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5183",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-24",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Tefana, Uttarakhand",
+    "location_precision": "1km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3351,
+     30.4068
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2202",
+    "source": "NASA_GLC",
+    "event_date": "2010-08-05",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 5,
+    "description": "Basantpur or Gouchar village (two conflicting sources), Chamoli district",
+    "location_precision": "25km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.56,
+     30.557
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_149",
+    "source": "NASA_GLC",
+    "event_date": "2007-07-30",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": null,
+    "description": "Joshimath",
+    "location_precision": "50km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.151,
+     30.2902
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5177",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-23",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Gauchar, Chamoli District, Uttarakhand",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.233,
+     30.2733
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5181",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-24",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": null,
+    "description": "Rishikesh-Badrinath Highway, Uttarakhand",
+    "location_precision": "unknown"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3308,
+     30.4043
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5129",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-18",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Chamoli District, Uttarakhand",
+    "location_precision": "1km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.2143,
+     30.3629
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5068",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-10",
+    "category": "landslide",
+    "trigger": "rain",
+    "fatalities": 7,
+    "description": "Bhikona Village, Pokhri Block, Chamoli Village, Uttarakhand",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5269,
+     30.6494
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_7311",
+    "source": "NASA_GLC",
+    "event_date": "2015-08-15",
+    "category": "landslide",
+    "trigger": "continuous_rain",
+    "fatalities": 0,
+    "description": "Lambagadh",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.349,
+     30.4
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_150",
+    "source": "NASA_GLC",
+    "event_date": "2007-07-30",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": null,
+    "description": "Chamoli",
+    "location_precision": "50km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3276,
+     30.4041
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5195",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-25",
+    "category": "landslide",
+    "trigger": "continuous_rain",
+    "fatalities": null,
+    "description": "Alaknanda Valley Of Chamoli District, Uttarakhand",
+    "location_precision": "unknown"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3888,
+     30.5004
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2389",
+    "source": "NASA_GLC",
+    "event_date": "2010-09-04",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Chhinka area(?), on Rishikesh-Badrinath hwy",
+    "location_precision": "50km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5541,
+     30.5568
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_7110",
+    "source": "NASA_GLC",
+    "event_date": "2015-04-30",
+    "category": "landslide",
+    "trigger": "continuous_rain",
+    "fatalities": 0,
+    "description": "Rishikesh-Badrinath National Highway near Joshimath",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3426,
+     30.4054
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2162",
+    "source": "NASA_GLC",
+    "event_date": "2010-07-29",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "PÄ«palkoti : Landslips, triggered by heavy rain, blocked two key highways connecting Rishikesh, Gangotri and Badrinath in Uttarakhand on Thursday, lea*",
+    "location_precision": "10km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4774,
+     30.4605
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5178",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-24",
+    "category": "landslide",
+    "trigger": "continuous_rain",
+    "fatalities": 2,
+    "description": "Chamoli, Uttarakhand",
+    "location_precision": "unknown"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.1939,
+     30.1944
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_5176",
+    "source": "NASA_GLC",
+    "event_date": "2013-07-23",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Deval, Chamoli District, Uttarakhand",
+    "location_precision": "1km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.6724,
+     30.4238
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2309",
+    "source": "NASA_GLC",
+    "event_date": "2010-08-22",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Chandoli(?) and Karchuna(?) vilalges, Pokkhri, Chamoli, Uttarakhand, Uttranchal",
+    "location_precision": "25km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.49970189,
+     30.75402442
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2440",
+    "source": "NASA_GLC",
+    "event_date": "2010-09-17",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": null,
+    "description": "Maletha village, near Badrinath",
+    "location_precision": "50km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4971,
+     30.7284
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2257",
+    "source": "NASA_GLC",
+    "event_date": "2010-08-16",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "badrinath route, Lambagarh(?), Uttarakhand",
+    "location_precision": "25km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.4356,
+     30.7991
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_2456",
+    "source": "NASA_GLC",
+    "event_date": "2010-09-19",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "near Bagri Glacier(?), Gopeswar(Gopeshwar), Chamoli district, Uttarakhand",
+    "location_precision": "25km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3541,
+     30.5319
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_3577",
+    "source": "NASA_GLC",
+    "event_date": "2011-06-07",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "road to Badrinath shrine, Uttarakhand",
+    "location_precision": "50km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.3206,
+     30.3299
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_8032",
+    "source": "NASA_GLC",
+    "event_date": "2016-06-29",
+    "category": "landslide",
+    "trigger": "downpour",
+    "fatalities": 0,
+    "description": "Nandprayag, Uttarakhand, India",
+    "location_precision": "1km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.48751264,
+     30.50415824
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_10073",
+    "source": "NASA_GLC",
+    "event_date": "2017-04-06",
+    "category": "rock_fall",
+    "trigger": "continuous_rain",
+    "fatalities": 0,
+    "description": "Rockfall on NH-7 in Gulabkoti",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.569767,
+     30.59661
+    ]
+   },
+   "properties": {
+    "id": "NASA_GLC_10066",
+    "source": "NASA_GLC",
+    "event_date": "2016-09-11",
+    "category": null,
+    "trigger": null,
+    "fatalities": 2,
+    "description": "Landslide kills Army colonel, wife on Badrinath highway",
+    "location_precision": "5km"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.69109,
+     30.48522
+    ]
+   },
+   "properties": {
+    "id": "NEWS_1",
+    "source": "NEWS",
+    "event_date": "2021-02-07",
+    "category": "rock_ice_avalanche",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Raini: Rishiganga rock-ice avalanche and debris flood; over 200 dead or missing (Tapovan and Raini)",
+    "location_precision": "village-level",
+    "source_url": "https://www.science.org/doi/10.1126/science.abh4455"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.50961,
+     30.56672
+    ]
+   },
+   "properties": {
+    "id": "NEWS_2",
+    "source": "NEWS",
+    "event_date": "2021-08",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Thaing: Landslide near Thaing village on Joshimath-Badrinath side caught on video",
+    "location_precision": "village-level",
+    "source_url": "https://www.deccanherald.com/amp/story/india%2Fwatch-landslide-hits-uttarakhand-s-chamoli-1019360.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.52397,
+     30.64892
+    ]
+   },
+   "properties": {
+    "id": "NEWS_3",
+    "source": "NEWS",
+    "event_date": null,
+    "category": "chronic_zone",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Lambagad (Khachda nala): Lambagad slide zone, active ~26 years; treatment completed in 2021",
+    "location_precision": "stream-crossing",
+    "source_url": "https://www.dailypioneer.com/2021/state-editions/26-year-wait-over--lambagarh-slide-zone-treatment-done.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.5136,
+     30.69537
+    ]
+   },
+   "properties": {
+    "id": "NEWS_4",
+    "source": "NEWS",
+    "event_date": "2023-04",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Hanuman Chatti: Rubble on NH-7 at Hanuman Chatti, ~10 km before Badrinath; BRO clearing",
+    "location_precision": "village-level",
+    "source_url": "https://www.deccanherald.com/india/landslide-blocks-badrinath-national-highway-1211645.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.51766,
+     30.52841
+    ]
+   },
+   "properties": {
+    "id": "NEWS_5",
+    "source": "NEWS",
+    "event_date": "2023-05-05",
+    "category": "debris_fall",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Helang: NH-7 blocked near Helang village by heavy debris from hill",
+    "location_precision": "approximate",
+    "source_url": "https://www.indiatvnews.com/topic/chamoli/2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.52397,
+     30.64892
+    ]
+   },
+   "properties": {
+    "id": "NEWS_6",
+    "source": "NEWS",
+    "event_date": "2023-07-02",
+    "category": "debris_flow",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Lambagad (Khachda nala): NH-7 shut 13 hours at Lambagad and Khachda drains after heavy rain",
+    "location_precision": "stream-crossing",
+    "source_url": "https://www.tribuneindia.com/news/nation/badrinath-highway-remains-blocked-due-to-heavy-rain-in-chamoli-commuters-stranded-522095"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.46787,
+     30.47977
+    ]
+   },
+   "properties": {
+    "id": "NEWS_7",
+    "source": "NEWS",
+    "event_date": "2023-07-13",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Pagal Nala: NH-7 blocked by rain-triggered slide at Pagal Nala",
+    "location_precision": "stream-crossing",
+    "source_url": "https://organiser.org/2023/07/13/183520/bharat/uttarakhand-badrinath-national-highway-blocked-due-to-landslide-in-chamoli/amp/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.48934,
+     30.50689
+    ]
+   },
+   "properties": {
+    "id": "NEWS_8",
+    "source": "NEWS",
+    "event_date": "2023-07-13",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Gulabkoti: NH-7 blocked by rain-triggered slide at Gulabkoti",
+    "location_precision": "village-level",
+    "source_url": "https://organiser.org/2023/07/13/183520/bharat/uttarakhand-badrinath-national-highway-blocked-due-to-landslide-in-chamoli/amp/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.51766,
+     30.52841
+    ]
+   },
+   "properties": {
+    "id": "NEWS_9",
+    "source": "NEWS",
+    "event_date": "2023-07-13",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Helang: NH-7 blocked by rain-triggered slide at Helang",
+    "location_precision": "approximate",
+    "source_url": "https://organiser.org/2023/07/13/183520/bharat/uttarakhand-badrinath-national-highway-blocked-due-to-landslide-in-chamoli/amp/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.48611,
+     30.48755
+    ]
+   },
+   "properties": {
+    "id": "NEWS_10",
+    "source": "NEWS",
+    "event_date": "2024-07-10",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Patalganga: Massive landslide near Patalganga / Langsi tunnel closed NH-7 again",
+    "location_precision": "stream-crossing",
+    "source_url": "https://tribuneindia.com/news/badrinath-national-highway-closed-again-following-massive-landslide-near-patalganga-638559"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.56112,
+     30.55583
+    ]
+   },
+   "properties": {
+    "id": "NEWS_11",
+    "source": "NEWS",
+    "event_date": "2024-07-09",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Joshimath: Landslide ~1 km before Joshimath halted Badrinath yatra (NH-7 closed 3 days)",
+    "location_precision": "village-level",
+    "source_url": "https://www.newsonair.gov.in/uttarakhand-badrinath-national-highway-in-chamoli-district-blocked-for-road-traffic-for-3rd-consecutive-day"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.15733,
+     30.2892
+    ]
+   },
+   "properties": {
+    "id": "NEWS_12",
+    "source": "NEWS",
+    "event_date": "2024-08-10",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Kameda: NH-7 blocked at Kameda after heavy rain",
+    "location_precision": "approximate",
+    "source_url": "https://www.deccanherald.com/amp/story/india%2Futtarakhand%2Fheavy-rains-trigger-landslides-badrinath-highway-blocked-3145443"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.31986,
+     30.33153
+    ]
+   },
+   "properties": {
+    "id": "NEWS_13",
+    "source": "NEWS",
+    "event_date": "2024-08-10",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Nandprayag: NH-7 blocked at Nandprayag after heavy rain",
+    "location_precision": "village-level",
+    "source_url": "https://www.deccanherald.com/amp/story/india%2Futtarakhand%2Fheavy-rains-trigger-landslides-badrinath-highway-blocked-3145443"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.36637,
+     30.41259
+    ]
+   },
+   "properties": {
+    "id": "NEWS_14",
+    "source": "NEWS",
+    "event_date": "2024-08-10",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Chhinka: NH-7 blocked at Chhinka after heavy rain",
+    "location_precision": "village-level",
+    "source_url": "https://www.deccanherald.com/amp/story/india%2Futtarakhand%2Fheavy-rains-trigger-landslides-badrinath-highway-blocked-3145443"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.46787,
+     30.47977
+    ]
+   },
+   "properties": {
+    "id": "NEWS_16",
+    "source": "NEWS",
+    "event_date": "2024-09-02",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Pagal Nala: NH-7 blocked at Pagal Nala",
+    "location_precision": "stream-crossing",
+    "source_url": "https://deccanherald.com/india/uttarakhand/landslides-block-badrinath-national-highway-in-uttarakhand-3173274"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.48611,
+     30.48755
+    ]
+   },
+   "properties": {
+    "id": "NEWS_17",
+    "source": "NEWS",
+    "event_date": "2024-09-02",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Patalganga: NH-7 blocked at Patalganga",
+    "location_precision": "stream-crossing",
+    "source_url": "https://deccanherald.com/india/uttarakhand/landslides-block-badrinath-national-highway-in-uttarakhand-3173274"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.31986,
+     30.33153
+    ]
+   },
+   "properties": {
+    "id": "NEWS_18",
+    "source": "NEWS",
+    "event_date": "2024-09-02",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Nandprayag: NH-7 blocked at Nandprayag",
+    "location_precision": "village-level",
+    "source_url": "https://deccanherald.com/india/uttarakhand/landslides-block-badrinath-national-highway-in-uttarakhand-3173274"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.18616,
+     30.26885
+    ]
+   },
+   "properties": {
+    "id": "NEWS_19",
+    "source": "NEWS",
+    "event_date": "2024-09",
+    "category": "rockfall",
+    "trigger": "rainfall",
+    "fatalities": 2,
+    "description": "Chatwapipal: Repeated slides at Chatwapipal; boulders killed 2 tourists on a motorcycle",
+    "location_precision": "approximate",
+    "source_url": "https://www.dailypioneer.com/2024/top-stories/2-tourists-from-hyderabad-dead-after-being-hit-by-boulders-following-landslide-in-chamoli.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.42828,
+     30.43343
+    ]
+   },
+   "properties": {
+    "id": "NEWS_20",
+    "source": "NEWS",
+    "event_date": null,
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Bhanerpani: NH-7 near Bhanerpani reopened after hours of clearance",
+    "location_precision": "approximate",
+    "source_url": "https://www.freepressjournal.in/amp/india/uttarakhand-badrinath-national-highway-opened-for-traffic-near-bhanerpani"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.42828,
+     30.43343
+    ]
+   },
+   "properties": {
+    "id": "NEWS_21",
+    "source": "NEWS",
+    "event_date": "2025-06-23",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Bhanerpani: Overnight rain triggered fresh slides; NH-7 fully blocked at Bhanerpani (Pipalkoti)",
+    "location_precision": "approximate",
+    "source_url": "https://newsarenaindia.com/states/fresh-landslides-block-badrinath-highway-near-pipalkoti/48271"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.31986,
+     30.33153
+    ]
+   },
+   "properties": {
+    "id": "NEWS_22",
+    "source": "NEWS",
+    "event_date": "2025-07",
+    "category": "debris_fall",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Nandprayag: Debris and stones from hillside blocked NH-7 near Nandprayag",
+    "location_precision": "village-level",
+    "source_url": "https://www.latestly.com/agency-news/india-news-badrinath-national-highway-blocked-due-to-debris-from-hill-near-nandprayag-6985356.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.42828,
+     30.43343
+    ]
+   },
+   "properties": {
+    "id": "NEWS_23",
+    "source": "NEWS",
+    "event_date": "2025-07",
+    "category": "debris_fall",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Bhanerpani: Debris blocked NH-7 near Bhanerpani",
+    "location_precision": "approximate",
+    "source_url": "https://www.latestly.com/agency-news/india-news-badrinath-national-highway-blocked-due-to-debris-from-hill-near-nandprayag-6985356.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.15733,
+     30.2892
+    ]
+   },
+   "properties": {
+    "id": "NEWS_24",
+    "source": "NEWS",
+    "event_date": "2025-07-10",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Kameda: NH-7 blocked near Kameda; reopened 6:35 AM",
+    "location_precision": "approximate",
+    "source_url": "https://www.lokmattimes.com/national/uttarakhand-landslide-debris-blocks-badrinath-highway-in-chamoli-traffic-disrupted-a517"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.24636,
+     30.28085
+    ]
+   },
+   "properties": {
+    "id": "NEWS_25",
+    "source": "NEWS",
+    "event_date": "2025-07",
+    "category": "debris_fall",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Umatta: Debris cleared from NH-7 near Umatta",
+    "location_precision": "village-level",
+    "source_url": "https://www.latestly.com/agency-news/india-news-uttarakhand-traffic-resumes-on-badrinath-national-highway-after-debris-cleared-near-nandprayag-and-umatta-6978023.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.52397,
+     30.64892
+    ]
+   },
+   "properties": {
+    "id": "NEWS_26",
+    "source": "NEWS",
+    "event_date": null,
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Lambagad (Khachda nala): NH-7 blocked at Lambagad in heavy rain (one of 5 locations)",
+    "location_precision": "stream-crossing",
+    "source_url": "https://www.lokmattimes.com/national/rain-fury-badrinath-highway-in-uttarakhand-blocked-at-5-locations"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.31986,
+     30.33153
+    ]
+   },
+   "properties": {
+    "id": "NEWS_27",
+    "source": "NEWS",
+    "event_date": null,
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Nandprayag: NH-7 blocked at Nandprayag in heavy rain (one of 5 locations)",
+    "location_precision": "village-level",
+    "source_url": "https://www.lokmattimes.com/national/rain-fury-badrinath-highway-in-uttarakhand-blocked-at-5-locations"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.31112,
+     30.37113
+    ]
+   },
+   "properties": {
+    "id": "NEWS_28",
+    "source": "NEWS",
+    "event_date": null,
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Sonala: NH-7 blocked at Sonala in heavy rain (one of 5 locations)",
+    "location_precision": "approximate",
+    "source_url": "https://www.lokmattimes.com/national/rain-fury-badrinath-highway-in-uttarakhand-blocked-at-5-locations"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.40915,
+     30.11429
+    ]
+   },
+   "properties": {
+    "id": "NEWS_30",
+    "source": "NEWS",
+    "event_date": "2025-08-23",
+    "category": "debris_flow",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Tharali (Ming Gadhera): Tharali cloudburst; Karnaprayag-Gwaldam NH shut by debris near Ming Gadhera",
+    "location_precision": "village-level",
+    "source_url": "https://newsonair.gov.in/cloudburst-causes-widespread-damage-in-tharali-of-chamoli-district-of-uttarakhand/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.46787,
+     30.47977
+    ]
+   },
+   "properties": {
+    "id": "NEWS_31",
+    "source": "NEWS",
+    "event_date": "2025-08-31",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Pagal Nala: NH-7 blocked at Pagal Nala (5 points blocked)",
+    "location_precision": "stream-crossing",
+    "source_url": "https://telanganatoday.com/heavy-rains-block-badrinath-highway-at-five-points-in-uttarakhand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.31986,
+     30.33153
+    ]
+   },
+   "properties": {
+    "id": "NEWS_32",
+    "source": "NEWS",
+    "event_date": "2025-08-31",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Nandprayag: NH-7 blocked at Nandprayag (5 points blocked)",
+    "location_precision": "village-level",
+    "source_url": "https://telanganatoday.com/heavy-rains-block-badrinath-highway-at-five-points-in-uttarakhand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.42828,
+     30.43343
+    ]
+   },
+   "properties": {
+    "id": "NEWS_33",
+    "source": "NEWS",
+    "event_date": "2025-08-31",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Bhanerpani: NH-7 blocked at Bhanerpani (5 points blocked)",
+    "location_precision": "approximate",
+    "source_url": "https://telanganatoday.com/heavy-rains-block-badrinath-highway-at-five-points-in-uttarakhand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.15733,
+     30.2892
+    ]
+   },
+   "properties": {
+    "id": "NEWS_34",
+    "source": "NEWS",
+    "event_date": "2025-08-31",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Kameda: NH-7 blocked at Kameda (5 points blocked)",
+    "location_precision": "approximate",
+    "source_url": "https://telanganatoday.com/heavy-rains-block-badrinath-highway-at-five-points-in-uttarakhand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.18616,
+     30.26885
+    ]
+   },
+   "properties": {
+    "id": "NEWS_35",
+    "source": "NEWS",
+    "event_date": "2025-08-31",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Chatwapipal: NH-7 blocked at Chatwapipal (5 points blocked)",
+    "location_precision": "approximate",
+    "source_url": "https://telanganatoday.com/heavy-rains-block-badrinath-highway-at-five-points-in-uttarakhand"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.50743,
+     30.06821
+    ]
+   },
+   "properties": {
+    "id": "NEWS_37",
+    "source": "NEWS",
+    "event_date": "2025-08-31",
+    "category": "landslide",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Tharali (Kotdeep): Road blocked at Kotdeep in Tharali area",
+    "location_precision": "approximate",
+    "source_url": "https://www.deccanherald.com/amp/story/india%2Futtarakhand%2Futtarakhand-bridge-swept-off-on-jyotirmath-malari-highway-niti-valley-villages-marooned-in-chamoli-3705270"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.44804,
+     30.25715
+    ]
+   },
+   "properties": {
+    "id": "NEWS_38",
+    "source": "NEWS",
+    "event_date": "2025-09-18",
+    "category": "debris_flow",
+    "trigger": "rainfall",
+    "fatalities": 7,
+    "description": "Nandanagar (Kuntari Lagaphali): Cloudburst debris buried houses at Kuntari Lagaphali / Lagasarpani; toll 7 across Nandanagar villages",
+    "location_precision": "approximate",
+    "source_url": "https://www.deccanherald.com/india/uttarakhand/five-more-bodies-found-in-rain-ravaged-uttarakhands-chamoli-toll-rises-to-seven-3735883"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.44804,
+     30.25715
+    ]
+   },
+   "properties": {
+    "id": "NEWS_39",
+    "source": "NEWS",
+    "event_date": "2025-09-18",
+    "category": "debris_flow",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Nandanagar (Sera): Houses destroyed by debris at Sera, Nandanagar",
+    "location_precision": "approximate",
+    "source_url": "https://www.deccanherald.com/india/uttarakhand/five-more-bodies-found-in-rain-ravaged-uttarakhands-chamoli-toll-rises-to-seven-3735883"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.40506,
+     30.25352
+    ]
+   },
+   "properties": {
+    "id": "NEWS_40",
+    "source": "NEWS",
+    "event_date": "2025-09-18",
+    "category": "flood_debris",
+    "trigger": "rainfall",
+    "fatalities": null,
+    "description": "Dhurma: Mokh river flood and debris washed away houses at Dhurma",
+    "location_precision": "village-level",
+    "source_url": "https://www.deccanherald.com/india/uttarakhand/five-more-bodies-found-in-rain-ravaged-uttarakhands-chamoli-toll-rises-to-seven-3735883"
+   }
+  }
+ ]
+}
